@@ -1,0 +1,481 @@
+<title>Renforcement du moyen fessier</title>
+
+<style>
+  :root {
+    --ground: #F4F6F5;
+    --panel: #FBFCFB;
+    --ink: #14181A;
+    --ink-2: #3D4A4C;
+    --muted: #64777A;
+    --rule: #DCE4E2;
+    --rule-strong: #C3CFCC;
+    --accent: #0E5C55;
+    --accent-soft: #E4EFEC;
+    --alert: #A8321C;
+    --alert-soft: #F6E7E2;
+
+    --fs-display: clamp(1.9rem, 5vw, 2.7rem);
+    --fs-h2: clamp(1.2rem, 2.4vw, 1.45rem);
+    --fs-body: 1rem;
+    --fs-small: 0.875rem;
+    --fs-micro: 0.75rem;
+
+    --sans: "Avenir Next Condensed", "Helvetica Neue Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
+    --serif: Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, "Cascadia Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #101615; --panel: #161D1C; --ink: #EAF0EE; --ink-2: #C0CECB;
+      --muted: #8B9E9A; --rule: #263130; --rule-strong: #354341;
+      --accent: #62BFB0; --accent-soft: #16302C; --alert: #E8836A; --alert-soft: #35201A;
+    }
+  }
+
+  :root[data-theme="light"] {
+    --ground: #F4F6F5; --panel: #FBFCFB; --ink: #14181A; --ink-2: #3D4A4C;
+    --muted: #64777A; --rule: #DCE4E2; --rule-strong: #C3CFCC;
+    --accent: #0E5C55; --accent-soft: #E4EFEC; --alert: #A8321C; --alert-soft: #F6E7E2;
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #101615; --panel: #161D1C; --ink: #EAF0EE; --ink-2: #C0CECB;
+    --muted: #8B9E9A; --rule: #263130; --rule-strong: #354341;
+    --accent: #62BFB0; --accent-soft: #16302C; --alert: #E8836A; --alert-soft: #35201A;
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem) 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(2rem, 4vw, 3rem);
+  }
+
+  h1, h2, h3, h4, .kicker, .chip { font-family: var(--sans); }
+
+  h1 { font-size: var(--fs-display); line-height: 1.03; font-weight: 600; letter-spacing: -0.015em; margin: 0; text-wrap: balance; }
+  h2 { font-size: var(--fs-h2); font-weight: 600; line-height: 1.15; margin: 0; text-wrap: balance; }
+  h3 { font-size: 1.08rem; font-weight: 600; line-height: 1.2; margin: 0; }
+  h4 { font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 600; margin: 0; }
+
+  p { margin: 0; max-width: 64ch; }
+
+  .kicker {
+    font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.14em;
+    font-weight: 600; color: var(--accent);
+  }
+
+  a { color: var(--accent); text-underline-offset: 0.2em; }
+
+  :where(a, summary, [tabindex]):focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px;
+  }
+
+  header.masthead {
+    display: flex; flex-direction: column; gap: 1rem;
+    border-bottom: 2px solid var(--ink); padding-bottom: 1.5rem;
+  }
+
+  .masthead p { color: var(--ink-2); }
+
+  .why {
+    background: var(--alert-soft);
+    border-left: 3px solid var(--alert);
+    padding: 1rem 1.15rem;
+    font-size: var(--fs-small);
+    color: var(--ink-2);
+    display: flex; flex-direction: column; gap: 0.6rem;
+  }
+  .why strong { color: var(--ink); }
+
+  .principle {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.15rem;
+    font-size: var(--fs-small);
+    color: var(--ink-2);
+  }
+  .principle strong { color: var(--ink); }
+
+  /* ---------- Exercice ---------- */
+
+  .exos { display: flex; flex-direction: column; gap: 1.5rem; }
+
+  .exo {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    display: flex; flex-direction: column;
+  }
+
+  .exo-head {
+    display: flex; align-items: baseline; gap: 0.7rem;
+    padding: 1rem 1.15rem 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .exo-head .n {
+    font-family: var(--mono); font-size: var(--fs-small);
+    color: var(--muted); font-variant-numeric: tabular-nums;
+  }
+
+  .exo-head .en {
+    font-family: var(--sans); font-size: var(--fs-micro);
+    color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em;
+    margin-left: auto;
+  }
+
+  .chip {
+    font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.09em;
+    font-weight: 600; padding: 0.12rem 0.42rem; border-radius: 2px;
+    border: 1px solid currentColor; white-space: nowrap;
+  }
+  .chip.have { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
+  .chip.add { color: var(--panel); background: var(--alert); border-color: transparent; }
+  .chip.opt { color: var(--muted); }
+
+  .exo.is-add { border-left-color: var(--alert); }
+  .exo.is-opt { border-left-color: var(--rule-strong); }
+
+  .exo-fig {
+    margin: 0;
+    display: flex; flex-direction: column; align-items: center; gap: 0.45rem;
+    padding: 0.3rem 1.15rem 0.9rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .exo-fig img {
+    display: block;
+    width: 100%; max-width: 20rem; height: auto;
+    border: 1px solid var(--rule);
+    background: #fff;
+  }
+
+  .exo-fig figcaption {
+    font-size: var(--fs-micro); color: var(--muted);
+    text-align: center; max-width: 28rem; line-height: 1.4;
+  }
+
+  .exo-fig figcaption a { color: var(--muted); }
+
+  .exo-body { display: flex; flex-direction: column; gap: 0; }
+
+  .row {
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
+    gap: 1rem;
+    padding: 0.7rem 1.15rem;
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--fs-small);
+    align-items: baseline;
+  }
+
+  .row:last-child { border-bottom: none; }
+  .row > div:last-child { color: var(--ink-2); }
+  .row b { color: var(--ink); }
+
+  .row.dose > div:last-child { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--ink); }
+  .row.err { background: var(--alert-soft); }
+  .row.err h4 { color: var(--alert); }
+
+  .vid { padding: 0.7rem 1.15rem; font-size: var(--fs-micro); }
+
+  /* ---------- Divers ---------- */
+
+  .card {
+    background: var(--panel); border: 1px solid var(--rule);
+    padding: 1.15rem 1.25rem; display: flex; flex-direction: column; gap: 0.9rem;
+  }
+
+  ul, ol { margin: 0; padding-left: 1.15rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  li { color: var(--ink-2); max-width: 62ch; }
+  li strong { color: var(--ink); }
+
+  .tbl-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: var(--fs-small); }
+  th {
+    text-align: left; font-family: var(--sans); font-size: var(--fs-micro);
+    text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted);
+    font-weight: 600; padding: 0.5rem 0.8rem 0.5rem 0; border-bottom: 1px solid var(--rule); white-space: nowrap;
+  }
+  td { padding: 0.55rem 0.8rem 0.55rem 0; border-bottom: 1px solid var(--rule); color: var(--ink-2); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  td:last-child, th:last-child { padding-right: 0; }
+
+  footer {
+    border-top: 1px solid var(--rule); padding-top: 1.15rem;
+    font-size: var(--fs-micro); color: var(--muted);
+    display: flex; flex-direction: column; gap: 0.35rem;
+  }
+
+  @media (max-width: 32rem) {
+    .row { grid-template-columns: 1fr; gap: 0.2rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div>
+      <div class="kicker">Fiche d'exécution &middot; semi de Casteljaloux</div>
+      <h1>Renforcement du moyen fessier</h1>
+    </div>
+
+    <div class="why">
+      <p><strong>Pourquoi cette fiche existe.</strong> La sensation à l'extérieur du genou gauche apparaît vers le km 7 ou 8 des sorties longues. Le diagnostic de travail n'est pas une inflammation installée, mais un profil de fatigue du moyen fessier : quand il fatigue, le contrôle latéral du bassin se dégrade, la bandelette ilio-tibiale frotte, et le tenseur du fascia lata compense.</p>
+      <p>La séance jambes actuelle (fentes, step-up, leg curl, mollets) est entièrement dans le plan sagittal, d'avant en arrière. Le moyen fessier travaille en abduction, dans le plan frontal, et n'y est donc presque pas sollicité. <strong>C'est l'angle mort qu'on comble ici.</strong></p>
+    </div>
+
+    <div class="principle">
+      <strong>Le principe qui gouverne tout : on cherche de l'endurance, pas de la force.</strong> Bande légère, séries longues, mouvement lent et contrôlé. La brûlure doit arriver en fin de série, jamais l'échec musculaire. Ce n'est pas un fessier plus fort qu'il te faut, c'est un fessier qui tient encore au kilomètre 15.
+    </div>
+  </header>
+
+  <!-- ============ ÉTAT DES LIEUX ============ -->
+  <section>
+    <div class="card">
+      <h2>Ton bloc actuel, et ce qui lui manque</h2>
+
+      <p style="font-size:var(--fs-small);">Mise à jour du 3 août, après inventaire de ce que tu fais déjà. Bonne nouvelle : tu avais déjà fait le vrai travail, sous d'autres noms.</p>
+
+      <div class="tbl-scroll">
+        <table>
+          <thead>
+            <tr><th scope="col">Ce que tu fais</th><th scope="col">Verdict</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><b>Monster walk</b></td><td>C'est l'exercice 01, à l'identique</td></tr>
+            <tr><td><b>Abduction debout élastique</b></td><td>C'est l'exercice 03, à l'identique</td></tr>
+            <tr><td><b>Pas chassés élastique</b></td><td>Quasiment le même geste que le monster walk. Redondant : garde l'un ou l'autre, pas les deux</td></tr>
+            <tr><td><b>Step up lesté</b></td><td>Plan sagittal, c'est la séance jambes. Ne compte pas pour le fessier, mais voir l'encart plus bas</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:var(--fs-small);"><b>L'angle mort :</b> tes trois exercices élastiques font tous la même chose, de l'abduction debout en appui sur deux pieds ou en chaîne ouverte. Les deux qui manquent sont précisément ceux qui reproduisent la contrainte de la course.</p>
+
+      <ul>
+        <li><strong>Le pelvic drop (02)</strong> est le seul qui te met en <b>appui sur une seule jambe avec tout le poids du corps dessus</b>, c'est-à-dire la situation exacte de chaque foulée. Priorité absolue.</li>
+        <li><strong>Le gainage latéral (05)</strong> est le seul travail <b>isométrique</b>. En course, le moyen fessier ne bouge pas le bassin, il l'empêche de tomber : un registre que tes trois exercices ne couvrent pas.</li>
+      </ul>
+
+      <p style="font-size:var(--fs-small);">Le clamshell (04) passe en optionnel : il fait doublon avec ce que tu fais debout. <b>Un bloc de quatre exercices tenu trois fois par semaine vaut mieux qu'un bloc de cinq abandonné au bout de dix jours.</b></p>
+    </div>
+
+    <div class="why">
+      <p><strong>Ton step-up peut devenir un exercice de moyen fessier sans rien changer à l'exécution</strong>, juste en ajoutant une consigne de surveillance. Pendant la montée, vérifie deux choses : que le <strong>bassin du côté de la jambe libre ne descend pas</strong>, et que le <strong>genou d'appui ne part pas vers l'intérieur</strong>.</p>
+      <p>C'est exactement le contrôle du pelvic drop, mais en charge et en dynamique. Tu as déjà l'exercice dans ta séance, il ne te manquait que l'intention. Même chose sur la descente lente, qui est le moment où le contrôle se perd le plus facilement.</p>
+    </div>
+  </section>
+
+  <!-- ============ EXERCICES ============ -->
+  <section>
+    <div class="exos">
+
+      <!-- 1 -->
+      <article class="exo">
+        <div class="exo-head">
+          <span class="n">01</span>
+          <h3>Marche latérale élastique</h3>
+          <span class="chip have">Tu le fais déjà</span>
+          <span class="en">Monster walk</span>
+        </div>
+
+        <figure class="exo-fig">
+          <img src="https://i.ytimg.com/vi/dgbhiejP7oI/maxresdefault.jpg"
+               alt="Vue de face : demi-squat, pieds écartés, bande élastique tendue juste au-dessus des genoux."
+               decoding="async" width="1280" height="720"
+               style="max-width:24rem;">
+          <figcaption>La position à tenir pendant toute la série : bande au-dessus des genoux, hanches en arrière, genoux poussés vers l'extérieur. Image tirée de la vidéo <a href="https://www.youtube.com/watch?v=dgbhiejP7oI" target="_blank" rel="noopener">« Monster Walks », Competitive Edge Physical Therapy</a>.</figcaption>
+        </figure>
+
+        <div class="exo-body">
+          <div class="row"><h4>Départ</h4><div>Bande <b>juste au-dessus des genoux</b>, pieds écartés largeur de bassin. Descends en <b>demi-squat</b> : hanches en arrière, poitrine haute, genoux légèrement fléchis. Tu restes dans cette position pendant toute la série.</div></div>
+          <div class="row"><h4>Mouvement</h4><div>Pas latéraux, en poussant activement le genou vers l'extérieur contre la bande. Le pied qui suit ne vient pas rejoindre l'autre : garde toujours de la tension dans la bande. Quinze pas dans un sens, quinze au retour.</div></div>
+          <div class="row"><h4>À sentir</h4><div>Une brûlure sur <b>le côté de la hanche</b>, à hauteur de la poche de pantalon, des deux côtés.</div></div>
+          <div class="row err"><h4>Erreur</h4><div>Se relever pendant la série, et laisser les genoux rentrer vers l'intérieur. Dès que le genou rentre, la bande travaille à ta place et le fessier ne fait plus rien.</div></div>
+          <div class="row dose"><h4>Dosage</h4><div>3 × 15 pas aller + 15 retour</div></div>
+        </div>
+
+        <div class="vid"><a href="https://www.youtube.com/watch?v=y_bqFDQZSHQ" target="_blank" rel="noopener">Vidéo : Lateral Band Walk, tutoriel de forme</a></div>
+      </article>
+
+      <!-- 2 -->
+      <article class="exo is-add">
+        <div class="exo-head">
+          <span class="n">02</span>
+          <h3>Descente de bassin sur une marche</h3>
+          <span class="chip add">À ajouter · priorité 1</span>
+          <span class="en">Hip hike / pelvic drop</span>
+        </div>
+
+        <figure class="exo-fig">
+          <img src="https://runnersconnect.net/wp-content/uploads/2026/05/hip-hike-exercise-diagram.webp"
+               alt="Deux vues de dos, debout sur une marche : à gauche le bassin qui tombe du côté de la jambe libre, à droite le bassin remonté par la contraction du moyen fessier."
+               decoding="async" width="1408" height="768"
+               style="max-width:24rem;">
+          <figcaption>À gauche le défaut à corriger, à droite le geste à produire : c'est la hanche en appui qui remonte le bassin. Schéma <a href="https://runnersconnect.net/hip-strength-and-running-form-the-role-of-hip-drop-in-running-injuries/" target="_blank" rel="noopener">RunnersConnect</a>. Les dosages indiqués sur l'image ne sont pas les tiens, garde ceux du tableau ci-dessous.</figcaption>
+        </figure>
+
+        <div class="exo-body">
+          <div class="row"><h4>Départ</h4><div>Debout sur une marche ou un step, <b>un seul pied en appui</b>, l'autre pendant dans le vide à côté. Une main en appui léger sur un mur pour l'équilibre, pas pour se soutenir. Jambe d'appui tendue, sans verrouiller le genou.</div></div>
+          <div class="row"><h4>Mouvement</h4><div>Laisse le bassin du côté libre <b>descendre lentement</b>, puis remonte-le en contractant le fessier de la jambe en appui. Le mouvement est petit, quelques centimètres. <b>C'est la hanche en appui qui travaille</b>, pas la jambe qui pend.</div></div>
+          <div class="row"><h4>À sentir</h4><div>Le travail se situe sur <b>la hanche de la jambe en appui</b>, pas celle qui bouge. C'est contre-intuitif, et c'est tout l'intérêt : c'est exactement le geste que ton bassin doit produire à chaque foulée.</div></div>
+          <div class="row err"><h4>Erreur</h4><div>Monter le bassin en poussant sur la pointe du pied d'appui, ou en s'aidant du bras. Le pied d'appui reste à plat, l'appui de la main reste symbolique.</div></div>
+          <div class="row dose"><h4>Dosage</h4><div>3 × 15 par côté</div></div>
+        </div>
+
+        <div class="vid"><a href="https://www.youtube.com/watch?v=nNOl0T6-_pw" target="_blank" rel="noopener">Vidéo : Hip Hike, version pour coureurs</a></div>
+      </article>
+
+      <!-- 3 -->
+      <article class="exo">
+        <div class="exo-head">
+          <span class="n">03</span>
+          <h3>Abduction debout</h3>
+          <span class="chip have">Tu le fais déjà</span>
+          <span class="en">Standing hip abduction</span>
+        </div>
+
+        <figure class="exo-fig">
+          <img src="https://i.ytimg.com/vi/lX2D8tkOYcs/maxresdefault.jpg"
+               alt="Deux positions vues de face : pieds serrés bande aux chevilles, puis une jambe tendue emmenée sur le côté."
+               decoding="async" width="1280" height="720"
+               style="max-width:24rem;">
+          <figcaption>Position 1 : départ, pieds serrés. Position 2 : jambe tendue sur le côté, buste vertical. Image tirée de la <a href="https://www.youtube.com/watch?v=lX2D8tkOYcs" target="_blank" rel="noopener">vidéo Ask Doctor Jo</a> liée plus bas.</figcaption>
+        </figure>
+
+        <div class="exo-body">
+          <div class="row"><h4>Départ</h4><div>Bande <b>autour des chevilles</b>, debout, pieds serrés. Buste droit, une main en appui léger sur un mur.</div></div>
+          <div class="row"><h4>Mouvement</h4><div>Emmène une jambe <b>tendue</b> sur le côté, sans dépasser 30 à 40 degrés, puis reviens lentement en résistant à la bande. Le retour compte autant que l'aller.</div></div>
+          <div class="row"><h4>À sentir</h4><div>Le côté de la hanche de la jambe qui bouge. La cuisse ne doit pas prendre le dessus.</div></div>
+          <div class="row err"><h4>Erreur</h4><div>Pencher le buste du côté opposé pour lever la jambe plus haut. Amplitude réduite mais buste vertical vaut mille fois mieux qu'une grande amplitude obtenue en s'inclinant. Deuxième erreur : laisser la jambe partir vers l'avant plutôt que sur le côté strict.</div></div>
+          <div class="row dose"><h4>Dosage</h4><div>3 × 20 à 25 par côté</div></div>
+        </div>
+
+        <div class="vid"><a href="https://www.youtube.com/watch?v=lX2D8tkOYcs" target="_blank" rel="noopener">Vidéo : Standing Hip Abduction with Band, Ask Doctor Jo</a></div>
+      </article>
+
+      <!-- 4 -->
+      <article class="exo is-opt">
+        <div class="exo-head">
+          <span class="n">04</span>
+          <h3>Ouverture de hanche allongé</h3>
+          <span class="chip opt">Optionnel</span>
+          <span class="en">Clamshell</span>
+        </div>
+
+        <figure class="exo-fig">
+          <img src="https://i.ytimg.com/vi/kO2Me7E83DQ/maxresdefault.jpg"
+               alt="Allongée sur le côté, bande au-dessus des genoux, genou du dessus ouvert vers le haut, talons restés collés."
+               decoding="async" width="1280" height="720"
+               style="max-width:24rem;">
+          <figcaption>Le détail qui compte : les talons restent en contact et les épaules restent empilées, seul le genou s'ouvre. Image tirée de la vidéo <a href="https://www.youtube.com/watch?v=kO2Me7E83DQ" target="_blank" rel="noopener">« Clam Shells Tutorial »</a>.</figcaption>
+        </figure>
+
+        <div class="exo-body">
+          <div class="row"><h4>Départ</h4><div>Allongé <b>sur le côté</b>, bande au-dessus des genoux, hanches et genoux fléchis à 45 degrés environ, les deux jambes empilées. Tête posée sur le bras du dessous.</div></div>
+          <div class="row"><h4>Mouvement</h4><div>Ouvre le genou du dessus vers le plafond, <b>talons restant collés l'un à l'autre</b>. Monte jusqu'à ce que le bassin veuille basculer en arrière, et pas plus loin. Redescends lentement.</div></div>
+          <div class="row"><h4>À sentir</h4><div>Le haut de la fesse, du côté du dessus.</div></div>
+          <div class="row err"><h4>Erreur</h4><div>C'est l'exercice le plus souvent mal fait. <b>Rouler le bassin en arrière</b> pour ouvrir plus grand transfère le travail sur les fléchisseurs et annule tout le bénéfice. Repère : garde le bassin strictement perpendiculaire au sol, épaules empilées. Si ça t'aide, colle ton dos contre un mur, le bassin ne pourra plus tricher.</div></div>
+          <div class="row dose"><h4>Dosage</h4><div>3 × 20 par côté</div></div>
+        </div>
+
+        <div class="vid"><a href="https://www.youtube.com/watch?v=Cigb7cbcNxs" target="_blank" rel="noopener">Vidéo : Clamshell, corriger sa forme et activer le moyen fessier</a></div>
+      </article>
+
+      <!-- 5 -->
+      <article class="exo is-add">
+        <div class="exo-head">
+          <span class="n">05</span>
+          <h3>Gainage latéral</h3>
+          <span class="chip add">À ajouter · priorité 2</span>
+          <span class="en">Side plank</span>
+        </div>
+
+        <figure class="exo-fig">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Side_Plank.jpg"
+               alt="Deux étapes : allongé sur le côté en appui sur l'avant-bras, puis bassin décollé, corps aligné de la tête aux pieds."
+               decoding="async" width="1000" height="1000">
+          <figcaption>Étape 1 : coude sous l'épaule, jambes empilées. Étape 2 : bassin décollé, ligne droite tête-chevilles. Photo <a href="https://commons.wikimedia.org/wiki/File:Side_Plank.jpg" target="_blank" rel="noopener">Jaykayfit</a>, CC BY-SA 3.0, via Wikimedia Commons.</figcaption>
+        </figure>
+
+        <div class="exo-body">
+          <div class="row"><h4>Départ</h4><div>Sur le côté, <b>coude strictement sous l'épaule</b>, avant-bras à plat, jambes tendues et empilées. Décolle le bassin.</div></div>
+          <div class="row"><h4>Mouvement</h4><div>Aucun : c'est une tenue. Une ligne droite de la tête aux chevilles, sans casser au niveau des hanches. Respire normalement, ne bloque pas.</div></div>
+          <div class="row"><h4>À sentir</h4><div>Le côté du bassin en appui au sol, et la sangle latérale. C'est l'exercice le plus proche de ce qui se passe en course : ton corps stabilise le bassin dans le plan frontal, exactement comme à chaque appui de foulée.</div></div>
+          <div class="row err"><h4>Erreur</h4><div>Laisser le bassin s'affaisser progressivement pendant la tenue. Mieux vaut <b>30 secondes propres que 60 secondes affaissées</b>. Dès que la ligne casse, tu arrêtes la série.</div></div>
+          <div class="row dose"><h4>Dosage</h4><div>3 × 30 à 45 s par côté</div></div>
+        </div>
+
+        <div class="vid"><a href="https://www.youtube.com/shorts/tDeVpUMXDXw" target="_blank" rel="noopener">Vidéo : Side Plank Hip Abduction, version coureurs</a> &middot; variante avec élévation de jambe, à garder pour plus tard</div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ QUAND ============ -->
+  <section>
+    <div class="card">
+      <h2>Quand le faire</h2>
+
+      <p style="font-size:var(--fs-small);">Le bloc de référence est désormais à <b>quatre exercices</b> : 01 (ou tes pas chassés, au choix), 03, 02 et 05.</p>
+
+      <div class="tbl-scroll">
+        <table>
+          <thead>
+            <tr><th scope="col">Jour</th><th scope="col">Contenu</th><th scope="col">Durée</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><b>Lundi</b></td><td>Bloc complet, les 4 exercices, après la séance jambes : le fessier est déjà chaud</td><td>7 min</td></tr>
+            <tr><td><b>Mercredi</b></td><td>Version courte : <b>02 et 05</b>, les deux nouveaux, ceux qui te manquent vraiment</td><td>4 min</td></tr>
+            <tr><td><b>Vendredi</b></td><td>Version courte : <b>02 et 05</b></td><td>4 min</td></tr>
+            <tr><td><b>Dimanche</b></td><td>Avant la sortie longue : <b>monster walks seuls, 2 × 15</b>, en activation. Pas le bloc complet, on ne part pas avec un fessier fatigué</td><td>2 min</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:var(--fs-small);">Les versions courtes du mercredi et du vendredi ne contiennent que les deux exercices que tu ne faisais pas. Tes exercices habituels restent dans ta séance de musculation, là où ils sont déjà.</p>
+
+      <p style="font-size:var(--fs-small);">Si tu ne dois en garder que deux dans toute la semaine, garde le <b>pelvic drop</b> et le <b>gainage latéral</b> : ce sont les plus spécifiques du geste de course, et ce sont ceux qui te manquent.</p>
+    </div>
+  </section>
+
+  <!-- ============ SUIVI ============ -->
+  <section>
+    <div class="sec-head"><h2>Ce qu'on surveille</h2></div>
+
+    <ul>
+      <li><strong>Les premières séances vont créer des courbatures</strong> sur le côté des hanches, souvent à J+2 plutôt qu'à J+1. C'est normal et attendu sur un muscle qui n'a jamais été sollicité dans ce plan. Ça disparaît après deux ou trois séances.</li>
+      <li><strong>Le vrai indicateur n'est pas la force, c'est le kilomètre d'apparition de la sensation au genou.</strong> Elle arrive aujourd'hui vers le km 7 ou 8. Si dans quatre semaines elle n'arrive qu'au km 12, le bloc fonctionne. Si elle arrive plus tôt, on change d'approche.</li>
+      <li><strong>Compter en semaines, pas en séances.</strong> Le travail d'abduction debout a démarré le 3 août, les deux exercices manquants s'ajoutent le 5 août. Effet attendu sur la bandelette vers fin août ou début septembre. Point de contrôle sur les sorties longues de S5 et S6.</li>
+      <li><strong>Ne pas progresser en charge.</strong> Si ça devient trop facile, ajoute des répétitions ou une bande à peine plus dure, jamais au point de finir en échec. On travaille l'endurance.</li>
+    </ul>
+
+    <div class="principle">
+      <strong>Le piège de ce type de travail :</strong> il est ennuyeux, invisible et ne procure aucune satisfaction immédiate. C'est pourtant le seul élément de tout le plan qui agit sur la cause de ton problème de genou, et non sur ses symptômes. Huit minutes, trois fois par semaine.
+    </div>
+  </section>
+
+  <footer>
+    <div>Fiche créée le 3 août 2026, en complément du plan d'entraînement du semi de Casteljaloux.</div>
+    <div>Les illustrations proviennent de sources extérieures et sont chargées depuis leurs sites d'origine : elles ne s'afficheront pas hors connexion, et un lien peut casser si la source disparaît. Crédits et licences sous chaque image. Celles de Flickr et Wikimedia sont sous Creative Commons ; le schéma du pelvic drop et l'image d'abduction restent la propriété de RunnersConnect et de leur auteur YouTube, usage privé uniquement, ne pas rediffuser cette fiche publiquement en l'état.</div>
+    <div>Chaque image montre le geste, pas le dosage : les répétitions à retenir sont celles de la ligne « Dosage ». Les liens vidéo ouvrent YouTube dans un nouvel onglet ; ils ont été sélectionnés sur leur titre et leur source, mais je ne les ai pas visionnés, considère-les comme des points de départ.</div>
+    <div>En cas de douleur franche, croissante, ou qui persiste au repos, cette fiche ne remplace pas l'avis d'un kinésithérapeute.</div>
+  </footer>
+
+</div>
