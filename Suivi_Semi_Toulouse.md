@@ -1,7 +1,7 @@
 # Suivi entraînement — Semi de Casteljaloux (21,11 km)
 
 Document de passation. À joindre en début de nouvelle conversation pour reprendre le suivi.
-Le plan lui-même est dans **`plan-semi-casteljaloux.html`**, qui s'ouvre directement sur la séance du jour. Ce fichier ne contient que ce que le HTML ne dit pas : les données brutes, les raisonnements, et la méthode COROS.
+Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séance du jour. Ce fichier ne contient que ce que le HTML ne dit pas : les données brutes, les raisonnements, et la méthode COROS.
 
 ---
 
@@ -234,7 +234,7 @@ Départs habituels autour de 43.597, 1.466 (domicile Toulouse). Les navettes app
 
 | Fichier | Rôle |
 |---|---|
-| `plan-semi-casteljaloux.html` | **Le plan.** S5 à S18 jour par jour, s'ouvre sur la séance du jour. Document de référence |
+| `index.html` | **Le plan.** S5 à S18 jour par jour, s'ouvre sur la séance du jour. Document de référence |
 | `Suivi_Semi_Toulouse.md` | Ce fichier. Mémoire de passation, données brutes, raisonnements, méthode COROS |
 | `renfo-moyen-fessier.html` | Fiche d'exécution des 4 exercices, schémas et erreurs classiques |
 | `211_km_officiel_2025-...gpx` | Tracé officiel. Malgré le nom, **c'est bien le parcours 2026** (fiche Openrunner modifiée le 01/07/2026) |
