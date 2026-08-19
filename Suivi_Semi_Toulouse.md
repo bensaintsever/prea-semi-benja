@@ -186,6 +186,7 @@ Le step-up existant devient un exercice de moyen fessier sans changer l'exécuti
 | 09/08 | Longue sans finish | 17,03 km | 6'21 | 132 | 1h48. TFL sur 3 derniers km seulement |
 | **13/08** | **Contre-la-montre de 30 minutes** | 10,09 km | 5'27 (bloc 4'50) | 144 | **Seuil 4'42 à FC 162.** Charge 180 |
 | 16/08 | Demi-Cooper **avorté à 3'09** | 3,28 km | 3'37 sur le bloc | 169 sur le bloc | **Pic 180 = FC max.** VMA ≈ 15,8. Genou RAS |
+| 18/08 | Footing + 5 lignes droites (séance du lundi 17, décalée) | 9,48 km | 6'07 (base à 127) | 129 | Base impeccable, cadence 171 et contact 261 ms. Lignes droites justes : 4'05-4'22 de moyenne sur 20 s, foulée 1,28 m. **Récupérations trotées au lieu d'être marchées**, 196 puis 253 m, FC montée à 149 sur la dernière |
 
 ### Volume hebdomadaire
 
