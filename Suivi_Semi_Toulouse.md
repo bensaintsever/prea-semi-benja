@@ -232,13 +232,34 @@ Départs habituels autour de 43.597, 1.466 (domicile Toulouse). Les navettes app
 
 ## Documents du repo
 
+Le repo est publié en GitHub Pages sur **<https://bensaintsever.github.io/prea-semi-benja/>**, et le plan est une **application web installable** (PWA).
+
 | Fichier | Rôle |
 |---|---|
 | `index.html` | **Le plan.** S5 à S18 jour par jour, s'ouvre sur la séance du jour. Document de référence |
+| `manifest.webmanifest` | Métadonnées de l'application installable : nom, icônes, couleurs, mode plein écran |
+| `sw.js` | Service worker. Réseau d'abord pour les pages, cache en secours. Rend le plan lisible hors ligne |
+| `icon-192.png`, `icon-512.png`, `icon-maskable-512.png` | Icônes de l'application |
 | `Suivi_Semi_Toulouse.md` | Ce fichier. Mémoire de passation, données brutes, raisonnements, méthode COROS |
 | `renfo-moyen-fessier.html` | Fiche d'exécution des 4 exercices, schémas et erreurs classiques |
 | `211_km_officiel_2025-...gpx` | Tracé officiel. Malgré le nom, **c'est bien le parcours 2026** (fiche Openrunner modifiée le 01/07/2026) |
 | `Plan_Semi_Toulouse_Phase1_2.pdf` | **Obsolète**, vise encore Toulouse au 1er nov. À supprimer |
+
+## Application installable (PWA)
+
+Mise en place le 17/08. Le plan s'installe sur téléphone et fonctionne **sans réseau**.
+
+- **Android et Chrome bureau** : un bouton « Installer l'application » apparaît dans l'en-tête quand le navigateur le propose.
+- **iPhone** : Safari, bouton Partager, « Sur l'écran d'accueil ». Il n'existe pas d'API d'installation sur iOS, c'est la seule voie.
+- Une pastille orange **« hors ligne, plan en cache »** s'affiche dans l'en-tête quand il n'y a pas de réseau.
+
+**Stratégie de cache** : réseau d'abord pour les pages, donc le plan affiché est toujours à jour dès qu'il y a du réseau, et le cache ne sert que de secours. Les ressources (icônes, manifeste, fiche renfo) sont servies depuis le cache en priorité.
+
+**Contenu mis en cache** : `index.html`, `renfo-moyen-fessier.html`, le manifeste et les trois icônes. Le GPX et le PDF ne le sont pas, trop lourds pour un gain nul.
+
+**Pour l'assistant, à ne pas oublier** : `sw.js` contient une constante `VERSION` calculée à partir du contenu de `index.html`. **Toute modification du plan impose de régénérer `sw.js`**, sinon les téléphones déjà installés continuent de servir l'ancienne version depuis leur cache. Le changement de version purge automatiquement les caches précédents.
+
+**Cas d'usage principal** : le séjour au Maroc du 2 au 11 novembre. Le plan reste consultable sans données mobiles, y compris la fiche des exercices de renforcement.
 
 ## Conventions de rédaction
 
