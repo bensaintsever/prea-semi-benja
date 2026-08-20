@@ -79,6 +79,7 @@ Référence historique : **53'00 sur 10 km en août 2025** (5'18/km), couru à f
 | 14/08 | Phase 2 écrite en détail. Zone « allure semi » ajoutée (148-156) |
 | 16/08 | Règle de cible posée : la FC commande, l'allure exécute |
 | **17/08** | **Revue critique complète. Sept changements, voir ci-dessous** |
+| 20/08 | **Descentes du 22/08 retirées.** La côte du jeudi a été redescendue en courant 4 fois sur 5 : la dose d'habituation était déjà prise, et rien ne doit brouiller le test du 23. L'habituation reprend au 29/08 comme prévu |
 
 ### Les sept changements du 17/08
 
@@ -187,6 +188,7 @@ Le step-up existant devient un exercice de moyen fessier sans changer l'exécuti
 | **13/08** | **Contre-la-montre de 30 minutes** | 10,09 km | 5'27 (bloc 4'50) | 144 | **Seuil 4'42 à FC 162.** Charge 180 |
 | 16/08 | Demi-Cooper **avorté à 3'09** | 3,28 km | 3'37 sur le bloc | 169 sur le bloc | **Pic 180 = FC max.** VMA ≈ 15,8. Genou RAS |
 | 18/08 | Footing + 5 lignes droites (séance du lundi 17, décalée) | 9,48 km | 6'07 (base à 127) | 129 | Base impeccable, cadence 171 et contact 261 ms. Lignes droites justes : 4'05-4'22 de moyenne sur 20 s, foulée 1,28 m. **Récupérations trotées au lieu d'être marchées**, 196 puis 253 m, FC montée à 149 sur la dernière |
+| 20/08 | Côtes longues 5 × 3' (dernière de la prépa) | 7,84 km | 6'54, D+ 229 m | 133 | Blocs à FC 147, 154, 155, 155, 157 : pile dans la cible 155-163. **Pente réelle 8 %**, le plan en prévoyait 3 à 6. **Descente courue 4 fois sur 5**, 2'30 étant insuffisant pour 450 m à 8 % : ~1,7 km de descente non planifiée trois jours avant le test. Bonnes sensations, genou muet |
 
 ### Volume hebdomadaire
 
