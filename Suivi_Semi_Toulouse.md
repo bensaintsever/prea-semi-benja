@@ -214,6 +214,8 @@ Colonnes en **volume utile hors navettes**. À partir de S5, les volumes du plan
 | S4 10-16/08 | ~10 (décharge + 2 tests) | 4 | 10,1 |
 | S5 17-23/08 | **39,5** | 4 | 16,1 |
 
+**Palliatif manuel, S5** : 3 musculations non faites sur 3 (jambes, pec-dos, épaule-bras), remplacées par un benchmark CINDY le vendredi. Course : 4 sorties sur 4. **Fatigue des jambes : 1/5**, déclarée le 24/08, aucune fatigue résiduelle. La seule lourdeur ressentie était aux genoux en fin de longue le 23, le reste des jambes peu marqué. Aucun déclencheur de la règle « deux semaines à 4 ou 5 ».
+
 **Musculation en S5** : pas de séance jambes à la barre, mais un benchmark CINDY (AMRAP 20', ~250 air squats) le **vendredi 21/08, deux jours avant le test**. S5 n'était donc pas une semaine sans charge musculaire, et le test du 23/08 a été passé sur des jambes déjà marquées. Cela **renforce** sa lecture, et explique la lourdeur des deux genoux signalée en fin de longue — fatigue des quadriceps, sans rapport avec le TFL.
 
 **État physiologique au 17/08** : récupération 100 %, FC repos stable 42-45, ratio de charge 0,82 (« Maintaining »), VFC baseline 74-75 avec plage normale 68-80. Deux nuits sous la plage la semaine des tests (63 le 13/08, matin du CLM ; 66 le 15/08). La décharge S4 a fonctionné.
