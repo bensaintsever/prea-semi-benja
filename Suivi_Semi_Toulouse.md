@@ -5,7 +5,7 @@ Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séa
 
 ---
 
-## État au 17/08/2026
+## État au 24/08/2026
 
 | | |
 |---|---|
@@ -15,8 +15,8 @@ Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séa
 | **Seuil MESURÉ le 13/08** | **4'42/km à FC 162.** La donnée qui pilote tout |
 | **VMA** | **≈ 15,8 km/h** (15,5 à 16,1), déduite du 16/08. Question close, aucun retest |
 | **FC max** | **180**, mesurée le 16/08. À corriger dans COROS si ce n'est pas fait |
-| **Où on en est** | S5, dernière semaine de phase 1. Phase 2 démarre le 24/08 |
-| **Vigilance n°1** | TFL genou gauche. Vrai test : la longue du 23/08 avec finish |
+| **Où on en est** | **S6, première semaine de phase 2 (seuil)**, démarrée le 24/08 |
+| **Vigilance n°1** | TFL genou gauche. **Test du 23/08 passé sans aucune sensation**, une première sur une longue avec finish. Surveillance et renfo maintenus à l'identique |
 
 **Quatre règles à ne jamais perdre**
 1. La barre monte quand la course descend, et inversement. Jamais les deux la même semaine.
@@ -80,6 +80,7 @@ Référence historique : **53'00 sur 10 km en août 2025** (5'18/km), couru à f
 | 16/08 | Règle de cible posée : la FC commande, l'allure exécute |
 | **17/08** | **Revue critique complète. Sept changements, voir ci-dessous** |
 | 20/08 | **Descentes du 22/08 retirées.** La côte du jeudi a été redescendue en courant 4 fois sur 5 : la dose d'habituation était déjà prise, et rien ne doit brouiller le test du 23. L'habituation reprend au 29/08 comme prévu |
+| **24/08** | **Test TFL passé.** Première longue avec finish sans aucune sensation, trois jours après 1,7 km de descente courue à 8 %. Aucun changement au plan : le renfo est ce qui produit ce résultat, il ne se relâche pas. Kiné toujours écarté |
 
 ### Les sept changements du 17/08
 
@@ -122,6 +123,8 @@ Là où le principe compte : les footings du mardi et du samedi et la base de la
 
 *Version intermédiaire écartée* : les côtes longues avaient d'abord été avancées au mardi pour dégager quatre jours faciles avant le test. Mauvais arbitrage, corrigé le jour même : ça créait un enchaînement footing lundi, qualité mardi, jambes lourdes mercredi, soit trois jours chargés d'affilée, et ça ignorait l'absence de relief sur place. Trois jours entre la qualité du jeudi et la longue du dimanche suffisent.
 
+**28 au 30 août, week-end à Villandraut.** Terrain **plat**, aucune descente disponible, et pas de salle donc pas de séance épaule-bras. Course possible sans limite. Conséquences : les 2 × 200 m en descente du 29/08 sont **annulés, non reportés** — le 05/09 prévoit déjà 3 × 200 m et reprend le protocole. Le plat est en revanche une bonne nouvelle pour le finish de la longue du 30, celui du 23 ayant été couru en côte.
+
 **2 au 11 novembre, vacances au Maroc, côte.** Course possible, musculation improbable. Impact réel : quasi nul. S16 était déjà réglée sur jambes légères et S17 sur entretien. **La dernière séance jambes chargée devient celle du 26/10 (S15)**, et il n'y a pas de reprise avant le lundi 23/11.
 
 Ce qui change dans le plan :
@@ -155,6 +158,9 @@ Vérifié le 17/08 sur COROS (codes 100-103, 400, 402, 1200, 9999, du 20/07 au 1
 | 09/08 | 17,03 km sans finish | **3 derniers km** (~85 min) |
 | 13/08 | CLM, 55 min dont 30 au seuil | **rien** |
 | 16/08 | Demi-Cooper, 3 min à 16,6 km/h | **rien** |
+| 20/08 | Côtes 5 × 3' à 8 %, dont ~1,7 km de descente courue | **rien** |
+| 22/08 | Footing 6 km seul, descentes retirées | **rien** |
+| **23/08** | **16,14 km avec finish, 1h41** | **rien** |
 
 **Attribution prudente** : l'amélioration du 09/08 vient surtout de la charge réduite (plus court, sans finish, plus lent). Le bloc renfo n'avait qu'une semaine, il en faut 3 à 4. La sensation est repoussée, pas résolue.
 
@@ -167,6 +173,7 @@ Vérifié le 17/08 sur COROS (codes 100-103, 400, 402, 1200, 9999, du 20/07 au 1
 **Règle de tri** : sensation = continuer en surveillant. Douleur latérale croissante qui modifie la foulée = arrêt.
 
 **Renfo, bloc de référence (4 exercices)** : monster walk, abduction debout élastique, pelvic drop, gainage latéral. Lundi complet, mercredi et vendredi version courte (pelvic drop + gainage), dimanche monster walks en activation. Clamshell optionnel, doublon.
+**Renfo confirmé le 24/08** : Benjamin exécute bien le bloc de 4 exercices (élastique), pas une séance de salle. C'est ce bloc, et lui seul, qui a produit le résultat du 23/08.
 **À partir de S9 (mi-septembre), charger le bloc maison** : fentes bulgares au poids du corps 3 × 8/jambe et step-down excentrique 3 × 10/jambe sur une marche. **Dans le bloc maison, pas dans la séance de salle**, qui ne bouge pas. Un bloc élastique en endurance a fait ce qu'il pouvait faire au bout de 6 semaines.
 
 Le step-up existant devient un exercice de moyen fessier sans changer l'exécution : surveiller que le bassin du côté libre ne descend pas et que le genou d'appui ne rentre pas.
@@ -189,6 +196,8 @@ Le step-up existant devient un exercice de moyen fessier sans changer l'exécuti
 | 16/08 | Demi-Cooper **avorté à 3'09** | 3,28 km | 3'37 sur le bloc | 169 sur le bloc | **Pic 180 = FC max.** VMA ≈ 15,8. Genou RAS |
 | 18/08 | Footing + 5 lignes droites (séance du lundi 17, décalée) | 9,48 km | 6'07 (base à 127) | 129 | Base impeccable, cadence 171 et contact 261 ms. Lignes droites justes : 4'05-4'22 de moyenne sur 20 s, foulée 1,28 m. **Récupérations trotées au lieu d'être marchées**, 196 puis 253 m, FC montée à 149 sur la dernière |
 | 20/08 | Côtes longues 5 × 3' (dernière de la prépa) | 7,84 km | 6'54, D+ 229 m | 133 | Blocs à FC 147, 154, 155, 155, 157 : pile dans la cible 155-163. **Pente réelle 8 %**, le plan en prévoyait 3 à 6. **Descente courue 4 fois sur 5**, 2'30 étant insuffisant pour 450 m à 8 % : ~1,7 km de descente non planifiée trois jours avant le test. Bonnes sensations, genou muet |
+| 22/08 | Footing seul | 6,05 km | 6'09 | 135 | Descentes retirées comme décidé le 20/08. **Le nom de la séance sur COROS est celui du programme initial, pas de son contenu réel** : ne jamais déduire le contenu d'une séance de son titre |
+| **23/08** | **Longue + finish. LE test TFL** | 16,14 km | base 6'33 (FC 132) · finish 3,63 km à 5'17 (FC 158) | 137 | **Aucune sensation au genou.** Finish : 2 derniers km à 5'02-5'03 corrigés de la pente, mais FC 165 et pic 168. Cadence 179 sur le finish, donc **test cadence non concluant**, à refaire en course lente |
 
 ### Volume hebdomadaire
 
@@ -203,6 +212,9 @@ Colonnes en **volume utile hors navettes**. À partir de S5, les volumes du plan
 | S2 27/07-02/08 | 37,6 | 4 | 16,6 |
 | S3 03-09/08 | ~40 (33 visés) | 5 | 17,0 |
 | S4 10-16/08 | ~10 (décharge + 2 tests) | 4 | 10,1 |
+| S5 17-23/08 | **39,5** | 4 | 16,1 |
+
+**Musculation en S5** : pas de séance jambes à la barre, mais un benchmark CINDY (AMRAP 20', ~250 air squats) le **vendredi 21/08, deux jours avant le test**. S5 n'était donc pas une semaine sans charge musculaire, et le test du 23/08 a été passé sur des jambes déjà marquées. Cela **renforce** sa lecture, et explique la lourdeur des deux genoux signalée en fin de longue — fatigue des quadriceps, sans rapport avec le TFL.
 
 **État physiologique au 17/08** : récupération 100 %, FC repos stable 42-45, ratio de charge 0,82 (« Maintaining »), VFC baseline 74-75 avec plage normale 68-80. Deux nuits sous la plage la semaine des tests (63 le 13/08, matin du CLM ; 66 le 15/08). La décharge S4 a fonctionné.
 

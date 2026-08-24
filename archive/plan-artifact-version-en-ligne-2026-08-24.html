@@ -1,0 +1,1302 @@
+<!doctype html><html><head><!-- frame-runtime --><base href="/_f/1786902176-8d55/"><script>window.__FRAME_PREAMBLE={"capabilities":{"artifact":"artifact.oqIe8shs.js","assets":"assets.BkxVItX2.js","comments":"comments.GLuHR3zP.js","db":"db.CRhVHzSt.js","downloads":"downloads.C3GSvEDP.js","embed":"embed.CZsbekoQ.js","mcp":"mcp.D3B2EyQu.js","permissions":"permissions.BNySkLV5.js","room":"room.DE7EMui-.js","sample":"sample.C7z_6W62.js","self":"artifact.oqIe8shs.js","user":"user.BpKav-Rf.js"},"transforms":"_transforms.h3_8GSUa.js","comments":"_comments.BOgkE6qU.js","translate":"_translate.5HCW4BJh.js"}</script><script>(function(){"use strict";var Y=["light","dark","system"],X=/^[A-Za-z0-9_-]{1,64}$/,D=/^[a-zA-Z_:][a-zA-Z0-9_:.-]{0,127}$/,G=new Set(["class","hidden","value","checked"]);function V(e){const t=e.toLowerCase();return t.startsWith("data-")||t.startsWith("aria-")||G.has(t)}var be="http://www.w3.org/1999/xhtml",Z="http://www.w3.org/2000/svg",J=new Set(["script","style","iframe","noscript","noframes","noembed","xmp","plaintext","template","title","textarea","object","embed"]),Q=new Set(["script","style"]);function ee(e){const t=e.localName.toLowerCase();return e.namespaceURI==="http://www.w3.org/1999/xhtml"?!J.has(t):e.namespaceURI===Z?!Q.has(t):!1}var te=new Set(["html","head","body","frameset"]);function re(e){return e.namespaceURI==="http://www.w3.org/1999/xhtml"&&te.has(e.localName)}function ne(e){if(e===null||typeof e!="object")return!1;const t=e;if(typeof t.target!="string"||!X.test(t.target)||t.text!==void 0&&typeof t.text!="string")return!1;if(t.attrsSet!==void 0){if(t.attrsSet===null||typeof t.attrsSet!="object")return!1;for(const[n,s]of Object.entries(t.attrsSet))if(!D.test(n)||typeof s!="string")return!1}if(t.attrsRemoved!==void 0){if(!Array.isArray(t.attrsRemoved))return!1;for(const n of t.attrsRemoved)if(typeof n!="string"||!D.test(n))return!1}return!0}function se(e,t){if(e===null||typeof e!="object")return!1;const{seq:n,elements:s}=e;if(typeof n!="number"||!Number.isSafeInteger(n)||!Array.isArray(s)||s.length===0||s.length>64)return!1;for(let o=0;o<s.length;o++)if(!t(s[o]))return!1;return!0}function ae(e){return e===null||typeof e!="object"?!1:se(e.__frame_patch,ne)}function oe(e){if(e===null||typeof e!="object")return!1;const t=e.__frame_init;return t!==null&&typeof t=="object"}function ie(e){return e!==null&&typeof e=="object"&&e.__frame_size_poke===!0}function le(e){if(e===null||typeof e!="object")return!1;const t=e.__frame_theme;if(t===null||typeof t!="object")return!1;const n=t.theme;return typeof n=="string"&&Y.includes(n)}var O="__frame_scroll",ce=150,ue=310,fe=160,pe=3e4;function de(){let e=0,t=!1,n=!1,s=!1,o=0,l=null;const c=i=>{try{sessionStorage.setItem(O,JSON.stringify({y:i}))}catch{}},f=()=>{if(clearTimeout(e),l===null)return;const i=l;l=null,c(i)},S=()=>{if(t){t=!1;return}n=!0,l=scrollY,clearTimeout(e),e=setTimeout(f,ce)};try{addEventListener("scroll",S,{passive:!0}),addEventListener("pagehide",f)}catch{}const v=()=>{let i;try{i=sessionStorage.getItem(O)}catch{return null}if(i===null)return null;let d;try{d=JSON.parse(i)}catch{d=null}const u=d?.y;if(!(typeof u=="number"&&Number.isFinite(u)&&u>=0)){try{sessionStorage.removeItem(O)}catch{}return null}return u};let b=!1;const m=i=>{try{const d=scrollY;scrollTo({top:i,left:0,behavior:"instant"}),o=i,s=!0,clearTimeout(e),l=null,c(i);const u=scrollY;u!==d&&(t=!0),u!==i&&!b&&(b=!0,addEventListener("load",()=>{try{if(scrollY===u){const h=v();m(h!==null?h:o)}}catch{}},{once:!0}))}catch{}},y=()=>{try{return!!location.hash}catch{return!0}};let g=!1;const E=()=>{try{if(g||innerWidth>ue||innerHeight>fe)return;g=!0;const i=Date.now(),d=()=>{try{removeEventListener("resize",d)}catch{}if(Date.now()-i>pe||n||y())return;const u=v();m(u!==null?u:o)};addEventListener("resize",d)}catch{}};let r=!1,p=!1;return{restore(){if(r||(r=!0,y()))return;const i=v();i!==null&&(m(i),E())},promoted(){if(p||(p=!0,y()))return;const i=v();i!==null?(m(i),E()):s&&m(o)}}}var Ee="modulepreload",Ae=function(e){return"/"+e},Re={},me=function(t,n,s){let o=Promise.resolve();function l(c){const f=new Event("vite:preloadError",{cancelable:!0});if(f.payload=c,window.dispatchEvent(f),!f.defaultPrevented)throw c}return o.then(c=>{for(const f of c||[])f.status==="rejected"&&l(f.reason);return t().catch(l)})};(function(){const e=Object.defineProperty,t=globalThis,n=["RTCPeerConnection","webkitRTCPeerConnection","RTCDataChannel","RTCIceCandidate","RTCSessionDescription","RTCRtpSender","RTCRtpReceiver"];let s=0;for(let o=0;o<n.length;o++){const l=n[o];try{e(t,l,{value:void 0,writable:!1,configurable:!1})}catch{try{delete t[l]}catch{}try{e(t,l,{value:void 0,writable:!1,configurable:!0})}catch{}}typeof t[l]=="function"&&s++}if(s&&window!==top)try{parent.postMessage({__frame_rtc_lockdown_failed:s},"*")}catch{}})();var he=1e4,_e=Object.freeze([...window.__FRAME_PREAMBLE?.origins??["https://claude.ai","https://preview.claude.ai"]]);function F(e){for(const t of _e)if(t.endsWith(":*"))try{const n=new URL(e);if(`${n.protocol}//${n.hostname}:*`===t)return!0}catch{}else if(e===t)return!0;return!1}var M=Object.freeze({...window.__FRAME_PREAMBLE?.capabilities}),j=window.__FRAME_PREAMBLE?.transforms,N=window.__FRAME_PREAMBLE?.comments,I=window.__FRAME_PREAMBLE?.translate,L=/^[\w.-]+\.js$/;function T(e){return me(()=>import("/_runtime/"+e),void 0)}function z(e,t){return{contract:e.contract,changes:new Set(e.changes??[]),flags:new Set(e.flags??[]),capabilities:e.capabilities??{},capBudgets:e.capBudgets??{},transforms:new Map,shellOrigin:t,mount:W,pipe:()=>({wrap:(n,s)=>(...o)=>{try{return s(...o)}catch(l){return Promise.reject(l)}}})}}var P=null,w=null;function q(e,t,n){try{Object.defineProperty(e,t,{value:n,writable:!1,configurable:!1,enumerable:!0})}catch{try{Object.defineProperty(e,t,{value:n,writable:!1,configurable:!0,enumerable:!0})}catch{}}}var B=!1;function ve(e,t){const n=[];for(const s of e.elements){const o=document.querySelector(`[data-id="${s.target}"]`);if(!o){parent.postMessage({__frame_patch_miss:{seq:e.seq}},t);return}if([...Object.keys(s.attrsSet??{}),...s.attrsRemoved??[]].some(l=>!V(l))){parent.postMessage({__frame_patch_miss:{seq:e.seq}},t);return}if(s.text!==void 0&&(!ee(o)||re(o))){parent.postMessage({__frame_patch_miss:{seq:e.seq}},t);return}for(const[l,c]of Object.entries(s.attrsSet??{}))if(!$(o,l)){try{o.setAttribute(l,c)}catch{}H(o,l,c)}for(const l of s.attrsRemoved??[])$(o,l)||(o.removeAttribute(l),H(o,l,null));typeof s.text=="string"&&(o.textContent=s.text),n.push(s.target)}try{document.dispatchEvent(new CustomEvent("claude:edit",{detail:{seq:e.seq,targets:n}}))}catch{}}function H(e,t,n){if(!(e instanceof HTMLInputElement))return;const s=t.toLowerCase();s==="checked"?e.checked=n!==null:s==="value"&&e.type!=="file"&&(e.value=n??"")}function $(e,t){const n=t.toLowerCase(),s=e;return n==="data-id"||(n==="value"||n==="checked")&&(s.__artifactSecret===!0||/^(password|hidden|file)$/.test(s.type??"")||/(^|\s)(cc-|one-time-code|current-password|new-password)/i.test(`${e.getAttribute("autocomplete")??""} ${s.autocomplete??""}`))}function K(e){const t=document.documentElement;e==="light"||e==="dark"?(t.dataset.theme=e,t.style.colorScheme=e,B=!0):B&&(delete t.dataset.theme,t.style.colorScheme="",B=!1)}var R=new Map;function ye(){let e;const t={u:new Promise(n=>{e=n}),r:n=>{t.done=!0,e(n)},done:!1,nulled:!1};return t}var ge=Object.freeze(Object.assign(Object.create(null),{call:Function.prototype.call,apply:Function.prototype.apply,bind:Function.prototype.bind})),W=(e,t)=>{const n=R.get(e);if(!n||n.done){n?.nulled&&w&&parent.postMessage({__frame_cap_telemetry:{kind:"cap-load-error",cap:e}},w);return}const s=typeof t=="function"?Object.setPrototypeOf(t,ge):Object.assign(Object.create(null),t);typeof s.then=="function"&&delete s.then,n.r(Object.freeze(s))},U=Object.getOwnPropertyDescriptor(window,"claude");if(window!==top&&!(U&&U.writable===!1)){const e=j&&L.test(j)?T(j).catch(()=>{}):Promise.resolve(void 0),t=r=>{if(r.type==="auxclick"&&r.button!==1)return;const p=r.target,i=p&&p.closest?p.closest("a[href],area[href]"):null;if(!i)return;const d=i.getAttribute("href");if(!d)return;let u,h;try{u=new URL(d,document.baseURI),h=new URL(document.baseURI).origin}catch{return}if((u.protocol==="http:"||u.protocol==="https:")&&u.origin!==h){r.preventDefault();const _=(i.getAttribute("target")??"").toLowerCase(),C=r.type==="auxclick"||r.metaKey||r.ctrlKey||r.shiftKey||r.altKey||!["","_self","_top","_parent"].includes(_);parent.postMessage({__frame_nav:!0,url:u.href,newTab:C},"*")}};addEventListener("click",t,!0),addEventListener("auxclick",t,!0);const n={},s=r=>{r.isTrusted&&(n.pointer=!0)},o=r=>{r.isTrusted&&(n.click=!0)};addEventListener("pointermove",s,{capture:!0,passive:!0}),addEventListener("click",o,{capture:!0,passive:!0}),e.then(r=>{r?.wireNav&&(r.wireNav(),removeEventListener("click",t,!0),removeEventListener("auxclick",t,!0),removeEventListener("pointermove",s,!0),removeEventListener("click",o,!0),r.wireEngagement?.(n))});let l=null;try{l=de()}catch{}const c=U?.value??{};q(window,"claude",c);for(const r of Object.keys(M)){if(c[r]!==void 0){q(c,r,c[r]);continue}R.set(r,ye())}if(c.use===void 0){const r=p=>{if(typeof p!="string"||!Object.hasOwn(M,p))return Promise.resolve(null);const i=R.get(p);return i?i.u:Promise.resolve(c[p]??null)};try{Object.defineProperty(c,"use",{value:r,writable:!0,configurable:!0,enumerable:!1})}catch{}}let f=null,S=null,v=0;const b=r=>{r.source!==parent||!F(r.origin)||oe(r.data)&&(f=r.data.__frame_init,w=r.origin,removeEventListener("message",b),clearTimeout(v),S?.())};addEventListener("message",b),parent.postMessage({__frame_connect:!0},"*");const m=new Promise(r=>{S=r,v=setTimeout(()=>{removeEventListener("message",b),r()},he)}),y=document.readyState==="loading"?new Promise(r=>document.addEventListener("DOMContentLoaded",()=>r(),{once:!0})):Promise.resolve();y.then(()=>{try{l?.restore()}catch{}});const g={cb:null},E=r=>{if(!(r.source!==parent||!F(r.origin))&&ie(r.data)){try{l?.promoted()}catch{}g.cb?.()}};addEventListener("message",E),m.then(async()=>{if(!f||!w){for(const a of R.values())a.nulled=!0,a.r(null);return}K(f.theme);const r=w;let p=!1,i=!1;addEventListener("message",a=>{if(a.source!==parent||a.origin!==r)return;le(a.data)&&K(a.data.__frame_theme.theme),ae(a.data)&&ve(a.data.__frame_patch,r);const k=a.data?.__fc_mode;k&&typeof k=="object"&&!p&&N&&L.test(N)&&(p=!0,T(N).then(x=>x.install?.(r,k.on===!0)).catch(()=>{}));const A=a.data?.__ft_cmd;A&&typeof A=="object"&&!i&&I&&L.test(I)&&(i=!0,T(I).then(x=>x.install?.(r,A)).catch(()=>{}))});const d=Object.keys(f.capabilities??{}).filter(a=>Object.hasOwn(M,a)).map(a=>[a,M[a]]).filter(a=>typeof a[1]=="string"&&L.test(a[1])),u=await Promise.allSettled(d.map(([,a])=>T(a))),h=await e,_=w;if(h?.buildBoot||parent.postMessage({__frame_cap_telemetry:{kind:"cap-load-error",cap:"_transforms"}},_),h?.buildBoot)try{P=h.buildBoot(f,h.TRANSFORMS??{},{shellOrigin:_,mount:W},a=>parent.postMessage({__frame_cap_telemetry:a},_))}catch{parent.postMessage({__frame_cap_telemetry:{kind:"cap-load-error",cap:"_transforms"}},_),P=z(f,_)}else P=z(f,_);const C=a=>parent.postMessage({__frame_cap_telemetry:{kind:"cap-load-error",cap:a}},_),we=P;u.forEach((a,k)=>{const A=d[k][0];if(a.status!=="fulfilled"){C(A);return}try{a.value?.install?.(we)}catch{C(A)}});for(const a of R.values())a.done||(a.nulled=!0,a.r(null));await y,parent.postMessage({__frame_ready:!0},w),e.then(a=>a?.installSizeReporter?.(_,g))})}})();</script><!-- /frame-runtime --><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}</style></head><body>
+<title>Plan semi de Casteljaloux</title>
+
+<style>
+  :root {
+    /* autorise l'animation de height:auto sur les dépliables */
+    interpolate-size: allow-keywords;
+
+    --shade: rgba(14, 24, 22, 0.42);
+    --ease: cubic-bezier(.22, .68, .3, 1);
+    --ease-out: cubic-bezier(.16, 1, .3, 1);
+
+    --ground: #F4F6F5; --panel: #FBFCFB; --ink: #14181A; --ink-2: #3D4A4C;
+    --muted: #64777A; --rule: #DCE4E2; --rule-strong: #C3CFCC;
+    --accent: #0E5C55; --accent-soft: #E4EFEC; --alert: #A8321C; --alert-soft: #F6E7E2;
+    --z1: #C6DAD6; --z2: #8FBAB2; --z3: #559A8E; --z4: #23786E; --z5: #0B4F4A;
+    --done: #0E5C55; --plan: #9BB0AC;
+
+    --fs-display: clamp(1.9rem, 4.6vw, 2.7rem);
+    --fs-h2: clamp(1.18rem, 2.3vw, 1.4rem);
+    --fs-body: 1rem;
+    --fs-small: 0.875rem;
+    --fs-micro: 0.75rem;
+
+    --sans: "Avenir Next Condensed", "Helvetica Neue Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
+    --serif: Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, "Cascadia Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #101615; --panel: #161D1C; --ink: #EAF0EE; --ink-2: #C0CECB;
+      --muted: #8B9E9A; --rule: #263130; --rule-strong: #354341;
+      --accent: #62BFB0; --accent-soft: #16302C; --alert: #E8836A; --alert-soft: #35201A;
+      --z1: #2E4A45; --z2: #3A7168; --z3: #4E958A; --z4: #6FBCAD; --z5: #97DACD;
+      --done: #62BFB0; --plan: #4C625E;
+      --shade: rgba(0, 0, 0, 0.66);
+    }
+  }
+
+  :root[data-theme="light"] {
+    --shade: rgba(14, 24, 22, 0.42);
+    --ground: #F4F6F5; --panel: #FBFCFB; --ink: #14181A; --ink-2: #3D4A4C;
+    --muted: #64777A; --rule: #DCE4E2; --rule-strong: #C3CFCC;
+    --accent: #0E5C55; --accent-soft: #E4EFEC; --alert: #A8321C; --alert-soft: #F6E7E2;
+    --z1: #C6DAD6; --z2: #8FBAB2; --z3: #559A8E; --z4: #23786E; --z5: #0B4F4A;
+    --done: #0E5C55; --plan: #9BB0AC;
+  }
+
+  :root[data-theme="dark"] {
+    --shade: rgba(0, 0, 0, 0.66);
+    --ground: #101615; --panel: #161D1C; --ink: #EAF0EE; --ink-2: #C0CECB;
+    --muted: #8B9E9A; --rule: #263130; --rule-strong: #354341;
+    --accent: #62BFB0; --accent-soft: #16302C; --alert: #E8836A; --alert-soft: #35201A;
+    --z1: #2E4A45; --z2: #3A7168; --z3: #4E958A; --z4: #6FBCAD; --z5: #97DACD;
+    --done: #62BFB0; --plan: #4C625E;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--ground); color: var(--ink);
+    font-family: var(--serif); font-size: var(--fs-body); line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 54rem; margin: 0 auto;
+    padding: clamp(1.2rem, 3vw, 2.2rem) clamp(1rem, 4vw, 2rem) 4rem;
+  }
+
+  h1, h2, h3, .kicker, .chip, th, .stat-label, .bar-label, nav a, .tag { font-family: var(--sans); }
+
+  h1 { font-size: var(--fs-display); line-height: 1.02; font-weight: 600; letter-spacing: -0.015em; margin: 0; }
+  h2 { font-size: var(--fs-h2); font-weight: 600; line-height: 1.15; margin: 0; }
+  h3 { font-size: 1.04rem; font-weight: 600; line-height: 1.2; margin: 0; }
+  p { margin: 0; max-width: 68ch; }
+  /* dans un bloc encadré, le texte suit la largeur du bloc :
+     sinon il s'arrête au milieu et laisse un vide à droite */
+  .card p, .rule-box p, .guard p, .rule-box span, .guard span, .detail-body p, li { max-width: none; }
+
+  .kicker {
+    font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.13em;
+    font-weight: 600; color: var(--accent);
+  }
+
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  a { color: var(--accent); text-underline-offset: 0.2em; }
+  :where(a, summary, [tabindex]):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  /* ---------- En-tête ---------- */
+
+  .masthead { display: flex; flex-direction: column; gap: 1rem; }
+
+  .vitals {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+    gap: 1px; background: var(--rule); border: 1px solid var(--rule);
+  }
+
+  .vital { background: var(--panel); padding: 0.7rem 0.8rem; display: flex; flex-direction: column; gap: 0.2rem; }
+
+  .stat-label { font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 600; }
+  .vital .val { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 1.05rem; line-height: 1.15; }
+  .vital .val small { font-family: var(--serif); font-size: var(--fs-micro); color: var(--muted); display: block; margin-top: 0.15rem; }
+
+  /* ---------- Nav collante ---------- */
+
+  nav.jump {
+    position: sticky; top: 0; z-index: 20;
+    background: var(--ground);
+    border-bottom: 1px solid var(--rule-strong);
+    margin: 1.7rem 0 1.9rem;
+    padding: 0.75rem 0 0.65rem;
+    overflow-x: auto; -webkit-overflow-scrolling: touch;
+    transition: box-shadow 0.25s var(--ease), border-color 0.25s var(--ease);
+  }
+
+  /* la nav se décolle : ombre discrète pour marquer la superposition */
+  nav.jump.is-stuck {
+    box-shadow: 0 6px 16px -12px rgba(0,0,0,0.55), 0 1px 0 var(--rule);
+    border-bottom-color: transparent;
+  }
+
+  nav.jump ul { display: flex; flex-direction: row; gap: 1.3rem; list-style: none; margin: 0; padding: 0; white-space: nowrap; }
+
+  nav.jump a {
+    position: relative; display: block; padding-bottom: 2px;
+    font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.09em;
+    font-weight: 600; color: var(--muted); text-decoration: none;
+    transition: color 0.2s var(--ease);
+  }
+
+  nav.jump a::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -0.55rem; height: 2px;
+    background: var(--accent);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform 0.4s var(--ease-out);
+  }
+
+  nav.jump a:hover { color: var(--ink-2); }
+  nav.jump a.is-active { color: var(--accent); }
+  nav.jump a.is-active::after { transform: scaleX(1); }
+
+  section { scroll-margin-top: 3.4rem; margin-bottom: clamp(2rem, 4vw, 3rem); display: flex; flex-direction: column; gap: 1rem; }
+
+  .sec-head { display: flex; flex-direction: column; gap: 0.25rem; border-bottom: 1px solid var(--rule-strong); padding-bottom: 0.5rem; }
+
+  /* ---------- Semaines ---------- */
+
+  .week { background: var(--panel); border: 1px solid var(--rule); border-left: 4px solid var(--rule-strong); margin-bottom: 1.1rem; }
+  .week.is-now { border-left-color: var(--accent); }
+  .week.is-done { border-left-color: var(--z2); }
+
+  .week-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 0.8rem; padding: 0.8rem 1rem 0.7rem; border-bottom: 1px solid var(--rule); }
+  .week-head .wk { font-family: var(--mono); font-size: var(--fs-small); color: var(--muted); }
+  .week-head .dates { font-size: var(--fs-small); color: var(--muted); margin-left: auto; }
+
+  .chip {
+    font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 600;
+    padding: 0.1rem 0.4rem; border-radius: 2px; border: 1px solid currentColor; color: var(--muted); white-space: nowrap;
+  }
+  .chip.now { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
+  .chip.done { color: var(--accent); }
+
+  .tbl-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: var(--fs-small); }
+  th {
+    text-align: left; font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.09em;
+    color: var(--muted); font-weight: 600; padding: 0.45rem 1rem; border-bottom: 1px solid var(--rule); white-space: nowrap;
+  }
+  td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--rule); vertical-align: top; color: var(--ink-2); }
+  tbody tr:last-child td { border-bottom: none; }
+  td.day { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; font-size: var(--fs-micro); }
+  td.sess { color: var(--ink); }
+
+  .week tbody tr { transition: background-color 0.18s var(--ease); }
+  .week tbody tr:hover { background: color-mix(in srgb, var(--accent) 5%, transparent); }
+
+  /* Jour courant : repérage immédiat de la séance du jour */
+  .week tbody tr.is-today { background: var(--accent-soft); }
+  .week tbody tr.is-today td { color: var(--ink); }
+  .week tbody tr.is-today td.day {
+    color: var(--accent); font-weight: 600;
+    box-shadow: inset 3px 0 0 var(--accent);
+  }
+  .week tbody tr.is-today td.day::after {
+    content: "AUJOURD'HUI"; display: block; font-family: var(--sans);
+    font-size: 0.6rem; letter-spacing: 0.1em; color: var(--accent); margin-top: 0.15rem;
+  }
+
+  .card table th:first-child, .card table td:first-child { padding-left: 0; }
+  .card table th:last-child, .card table td:last-child { padding-right: 0; }
+
+  .tag {
+    display: inline-block; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.09em;
+    font-weight: 600; padding: 0.04rem 0.32rem; border-radius: 2px; margin-left: 0.35rem; vertical-align: 0.08em; white-space: nowrap;
+  }
+  .tag.long { background: var(--accent); color: var(--panel); }
+  .tag.quali { background: var(--alert); color: var(--panel); }
+  .tag.renfo { color: var(--muted); border: 1px solid var(--rule-strong); }
+
+  .week-foot { padding: 0.6rem 1rem; font-size: var(--fs-small); color: var(--muted); border-top: 1px solid var(--rule); }
+  .week-foot strong { color: var(--ink-2); }
+
+  /* ---------- Détails dépliables ---------- */
+
+  .sess-detail { border-top: 1px solid var(--rule); }
+  .sess-detail > summary {
+    list-style: none; cursor: pointer; padding: 0.6rem 1rem;
+    font-family: var(--sans); font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.09em;
+    font-weight: 600; color: var(--accent); display: flex; align-items: center; gap: 0.45rem;
+  }
+  .sess-detail > summary::-webkit-details-marker { display: none; }
+  .sess-detail > summary::before {
+    content: ""; width: 0; height: 0; border-left: 5px solid currentColor;
+    border-top: 4px solid transparent; border-bottom: 4px solid transparent; flex: none;
+    transition: transform 0.42s var(--ease-out);
+  }
+  .sess-detail[open] > summary::before { transform: rotate(90deg); }
+  .sess-detail > summary { transition: background-color 0.2s var(--ease); }
+  .sess-detail > summary:hover { background: var(--accent-soft); }
+
+  /* Ouverture en glissant plutôt qu'en sautant. Sans support, l'ouverture reste
+     instantanée : dégradation acceptable. */
+  .sess-detail::details-content {
+    block-size: 0;
+    overflow: hidden;
+    transition: block-size 0.52s var(--ease-out), content-visibility 0.52s allow-discrete;
+  }
+  .sess-detail[open]::details-content { block-size: auto; }
+  .detail-body { padding: 0 1rem 1rem; display: flex; flex-direction: column; gap: 0.7rem; font-size: var(--fs-small); }
+  .detail-body p { color: var(--ink-2); }
+
+  .steps { display: flex; flex-direction: column; }
+  .step { display: grid; grid-template-columns: 5.5rem 1fr; gap: 0.8rem; padding: 0.4rem 0; border-bottom: 1px dotted var(--rule-strong); align-items: baseline; }
+  .step:last-child { border-bottom: none; }
+  .step .s-when { font-family: var(--mono); font-size: var(--fs-micro); color: var(--muted); }
+  .step .s-what { color: var(--ink-2); }
+
+  /* ---------- Encarts ---------- */
+
+  .rule-box, .guard {
+    padding: 0.8rem 1rem; font-size: var(--fs-small); color: var(--ink-2);
+    display: flex; flex-direction: column; gap: 0.5rem;
+  }
+  .rule-box { background: var(--accent-soft); border-left: 3px solid var(--accent); }
+  .guard { background: var(--alert-soft); border-left: 3px solid var(--alert); }
+  .rule-box strong, .guard strong { color: var(--ink); }
+
+  .card { background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.8rem; }
+
+  .duo { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+
+  .zones { display: flex; flex-direction: column; gap: 0.4rem; }
+  .zone { display: grid; grid-template-columns: 0.55rem 1fr auto; gap: 0.6rem; align-items: center; font-size: var(--fs-small); }
+  .zone i { width: 0.55rem; height: 0.55rem; border-radius: 2px; }
+  .zone .z-name { color: var(--ink-2); }
+  .zone .z-name em { font-style: normal; color: var(--muted); display: block; font-size: var(--fs-micro); }
+  .zone .z-val { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--ink); }
+
+  ul, ol { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.35rem; }
+  li { color: var(--ink-2); max-width: 66ch; }
+  li strong, li b { color: var(--ink); }
+
+  /* ---------- Graphique ---------- */
+
+  .profile-scroll { overflow-x: auto; }
+  #parcours .duo td:first-child { white-space: nowrap; }
+  .trace-card { display: grid; grid-template-columns: auto 1fr; gap: 1.1rem; align-items: start; }
+  .trace-wrap svg { display: block; height: 22rem; width: auto; }
+  @media (max-width: 34rem) { .trace-card { grid-template-columns: 1fr; } .trace-wrap svg { height: 18rem; margin: 0 auto; } }
+  .profile-scroll svg { display: block; width: 100%; min-width: 34rem; height: auto; }
+
+  .chart { background: var(--panel); border: 1px solid var(--rule); padding: 1.1rem 1rem 0.8rem; display: flex; flex-direction: column; gap: 0.9rem; }
+  .plot { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; align-items: end; height: 8rem; border-bottom: 1px solid var(--rule-strong); }
+  .col { position: relative; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; padding: 0 clamp(2px, 1.4vw, 14px); }
+  .bar { background: var(--done); border-radius: 4px 4px 0 0; min-height: 3px; height: var(--h); }
+  .col.future .bar { background: transparent; border: 1.5px dashed var(--plan); border-bottom: none; }
+  .target { position: absolute; left: clamp(2px, 1.4vw, 14px); right: clamp(2px, 1.4vw, 14px); border-top: 2px solid var(--ink-2); }
+
+  /* Le seul moment orchestré de la page : les barres se construisent
+     quand le graphique entre dans le champ, une seule fois. */
+  .chart.will-animate .bar { height: 0; }
+  .chart.will-animate .target { opacity: 0; }
+
+  .chart.is-live .bar {
+    height: var(--h);
+    transition: height 1.6s var(--ease-out);
+  }
+  .chart.is-live .target {
+    opacity: 1;
+    transition: opacity 0.7s ease 1.35s;
+  }
+
+  .chart.is-live .col:nth-child(1) .bar { transition-delay: 0.00s; }
+  .chart.is-live .col:nth-child(2) .bar { transition-delay: 0.15s; }
+  .chart.is-live .col:nth-child(3) .bar { transition-delay: 0.30s; }
+  .chart.is-live .col:nth-child(4) .bar { transition-delay: 0.45s; }
+  .chart.is-live .col:nth-child(5) .bar { transition-delay: 0.60s; }
+  .plot-x { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; }
+  .bar-label { text-align: center; font-size: var(--fs-micro); color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; font-weight: 600; }
+  .bar-label b { display: block; color: var(--ink-2); }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: 1rem; font-size: var(--fs-micro); color: var(--muted); }
+  .lg { display: flex; align-items: center; gap: 0.4rem; }
+  .swatch { width: 0.8rem; height: 0.8rem; border-radius: 2px; background: var(--done); flex: none; }
+  .swatch.ghost { background: transparent; border: 1.5px dashed var(--plan); }
+  .swatch.tick { width: 0.9rem; height: 0; border-radius: 0; border-top: 2px solid var(--ink-2); background: none; }
+
+  footer { border-top: 1px solid var(--rule); padding-top: 1rem; font-size: var(--fs-micro); color: var(--muted); }
+
+  /* ---------- Entrée et apparition au défilement ----------
+     Les états initiaux ne s'appliquent que si le script tourne (.js-anim),
+     pour que la page reste entièrement lisible sans JavaScript. */
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  @keyframes riseSmall {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  .js-anim .masthead .kicker,
+  .js-anim .masthead h1,
+  .js-anim .vitals .vital,
+  .js-anim nav.jump {
+    opacity: 0;
+    animation: rise 0.95s var(--ease-out) forwards;
+  }
+
+  .js-anim .masthead .kicker { animation-delay: 0.08s; }
+  .js-anim .masthead h1      { animation-delay: 0.18s; }
+
+  /* les cinq indicateurs se posent en cascade rapide */
+  .js-anim .vitals .vital { animation-name: riseSmall; animation-duration: 0.8s; }
+  .js-anim .vitals .vital:nth-child(1) { animation-delay: 0.40s; }
+  .js-anim .vitals .vital:nth-child(2) { animation-delay: 0.50s; }
+  .js-anim .vitals .vital:nth-child(3) { animation-delay: 0.60s; }
+  .js-anim .vitals .vital:nth-child(4) { animation-delay: 0.70s; }
+  .js-anim .vitals .vital:nth-child(5) { animation-delay: 0.80s; }
+
+  .js-anim nav.jump { animation-delay: 0.95s; animation-duration: 0.8s; }
+
+  /* Dépôt : le bloc arrive du bas, dépasse de quelques pixels, puis se plaque.
+     L'ombre large qui se resserre et l'échelle qui revient à 1 font tout le
+     travail : un objet en l'air est plus près de l'oeil et porte une ombre
+     diffuse, posé il est plaqué et son ombre disparaît. */
+  @keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(42px) scale(1.03);
+      box-shadow: 0 26px 38px -20px var(--shade), 0 10px 16px -12px var(--shade);
+      animation-timing-function: cubic-bezier(.24, .62, .3, 1);
+    }
+    68% {
+      opacity: 1;
+      transform: translateY(-5px) scale(1.006);
+      box-shadow: 0 9px 16px -12px var(--shade), 0 4px 7px -6px var(--shade);
+      animation-timing-function: cubic-bezier(.42, 0, .22, 1);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
+  .js-anim .reveal { opacity: 0; }
+
+  /* opacity:1 en base et fill-mode "both" : si l'animation ne s'exécutait pas,
+     le bloc reste visible au lieu de disparaître. Le mode "backwards" tient
+     l'état initial pendant le délai. */
+  .js-anim .reveal.is-in,
+  .js-anim .reveal-now {
+    opacity: 1;
+    animation: drop 1.3s both;
+    will-change: transform, opacity;
+  }
+
+  /* un intertitre n'est pas un objet qu'on pose : il monte simplement */
+  .js-anim .sec-head.reveal.is-in,
+  .js-anim .sec-head.reveal-now {
+    animation: rise 0.95s var(--ease-out) both;
+  }
+
+  /* une carte voisine se pose juste après sa jumelle */
+  .js-anim .duo > .reveal.is-in:nth-child(2) { animation-delay: 0.2s; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+    .sess-detail::details-content { transition: none !important; }
+    .chart .bar { height: var(--h) !important; }
+    .chart .target { opacity: 1 !important; }
+    .js-anim .reveal, .js-anim .reveal-now,
+    .js-anim .masthead .kicker, .js-anim .masthead h1,
+    .js-anim .vitals .vital, .js-anim nav.jump { opacity: 1 !important; transform: none !important; }
+  }
+  @media (max-width: 34rem) {
+    .step { grid-template-columns: 1fr; gap: 0.1rem; }
+    th, td { padding-left: 0.8rem; padding-right: 0.8rem; }
+    .week-head, .week-foot, .detail-body, .sess-detail > summary { padding-left: 0.8rem; padding-right: 0.8rem; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div>
+      <div class="kicker">Phase 1 &middot; construction</div>
+      <h1>Les 21 km de Casteljaloux</h1>
+    </div>
+
+    <div class="vitals">
+      <div class="vital"><span class="stat-label">Date</span><span class="val">22 nov. 2026<small>confirmé, dimanche</small></span></div>
+      <div class="vital"><span class="stat-label">Objectif</span><span class="val">&lt; 1h48<small>ambition 1h45</small></span></div>
+      <div class="vital"><span class="stat-label">Allure</span><span class="val">4'59–5'07<small>cible novembre</small></span></div>
+      <div class="vital"><span class="stat-label">FC max</span><span class="val">180 bpm<small>relevée le 16/08</small></span></div>
+      <div class="vital"><span class="stat-label">Seuil</span><span class="val">4'42/km<small>mesuré le 13/08, FC 162</small></span></div>
+    </div>
+  </header>
+
+  <div id="nav-sentinel" aria-hidden="true"></div>
+
+  <nav class="jump" aria-label="Navigation">
+    <ul>
+      <li><a href="#semaines">Semaines</a></li>
+      <li><a href="#formats">Séances</a></li>
+      <li><a href="#zones">Zones</a></li>
+      <li><a href="#genou">Genou</a></li>
+      <li><a href="#dates">Échéances</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#fond">Le plan</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============ SEMAINES ============ -->
+  <section id="semaines">
+    <div class="sec-head">
+      <div class="kicker">Du lundi au dimanche</div>
+      <h2>Les semaines</h2>
+    </div>
+
+    <!-- S5 -->
+    <article class="week is-now">
+      <div class="week-head">
+        <span class="wk">S5</span>
+        <h3>Fin de phase 1</h3>
+        <span class="chip now">En cours</span>
+        <span class="dates">17 – 23 août</span>
+      </div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-08-17"><td class="day">Lun 17/08</td><td class="sess">Muscu jambes<span class="tag renfo">Renfo</span></td><td>Bloc complet</td></tr>
+            <tr data-date="2026-08-18"><td class="day">Mar 18/08</td><td class="sess">Footing 8 km</td><td>FC &lt; 135, puis 5 lignes droites de 20"</td></tr>
+            <tr data-date="2026-08-19"><td class="day">Mer 19/08</td><td class="sess">Muscu pec-dos</td><td>Footing 5 km en option</td></tr>
+            <tr data-date="2026-08-20"><td class="day">Jeu 20/08</td><td class="sess">Côtes longues 5 × 3'<span class="tag quali">Quali</span></td><td>FC 155–163 (recalé le 13/08), descente marchée</td></tr>
+            <tr data-date="2026-08-21"><td class="day">Ven 21/08</td><td class="sess">Muscu épaule-bras<span class="tag renfo">Renfo</span></td><td>Bloc court</td></tr>
+            <tr data-date="2026-08-22"><td class="day">Sam 22/08</td><td class="sess">Repos, ou 6 km récup</td><td>FC &lt; 130. <b>À sauter</b> si le jeudi a laissé des traces</td></tr>
+            <tr data-date="2026-08-23"><td class="day">Dim 23/08</td><td class="sess">Sortie longue, 1h50 max<span class="tag long">Long</span></td><td>16 à 17 km selon l'allure du jour, dont <b>4 km de finish à 5'00–5'10, FC 148–156</b>. La durée commande, pas la distance</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot"><strong>36 à 38 km</strong>, et non 40 : tu sors d'une décharge à 10 km utiles, le rebond est déjà brutal. Le samedi saute si la semaine pèse. Cette longue est le vrai examen du bloc renfo : trois semaines de moyen fessier derrière, et un finish. C'est elle qui dira si le genou a progressé ou s'il a seulement été ménagé. La phase 2 démarre le lendemain.</div>
+    </article>
+
+
+    <!-- ===== PHASE 2 ===== -->
+    <div class="card" id="phase2">
+      <h3>Phase 2 &middot; le bloc seuil, 24 août au 4 octobre</h3>
+      <p>Six semaines, une seule idée : <b>rapprocher ton allure de semi de ton seuil.</b> Aujourd'hui ton seuil est à 4'42 et ton allure de semi tenable tourne autour de 5'05. Tout le bloc sert à réduire cet écart, parce que c'est là qu'est le gisement, pas dans la vitesse pure.</p>
+
+      <div class="rule-box">
+        <span><strong>Aucune séance de VO2max dans ce bloc.</strong> Décision du 13 août : avec ta VMA, travailler le plafond ne rapporte rien. Le créneau part intégralement au seuil. Les lignes droites du mardi et le finish du dimanche suffisent à entretenir le pied et l'économie de course.</span>
+      </div>
+
+      <h3 style="margin-top:0.4rem;">La semaine type</h3>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Pourquoi ce jour</th></tr></thead>
+          <tbody>
+            <tr><td class="day">Lundi</td><td class="sess">Muscu jambes + renfo fessier<span class="tag renfo">Renfo</span></td><td>Au lendemain de la longue : on regroupe la fatigue sur un seul jour au lieu de l'étaler</td></tr>
+            <tr><td class="day">Mardi</td><td class="sess">Footing + 5 lignes droites</td><td>Récupération active. Les lignes droites entretiennent le pied sans coûter de récupération</td></tr>
+            <tr><td class="day">Mercredi</td><td class="sess">Séance de seuil<span class="tag quali">Quali</span></td><td><b>La séance clé.</b> 48 h après la muscu jambes, 72 h avant la longue : c'est le seul créneau où tu l'abordes frais</td></tr>
+            <tr><td class="day">Jeudi</td><td class="sess">Hyrox 19h</td><td>Contrainte fixe. Elle tombe au lendemain du seuil, c'est le compromis assumé : on protège la séance clé, pas le Hyrox</td></tr>
+            <tr><td class="day">Vendredi</td><td class="sess">Muscu épaule-bras<span class="tag renfo">Renfo</span></td><td>Repos course complet</td></tr>
+            <tr><td class="day">Samedi</td><td class="sess">Footing court facile</td><td>Le volume monte par le milieu de semaine et par ici, jamais par le dimanche</td></tr>
+            <tr><td class="day">Dimanche</td><td class="sess">Sortie longue + finish<span class="tag long">Long</span></td><td>Plafond 1h50 en durée, jamais en distance</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="guard">
+        <span><strong>Deux séances dures en course par semaine, jamais trois.</strong> Le seuil du mercredi et la longue du dimanche. Le Hyrox du jeudi est une charge en plus, pas une séance de course : <b>les semaines où tu prépares le Hyrox Sprint pour de bon, la longue du dimanche perd son finish.</b> C'est la règle d'arbitrage, elle n'est pas négociable, sinon on retombe sur les 8 à 9 séances hebdomadaires qui ont failli faire dérailler juillet.</span>
+      </div>
+    </div>
+
+    <!-- S6 -->
+    <article class="week">
+      <div class="week-head"><span class="wk">S6</span><h3>Entrée dans le seuil</h3><span class="chip">À venir</span><span class="dates">24 – 30 août</span></div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-08-24"><td class="day">Lun 24/08</td><td class="sess">Muscu jambes<span class="tag renfo">Renfo</span></td><td>Bloc complet, navettes uniquement</td></tr>
+            <tr data-date="2026-08-25"><td class="day">Mar 25/08</td><td class="sess">Footing 9 km</td><td>FC &lt; 135, puis 5 lignes droites de 20"</td></tr>
+            <tr data-date="2026-08-26"><td class="day">Mer 26/08</td><td class="sess">Seuil 3 × 8'<span class="tag quali">Quali</span></td><td><b>4'42 à 4'50, FC 155–163.</b> Récup 2' en trot</td></tr>
+            <tr data-date="2026-08-27"><td class="day">Jeu 27/08</td><td class="sess">Hyrox 19h</td><td>Reprise. Première semaine en découverte, pas en performance</td></tr>
+            <tr data-date="2026-08-28"><td class="day">Ven 28/08</td><td class="sess">Muscu épaule-bras<span class="tag renfo">Renfo</span></td><td>Repos course</td></tr>
+            <tr data-date="2026-08-29"><td class="day">Sam 29/08</td><td class="sess">Footing 6 km</td><td>FC &lt; 130</td></tr>
+            <tr data-date="2026-08-30"><td class="day">Dim 30/08</td><td class="sess">Longue 1h50 + finish<span class="tag long">Long</span></td><td>1h25 sous 135, puis <b>4 km à 5'00–5'10, FC 148–156</b>, RAC 5'</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot"><strong>43 km.</strong> Première séance de seuil à l'allure réelle. Si elle passe bien, tout le bloc tient.</div>
+    </article>
+
+    <!-- S7 -->
+    <article class="week">
+      <div class="week-head"><span class="wk">S7</span><h3>Montée</h3><span class="chip">À venir</span><span class="dates">31 août – 6 septembre</span></div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-08-31"><td class="day">Lun 31/08</td><td class="sess">Muscu jambes<span class="tag renfo">Renfo</span></td><td>Bloc complet</td></tr>
+            <tr data-date="2026-09-01"><td class="day">Mar 01/09</td><td class="sess">Footing 10 km</td><td>FC &lt; 135 + 5 lignes droites</td></tr>
+            <tr data-date="2026-09-02"><td class="day">Mer 02/09</td><td class="sess">Seuil 3 × 10'<span class="tag quali">Quali</span></td><td>Même allure, blocs allongés. Récup 2'30</td></tr>
+            <tr data-date="2026-09-03"><td class="day">Jeu 03/09</td><td class="sess">Hyrox 19h</td><td></td></tr>
+            <tr data-date="2026-09-04"><td class="day">Ven 04/09</td><td class="sess">Muscu épaule-bras<span class="tag renfo">Renfo</span></td><td>Repos course</td></tr>
+            <tr data-date="2026-09-05"><td class="day">Sam 05/09</td><td class="sess">Footing 7 km</td><td>FC &lt; 130</td></tr>
+            <tr data-date="2026-09-06"><td class="day">Dim 06/09</td><td class="sess">Longue 1h50 + finish<span class="tag long">Long</span></td><td>1h20 facile puis <b>5 km à 5'00–5'10</b></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot"><strong>46 km.</strong> 30 minutes de seuil dans la semaine, contre 24 la précédente. Le volume monte par le mardi, pas par le dimanche.</div>
+    </article>
+
+    <!-- S8 -->
+    <article class="week">
+      <div class="week-head"><span class="wk">S8</span><h3>Décharge</h3><span class="chip">À venir</span><span class="dates">7 – 13 septembre</span></div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-09-07"><td class="day">Lun 07/09</td><td class="sess">Muscu jambes allégée<span class="tag renfo">Renfo</span></td><td>Charges réduites, renfo fessier maintenu intégralement</td></tr>
+            <tr data-date="2026-09-08"><td class="day">Mar 08/09</td><td class="sess">Footing 8 km</td><td>FC &lt; 135</td></tr>
+            <tr data-date="2026-09-09"><td class="day">Mer 09/09</td><td class="sess">Seuil 2 × 8'<span class="tag quali">Quali</span></td><td>On garde l'intensité, on coupe le volume. C'est ça, une décharge réussie</td></tr>
+            <tr data-date="2026-09-10"><td class="day">Jeu 10/09</td><td class="sess">Hyrox 19h</td><td>Version light si la fatigue est là</td></tr>
+            <tr data-date="2026-09-11"><td class="day">Ven 11/09</td><td class="sess">Repos complet</td><td></td></tr>
+            <tr data-date="2026-09-12"><td class="day">Sam 12/09</td><td class="sess">Repos complet</td><td></td></tr>
+            <tr data-date="2026-09-13"><td class="day">Dim 13/09</td><td class="sess">Longue 1h20 facile<span class="tag long">Long</span></td><td><b>Sans finish</b>, intégralement sous 135</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot"><strong>30 km</strong>, soit &minus;35 %. Troisième semaine de charge consécutive derrière : la fenêtre d'assimilation est due. C'est ici que le bloc se transforme en forme.</div>
+    </article>
+
+    <!-- S9 -->
+    <article class="week">
+      <div class="week-head"><span class="wk">S9</span><h3>Blocs longs</h3><span class="chip">À venir</span><span class="dates">14 – 20 septembre</span></div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-09-14"><td class="day">Lun 14/09</td><td class="sess">Muscu jambes<span class="tag renfo">Renfo</span></td><td>Retour au bloc complet</td></tr>
+            <tr data-date="2026-09-15"><td class="day">Mar 15/09</td><td class="sess">Footing 10 km</td><td>FC &lt; 135 + 5 lignes droites</td></tr>
+            <tr data-date="2026-09-16"><td class="day">Mer 16/09</td><td class="sess">Seuil 2 × 15'<span class="tag quali">Quali</span></td><td><b>Le vrai saut du bloc.</b> Récup 3'. Tenir 15' d'affilée demande de partir juste</td></tr>
+            <tr data-date="2026-09-17"><td class="day">Jeu 17/09</td><td class="sess">Hyrox 19h</td><td></td></tr>
+            <tr data-date="2026-09-18"><td class="day">Ven 18/09</td><td class="sess">Muscu épaule-bras<span class="tag renfo">Renfo</span></td><td>Repos course</td></tr>
+            <tr data-date="2026-09-19"><td class="day">Sam 19/09</td><td class="sess">Footing 7 km</td><td>FC &lt; 130</td></tr>
+            <tr data-date="2026-09-20"><td class="day">Dim 20/09</td><td class="sess">Longue 1h50 + finish<span class="tag long">Long</span></td><td>1h15 facile puis <b>6 km à 5'00–5'10</b></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot"><strong>47 km.</strong> Passer de 3 × 10' à 2 × 15' est le moment où le seuil devient de l'endurance, pas de l'intervalle.</div>
+    </article>
+
+    <!-- S10 -->
+    <article class="week">
+      <div class="week-head"><span class="wk">S10</span><h3>Pic du bloc</h3><span class="chip">À venir</span><span class="dates">21 – 27 septembre</span></div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-09-21"><td class="day">Lun 21/09</td><td class="sess">Muscu jambes<span class="tag renfo">Renfo</span></td><td>Bloc complet</td></tr>
+            <tr data-date="2026-09-22"><td class="day">Mar 22/09</td><td class="sess">Footing 11 km</td><td>FC &lt; 135 + 5 lignes droites</td></tr>
+            <tr data-date="2026-09-23"><td class="day">Mer 23/09</td><td class="sess">Seuil 20' continu + 8'<span class="tag quali">Quali</span></td><td>Récup 3'. <b>Le 20' continu est le test de la phase</b></td></tr>
+            <tr data-date="2026-09-24"><td class="day">Jeu 24/09</td><td class="sess">Hyrox 19h</td><td></td></tr>
+            <tr data-date="2026-09-25"><td class="day">Ven 25/09</td><td class="sess">Muscu épaule-bras<span class="tag renfo">Renfo</span></td><td>Repos course</td></tr>
+            <tr data-date="2026-09-26"><td class="day">Sam 26/09</td><td class="sess">Footing 8 km</td><td>FC &lt; 130</td></tr>
+            <tr data-date="2026-09-27"><td class="day">Dim 27/09</td><td class="sess">Longue 1h50 + finish<span class="tag long">Long</span></td><td>1h10 facile puis <b>2 × 4 km à 5'00–5'10</b>, récup 3' entre les deux</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot"><strong>50 km</strong>, le maximum de la phase. Si le 20' continu passe à 4'45 sans exploser, ton seuil a bougé et on recale les zones avant le 10 km.</div>
+    </article>
+
+    <!-- S11 -->
+    <article class="week">
+      <div class="week-head"><span class="wk">S11</span><h3>Semaine du 10 km</h3><span class="chip">À venir</span><span class="dates">28 septembre – 4 octobre</span></div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-09-28"><td class="day">Lun 28/09</td><td class="sess">Muscu jambes très allégée<span class="tag renfo">Renfo</span></td><td>Moitié des charges. Renfo fessier normal</td></tr>
+            <tr data-date="2026-09-29"><td class="day">Mar 29/09</td><td class="sess">3 × 6' à allure 10 km<span class="tag quali">Quali</span></td><td><b>Dernière séance de qualité.</b> Récup 3'. Réveiller l'allure, pas la travailler</td></tr>
+            <tr data-date="2026-09-30"><td class="day">Mer 30/09</td><td class="sess">Footing 6 km</td><td>FC &lt; 130</td></tr>
+            <tr data-date="2026-10-01"><td class="day">Jeu 01/10</td><td class="sess">Pas de Hyrox</td><td><b>Décision actée</b> : la séance saute cette semaine. Repos ou 5 km très facile</td></tr>
+            <tr data-date="2026-10-02"><td class="day">Ven 02/10</td><td class="sess">Repos complet</td><td></td></tr>
+            <tr data-date="2026-10-03"><td class="day">Sam 03/10</td><td class="sess">4 km + 3 lignes droites</td><td>Déverrouillage, rien de plus</td></tr>
+            <tr data-date="2026-10-04"><td class="day">Dim 04/10</td><td class="sess">10 km d'Octobre Rose<span class="tag quali">Course</span></td><td><b>À fond.</b> Partir à 4'45, accélérer après le km 5</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot"><strong>35 km.</strong> Mini-affûtage de 3 jours. Ce 10 km ferme la phase 2 et fixe l'allure de course définitive pour Casteljaloux.</div>
+    </article>
+
+
+    <div class="sec-head" style="margin-top:1.6rem;">
+      <div class="kicker">Archive</div>
+      <h2>Phase 1, réalisée</h2>
+    </div>
+    <p style="font-size:var(--fs-small); color:var(--muted); margin-bottom:0.8rem;">Cinq semaines du 20 juillet au 23 août : passage de 19 à près de 40 km par semaine, deux tests de calage, et la bascule d'un plan réglé sur des estimations à un plan réglé sur des mesures.</p>
+
+    <!-- S4 -->
+    <article class="week is-done">
+      <div class="week-head">
+        <span class="wk">S4</span>
+        <h3>Décharge et tests</h3>
+        <span class="chip done">Réalisé</span>
+        <span class="dates">10 – 16 août</span>
+      </div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Consigne</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-08-10"><td class="day">Lun 10/08</td><td class="sess">Muscu jambes allégée<span class="tag renfo">Renfo</span></td><td>Bloc maintenu, c'est le seul volume qu'on ne réduit pas</td></tr>
+            <tr data-date="2026-08-11"><td class="day">Mar 11/08</td><td class="sess">Footing 5 km</td><td>Non fait. Sans conséquence : la fraîcheur va au test de jeudi</td></tr>
+            <tr data-date="2026-08-12"><td class="day">Mer 12/08</td><td class="sess">Muscu pec-dos</td><td>Pas de jambes : garder les cuisses fraîches pour demain</td></tr>
+            <tr data-date="2026-08-13"><td class="day">Jeu 13/08</td><td class="sess">Contre-la-montre 30 min<span class="tag quali">Test</span></td><td class="num"><b>Seuil 4'42/km &middot; FC 162</b> &middot; 10,09 km &middot; 55'00</td></tr>
+            <tr data-date="2026-08-14"><td class="day">Ven 14/08</td><td class="sess">Repos complet</td><td>Rien du tout, pas même du haut du corps si les jambes tirent</td></tr>
+            <tr data-date="2026-08-15"><td class="day">Sam 15/08</td><td class="sess">Repos, ou 20–30' très facile</td><td>FC &lt; 130 si tu bouges. Le test de dimanche en dépend</td></tr>
+            <tr data-date="2026-08-16"><td class="day">Dim 16/08</td><td class="sess">Demi-Cooper<span class="tag quali">Test</span></td><td class="num"><b>Avorté à 3'09</b> &middot; 869 m à 16,6 km/h &middot; pic 180 &middot; <b>VMA ≈ 15,8</b></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <details class="sess-detail">
+        <summary>Jeudi &middot; le contre-la-montre, résultat</summary>
+        <div class="detail-body">
+          <div class="rule-box">
+            <span><strong>Seuil réel : 4'42/km à 162 bpm.</strong> L'estimation de COROS annonçait 4'57. Elle était fausse de 15 s/km, et tu t'entraînais donc en dessous de ta vraie zone de seuil. C'est la donnée qui manquait depuis le début de la préparation.</span>
+          </div>
+
+          <div class="tbl-scroll">
+            <table>
+              <thead><tr><th scope="col">Segment</th><th scope="col">Distance</th><th scope="col">Allure</th><th scope="col">FC</th><th scope="col">Cadence</th></tr></thead>
+              <tbody>
+                <tr><td>Échauffement 15'</td><td class="num">2281 m</td><td class="num">6'35</td><td class="num">120</td><td class="num">169</td></tr>
+                <tr><td class="num">0–10'</td><td class="num">1941 m</td><td class="num">5'09</td><td class="num">145</td><td class="num">180</td></tr>
+                <tr><td class="num">10–20'</td><td class="num">2082 m</td><td class="num">4'48</td><td class="num">158</td><td class="num">181</td></tr>
+                <tr><td class="num">20–30'</td><td class="num">2186 m</td><td class="num">4'34</td><td class="num">166</td><td class="num">186</td></tr>
+                <tr><td><b>20 dern. min</b></td><td class="num"><b>4258 m</b></td><td class="num"><b>4'42</b></td><td class="num"><b>162</b></td><td class="num">183</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p><b>Le départ trop lent ne casse rien, au contraire.</b> Tu as mis dix minutes à trouver l'allure, et le protocole ne lit que les vingt dernières : c'est exactement pour ça qu'il est construit comme ça. Conséquence : ton seuil réel est probablement un peu meilleur que 4'42, autour de 4'38 à 4'40, parce que le premier tiers a mangé de la distance. Le chiffre retenu est donc prudent, jamais optimiste.</p>
+
+          <p><b>La fin était bien maximale</b> : 168 bpm sur le dernier bloc et un pic à 169, soit 94 % de ta FC max. Le test est valide.</p>
+
+          <div class="rule-box">
+            <span><strong>Le terrain n'a pas faussé la mesure.</strong> Sur les vingt minutes de référence, 10 m de montée pour 10 m de descente : l'écart entre allure réelle et allure ajustée est de 4 s/km. Le canal était assez plat. Les 39 m de descente de la séance sont dans l'échauffement, pas dans le test.</span>
+          </div>
+
+          <div class="guard">
+            <span><strong>Le problème d'allure sur la montre.</strong> L'allure instantanée réagit avec plusieurs secondes de retard et se lisse en permanence : impossible de se caler dessus, tu l'as constaté. Pour le prochain test, mets <b>l'allure moyenne du lap</b> et la <b>FC</b> en champs principaux, et cale-toi sur la FC dans les cinq premières minutes en visant 155, l'allure suivra toute seule.</span>
+          </div>
+
+          <p style="font-size:var(--fs-micro); color:var(--muted);">Protocole appliqué : échauffement 15', trois blocs de 10' à allure maximale tenable, retour au calme 10'. Le découpage en trois laps de 10 minutes se garde tel quel pour le retest d'octobre, il donne la dérive segment par segment.</p>
+        </div>
+      </details>
+
+      <details class="sess-detail">
+        <summary>Dimanche &middot; le demi-Cooper, avorté mais exploité</summary>
+        <div class="detail-body">
+          <div class="guard">
+            <span><strong>Interrompu à 3'09.</strong> Départ à 3'37/km, soit 16,6 km/h, l'allure d'un 1655 m. C'était ton repère de 2025, pas la cible de 1550 à 1600 fixée la veille. À cette vitesse, la fin était écrite.</span>
+          </div>
+
+          <p>Le test répond quand même à la question. <b>869 m en 3'09 à 16,6 km/h</b>, et un effort maximal de 3 minutes se court à environ 105 % de la VMA. En remontant le calcul : <b>VMA ≈ 15,8 km/h</b>, dans une fourchette de 15,5 à 16,1.</p>
+
+          <p><b>Et cette valeur met tout en cohérence.</b> Ton seuil de 12,77 km/h représente alors <b>81 % de ta VMA</b>, exactement la fourchette attendue pour un coureur à faible volume. Sur base 14,93 on obtenait 85 %, anormalement haut ; sur base 16,5 on obtenait 77 %, anormalement bas. La VMA de juillet était bien sous-estimée, et le 16,5 était ta valeur de 2025, pas celle d'aujourd'hui. Logique après un an sans travail de VMA.</p>
+
+          <div class="rule-box">
+            <span><strong>Pic à 180 : c'est ta nouvelle FC max.</strong> Elle était réglée sur 178. Sans effet sur tes zones, qui sont ancrées sur ton seuil et non sur ce maximum, mais autant que la référence soit juste.</span>
+          </div>
+
+          <p><b>Aucun retest n'est programmé.</b> La question est répondue, tes zones ne dépendent pas de la VMA, et il n'y a plus de séance de VO2max au programme. Un troisième effort maximal en cinq jours, à la veille de la phase 2, coûterait plus qu'il ne rapporterait.</p>
+
+          <div class="rule-box">
+            <span><strong>La leçon, valable pour tous les tests à venir.</strong> Deux tests, deux erreurs de pacing opposées : 27 s/km trop lent le 13, trop rapide le 16. Même cause, l'absence de repère externe au départ. <b>Sur piste, cours au temps par tour de 400 m, jamais à l'allure de la montre :</b> 96 s pour 1500 m, 93 s pour 1550, 90 s pour 1600, 87 s pour 1650. Tu es parti à 87 quand il fallait 93.</span>
+          </div>
+        </div>
+      </details>
+
+      <div class="week-foot"><strong>10 km utiles</strong>, décharge bien plus profonde que les 17 prévus. <b>Semaine des deux tests : seuil mesuré à 4'42/km pour 162 bpm, VMA établie à 15,8 km/h.</b> Toutes les zones du plan viennent de cette semaine.</div>
+    </article>
+
+    <!-- S3 -->
+    <article class="week is-done">
+      <div class="week-head">
+        <span class="wk">S3</span>
+        <h3>Consolidation</h3>
+        <span class="chip done">Réalisé</span>
+        <span class="dates">3 – 9 août</span>
+      </div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Jour</th><th scope="col">Séance</th><th scope="col">Résultat</th></tr></thead>
+          <tbody>
+            <tr data-date="2026-08-03"><td class="day">Lun 03/08</td><td class="sess">Muscu jambes<span class="tag renfo">Renfo</span></td><td>Bloc moyen fessier complet</td></tr>
+            <tr data-date="2026-08-04"><td class="day">Mar 04/08</td><td class="sess">Footing<span class="tag renfo">Renfo</span></td><td class="num">8,46 km &middot; 6'30 &middot; FC 124</td></tr>
+            <tr data-date="2026-08-05"><td class="day">Mer 05/08</td><td class="sess">Muscu pec-dos + 2 runs courts</td><td>Bloc court fessier. Navettes 2,2 + 1,2 km (hors volume utile)</td></tr>
+            <tr data-date="2026-08-06"><td class="day">Jeu 06/08</td><td class="sess">Côtes longues 4 × 3'<span class="tag quali">Quali</span></td><td class="num">8,38 km &middot; 6'40 &middot; FC 134</td></tr>
+            <tr data-date="2026-08-07"><td class="day">Ven 07/08</td><td class="sess">Footing récup <em>(non prévu)</em></td><td class="num">6,54 km &middot; 7'11 &middot; FC 121</td></tr>
+            <tr data-date="2026-08-08"><td class="day">Sam 08/08</td><td class="sess">Repos</td><td></td></tr>
+            <tr data-date="2026-08-09"><td class="day">Dim 09/08</td><td class="sess">Sortie longue sans finish<span class="tag long">Long</span></td><td class="num">17,03 km &middot; 6'21 &middot; FC 132 &middot; 1h48</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="week-foot"><strong>~40 km</strong> réalisés (33 visés). Le footing du vendredi, ajouté un jour de repos, et la longue à 17 km ont dépassé la consolidation prévue. Signaux physiologiques tous verts (charge « Optimized », FC repos 42–43, sommeil 82–99) : la décharge de S4 arrive à point.</div>
+    </article>
+
+    <!-- Historique -->
+    <article class="week is-done">
+      <div class="week-head">
+        <span class="wk">S1–S2</span>
+        <h3>Déjà fait</h3>
+        <span class="chip done">Réalisé</span>
+        <span class="dates">20 juillet – 2 août</span>
+      </div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Date</th><th scope="col">Séance</th><th scope="col">Résultat</th></tr></thead>
+          <tbody>
+            <tr><td class="day">22/07</td><td class="sess">Test FC max en côte</td><td class="num">6,5 km &middot; pic 178</td></tr>
+            <tr><td class="day">26/07</td><td class="sess">Sortie longue<span class="tag long">Long</span></td><td class="num">12,64 km &middot; FC 132</td></tr>
+            <tr><td class="day">28/07</td><td class="sess">Côtes courtes 8 × 45"<span class="tag quali">Quali</span></td><td class="num">8,03 km &middot; FC 141</td></tr>
+            <tr><td class="day">29/07</td><td class="sess">Footing court</td><td class="num">4,25 km &middot; FC 129</td></tr>
+            <tr><td class="day">31/07</td><td class="sess">Footing facile</td><td class="num">8,75 km &middot; FC 135</td></tr>
+            <tr><td class="day">02/08</td><td class="sess">Sortie longue + finish<span class="tag long">Long</span></td><td class="num">16,62 km &middot; FC 132</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="week-foot">S1 <strong>19,1 km</strong> · S2 <strong>37,6 km</strong>. Sortie du 2 août : 6'23/km, meilleur km 5'36, +92 m D+, cadence 168 pas/min. Record de distance.</div>
+    </article>
+  </section>
+
+  <!-- ============ FORMATS ============ -->
+  <section id="formats">
+    <div class="sec-head">
+      <div class="kicker">Référence</div>
+      <h2>Les séances types</h2>
+    </div>
+
+    <p style="font-size:var(--fs-small); color:var(--muted);">Le format générique de chaque séance, indépendant de la semaine où elle tombe. Les tableaux hebdomadaires ne donnent que le volume et la cible du jour, le déroulé est ici. Pour savoir quelle donnée régler en cible dans la montre, voir la règle en tête de la section Zones.</p>
+
+    <div class="duo">
+      <div class="card">
+        <h3>La séance de seuil, en détail</h3>
+        <div class="steps">
+          <div class="step"><span class="s-when">15'</span><span class="s-what">Échauffement, FC 110 à 135, plus deux ou trois accélérations de 30 s à la fin.</span></div>
+          <div class="step"><span class="s-when">les blocs</span><span class="s-what"><b>FC 155 à 163, allure 4'42 à 4'50.</b> Tu dois pouvoir dire trois mots, pas une phrase.</span></div>
+          <div class="step"><span class="s-when">récup</span><span class="s-what">2' à 3' en trot très lent, jamais en marchant : le seuil se travaille en restant chaud.</span></div>
+          <div class="step"><span class="s-when">10'</span><span class="s-what">Retour au calme.</span></div>
+        </div>
+        <div class="rule-box">
+          <span><strong>La FC commande, l'allure contrôle.</strong> Par 28 °C ou sur jambes fatiguées, l'allure peut dériver de 10 s/km sans que la séance soit ratée. L'inverse n'est pas vrai : tenir l'allure en dépassant 165 de FC transforme la séance de seuil en séance de VO2max, et tu paies deux fois, en récupération et en risque.</span>
+        </div>
+        <p style="font-size:var(--fs-small);">Progression du bloc : <b>3 × 8' &rarr; 3 × 10' &rarr; 2 × 15' &rarr; 20' continu.</b> Le volume de seuil passe de 24 à 28 minutes, mais surtout les blocs s'allongent : c'est la durée continue qui construit la capacité à tenir, pas le total.</p>
+      </div>
+
+      <div class="card">
+        <h3>Le finish de la longue</h3>
+        <p>Il passe de 4 à 6 km sur le bloc, <b>à 5'00–5'10 pour une FC de 148 à 156</b>. C'est ton allure de semi actuelle, courue sur des jambes déjà fatiguées : la seule façon de préparer les 5 derniers kilomètres de Casteljaloux.</p>
+        <div class="guard">
+          <span><strong>Le genou décide.</strong> Si la sensation au TFL réapparaît avant le km 10, tu retires le finish le jour même et tu rentres. Si ça se répète deux longues de suite, la longue redescend à 1h20 et on retire le seuil de la semaine suivante. Ce n'est pas de la prudence excessive : une bandelette installée coûte 6 à 8 semaines, et il n'y en a que 14 avant la course.</span>
+        </div>
+        <p style="font-size:var(--fs-small);">La longue reste plafonnée à <b>1h50 en durée</b>, jamais en distance. Quand ton allure d'endurance descendra, la même durée te donnera plus de kilomètres. C'est le bon sens de la progression : jamais 21 km à l'entraînement.</p>
+      </div>
+    </div>
+
+    <div class="duo">
+      <div class="card">
+        <h3>Footing et lignes droites</h3>
+        <div class="steps">
+          <div class="step"><span class="s-when">le footing</span><span class="s-what">FC &lt; 135, cadence libre, aucune donnée à surveiller. L'alerte à 136 fait le travail.</span></div>
+          <div class="step"><span class="s-when">5 × 20"</span><span class="s-what"><b>Accélération progressive</b> jusqu'à environ ton allure de 3 km, puis décélération. Récupération 60 à 90 s en marchant.</span></div>
+          <div class="step"><span class="s-when">3'</span><span class="s-what">Retour au calme très facile.</span></div>
+        </div>
+        <p style="font-size:var(--fs-small);">Terrain plat, sans obstacle. <b>Ce ne sont pas des sprints</b> : tu accélères en restant relâché. C'est le seul travail de vitesse qui reste au programme, et il suffit : la cadence monte seule vers 190 parce que tu vas vite, pas parce que tu la surveilles.</p>
+        <div class="guard"><span>Si le genou tire, tu t'arrêtes aux lignes droites déjà faites. Elles ne valent pas un risque.</span></div>
+      </div>
+
+      <div class="card">
+        <h3>Côtes longues</h3>
+        <div class="steps">
+          <div class="step"><span class="s-when">15'</span><span class="s-what">Échauffement sur le plat, FC 110 à 135.</span></div>
+          <div class="step"><span class="s-when">5 × 3'</span><span class="s-what">En côte, <b>FC 155 à 163</b>. Tu dois pouvoir dire trois mots, pas une phrase.</span></div>
+          <div class="step"><span class="s-when">2'30</span><span class="s-what"><b>Récupération : redescendre en marchant.</b></span></div>
+          <div class="step"><span class="s-when">10'</span><span class="s-what">Retour au calme.</span></div>
+        </div>
+        <p style="font-size:var(--fs-small);"><b>Ne pars pas trop vite pour atteindre la FC cible</b> : elle met 30 à 45 secondes à rejoindre la zone. Pente régulière de 3 à 6 %. En côte on cible la FC et jamais l'allure, qui ne veut rien dire en pente.</p>
+        <div class="guard"><span><strong>La descente se marche</strong> parce que c'est elle qui irrite la bandelette, pas la montée. Si le dernier bloc dégrade ta foulée, tu t'arrêtes au précédent.</span></div>
+      </div>
+    </div>
+
+    <div class="duo">
+      <div class="card">
+        <h3>Sortie longue</h3>
+        <div class="steps">
+          <div class="step"><span class="s-when">avant</span><span class="s-what">Monster walks 2 × 15 en activation.</span></div>
+          <div class="step"><span class="s-when">bloc 1</span><span class="s-what"><b>Réglé en DURÉE, jamais en distance.</b> FC 115 à 135 du début à la fin.</span></div>
+          <div class="step"><span class="s-when">bloc 2</span><span class="s-what">Le finish, <b>réglé en DISTANCE</b>, à 5'00–5'10.</span></div>
+          <div class="step"><span class="s-when">après</span><span class="s-what">5' de marche, rouleau sur le TFL, jamais sur le genou lui-même.</span></div>
+        </div>
+        <p style="font-size:var(--fs-small);">Le bloc facile en durée et le finish en distance, c'est volontaire : la partie lente absorbe la variation d'allure du jour, pendant que le finish garde sa charge de travail intacte. <b>Point de foulée au km 7</b>, là où la sensation apparaissait : bassin stable, genou vers l'avant, cadence qui ne s'effondre pas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Contre-la-montre 30 min</h3>
+        <div class="steps">
+          <div class="step"><span class="s-when">15'</span><span class="s-what">Échauffement, FC 110 à 135, deux ou trois accélérations de 30 s à la fin.</span></div>
+          <div class="step"><span class="s-when">3 × 10'</span><span class="s-what"><b>Trois laps de 10 minutes, aucune cible</b>, à l'allure maximale tenable régulièrement.</span></div>
+          <div class="step"><span class="s-when">10'</span><span class="s-what">Retour au calme.</span></div>
+          <div class="step"><span class="s-when">lecture</span><span class="s-what">Allure et FC moyennes des <b>20 dernières minutes</b> = ton seuil réel. Les 10 premières sont ignorées, ce qui absorbe un départ mal calé.</span></div>
+        </div>
+        <p style="font-size:var(--fs-small);">Le découpage en trois laps plutôt qu'un bloc unique est ce qui a permis de lire la dérive segment par segment le 13 août. À conserver tel quel pour le retest de début octobre, en partant cette fois à 4'45 et non à 5'00.</p>
+        <div class="guard"><span>Route plate, pas de piste : quinze tours font trente virages à gauche, et la hanche intérieure en adduction met la bandelette en tension.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ZONES ============ -->
+  <section id="zones">
+    <div class="sec-head">
+      <div class="kicker">Référentiel</div>
+      <h2>Zones et allures</h2>
+    </div>
+
+    <div class="duo">
+      <div class="card">
+        <h3>Fréquence cardiaque</h3>
+        <div class="zones">
+          <div class="zone"><i style="background:var(--z1)"></i><span class="z-name">Récupération</span><span class="z-val">&lt; 120</span></div>
+          <div class="zone"><i style="background:var(--z2)"></i><span class="z-name">Endurance fondamentale<em>footings, base de la longue</em></span><span class="z-val">127–135</span></div>
+          <div class="zone"><i style="background:var(--z3)"></i><span class="z-name">Endurance active<em>fin de sortie longue</em></span><span class="z-val">136–147</span></div>
+          <div class="zone"><i style="background:var(--z4)"></i><span class="z-name">Allure semi<em>le finish de la longue</em></span><span class="z-val">148–156</span></div>
+          <div class="zone"><i style="background:var(--z5)"></i><span class="z-name">Seuil<em>séance de qualité</em></span><span class="z-val">155–163</span></div>
+          <div class="zone"><i style="background:var(--plan)"></i><span class="z-name" style="color:var(--muted)">VO2max<em>plus au programme</em></span><span class="z-val" style="color:var(--muted)">164–174</span></div>
+        </div>
+        <p style="font-size:var(--fs-micro); color:var(--muted);">Mesuré le 13 août : <b>FC seuil 162 bpm</b>, soit 91 % de ta FC max. La zone seuil remonte de 150–162 à 155–163, et la zone allure semi apparaît : le finish de la longue se court désormais à 148–156, pas à 136–148 comme avant. Le chevauchement d'un ou deux battements entre les deux zones hautes est normal, le haut de l'allure semi touche le bas du seuil. Piège COROS : la zone « Seuil » de la montre démarre à 143, à éviter.</p>
+      </div>
+
+      <div class="card">
+        <h3>Allures</h3>
+        <div class="tbl-scroll">
+          <table>
+            <thead><tr><th scope="col">&nbsp;</th><th scope="col">Aujourd'hui</th><th scope="col">Cible nov.</th></tr></thead>
+            <tbody>
+              <tr><td>Footing</td><td class="num">6'00–6'30</td><td>FC &lt; 135</td></tr>
+              <tr><td>Allure semi</td><td class="num">5'00–5'08</td><td class="num">4'59–5'07</td></tr>
+              <tr><td>Seuil</td><td class="num">4'42–4'50</td><td class="num">4'32–4'40</td></tr>
+              <tr><td>VO2max <small>hors plan</small></td><td class="num">à recaler</td><td class="num">&mdash;</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:var(--fs-micro); color:var(--muted);"><b>Recalculées le 13 août sur le seuil mesuré</b>, elles ne viennent plus d'une formule. L'ancienne cible de novembre au seuil (4'42) était déjà atteinte en août : ce n'était pas un bond de forme, c'était l'estimation qui était fausse de 15 s/km. La vraie cible du plan n'est d'ailleurs pas de descendre le seuil, c'est de <b>réduire l'écart entre ton seuil et ton allure de semi</b> : 23 s/km aujourd'hui, 18 s/km visées en novembre. La ligne VO2max sort du référentiel, il n'y a plus de séance de ce type au programme.</p>
+      </div>
+    </div>
+
+    <div class="rule-box">
+      <span><strong>Quelle donnée piloter, et quand.</strong> « Piloter à la FC » ne veut pas dire mettre une cible FC partout : elle met 60 à 90 secondes à rejoindre sa valeur, donc sur un bloc de 8 minutes elle déclencherait une alerte à chaque départ de répétition. La bonne formulation est : <b>la FC commande la décision, l'allure commande l'exécution.</b><br><br>
+      <b>Cible FC</b> sur les footings, échauffements, retours au calme et la base de la sortie longue. <b>Cible allure</b> sur les blocs de seuil et les finish, avec la FC affichée et un plafond mental à 165. <b>Cible FC</b> en côte, où l'allure ne veut rien dire. <b>Aucune cible</b> sur un test : le temps par tour suffit.</span>
+    </div>
+
+    <div class="rule-box">
+      <span><strong>La règle d'or.</strong> Rester sous 135 bpm sur les footings, même si l'allure paraît lente. Alerte FC à 136. Le gain vient du contraste entre facile et dur, jamais du milieu.</span>
+    </div>
+
+    <h3>Règles de bascule</h3>
+    <ol>
+      <li><strong>VFC sous 68 ms deux matins de suite, ou récupération sous 60 %</strong> : supprimer le footing le plus proche.</li>
+      <li><strong>Sensation au TFL avant le km 10 sur la longue</strong> : retirer le finish le jour même. Deux longues de suite dans ce cas, la longue redescend à 1h20 et le seuil saute la semaine suivante.</li>
+      <li><strong>Douleur latérale croissante qui modifie la foulée</strong> : arrêt de la séance, pas d'arbitrage.</li>
+      <li><strong>Plus de 28 °C sur la longue</strong> : pilotage FC seul, l'allure peut dériver de 20 s/km.</li>
+    </ol>
+  </section>
+
+  <!-- ============ GENOU ============ -->
+  <section id="genou">
+    <div class="sec-head">
+      <div class="kicker">Point de vigilance</div>
+      <h2>Genou gauche et bandelette</h2>
+    </div>
+
+    <div class="guard">
+      <span><strong>État au 2 août : sensation intermittente, pas de douleur.</strong> Mais elle apparaît <b>plus tôt qu'avant</b> : derniers kilomètres le 26 juillet, km 7 à 8 le 2 août. C'est ce qui a motivé la baisse de S3 et le retrait du finish.</span>
+      <span><strong>Action : bilan kiné sous quinze jours.</strong> Le renforcement est la bonne intuition, il ne remplace pas un diagnostic.</span>
+    </div>
+
+    <p>Hypothèse de travail : fatigue du moyen fessier, pas inflammation. Le fessier lâche vers le km 7, le contrôle du bassin se dégrade, la bandelette frotte.</p>
+
+    <ul>
+      <li><strong>Renforcement.</strong> <a href="https://claude.ai/code/artifact/537cac01-a5a0-46ca-b500-65714d34f5cc" target="_blank" rel="noopener">Fiche d'exécution des 4 exercices</a>, avec schémas et erreurs à éviter. Tu fais déjà le monster walk et l'abduction debout ; il manque le pelvic drop et le gainage latéral.</li>
+      <li><strong>Lignes droites.</strong> 4 à 6 × 20" en accélération progressive en fin de footing. La cadence monte seule parce qu'on va vite, sans consigne chiffrée à surveiller.</li>
+      <li><strong>Descentes.</strong> En côtes, redescendre en marchant.</li>
+      <li><strong>Step-up.</strong> Il devient un exercice de fessier en surveillant que le bassin libre ne descend pas et que le genou d'appui ne rentre pas.</li>
+    </ul>
+
+    <p style="font-size:var(--fs-small); color:var(--muted);">Chaussures : bascule actée sur les NovaBlast 5, les Pegasus 38 sont en fin de vie. Surveiller mollets et Achille, le timing de poussée change.</p>
+  </section>
+
+  <!-- ============ DATES ============ -->
+  <section id="dates">
+    <div class="sec-head">
+      <div class="kicker">Calendrier</div>
+      <h2>Les échéances</h2>
+    </div>
+
+    <div class="card">
+      <div class="steps">
+        <div class="step"><span class="s-when">Fait 13/08</span><span class="s-what"><b>Contre-la-montre 30 min.</b> Seuil mesuré à 4'42/km pour 162 bpm. Toutes les zones du plan en découlent.</span></div>
+        <div class="step"><span class="s-when">Fait 16/08</span><span class="s-what"><b>Demi-Cooper</b>, avorté à 3'09 mais exploité : VMA ≈ 15,8 km/h, FC max relevée à 180. Question close, aucun retest.</span></div>
+        <div class="step"><span class="s-when">Dim 23/08</span><span class="s-what"><b>Longue avec finish : l'examen du bloc renfo.</b> Trois semaines de moyen fessier derrière. C'est elle qui dira si le genou a progressé ou s'il a seulement été ménagé.</span></div>
+        
+        <div class="step"><span class="s-when">Dim 23/08</span><span class="s-what"><b>Fin de la phase 1.</b></span></div>
+        <div class="step"><span class="s-when">Septembre</span><span class="s-what"><b>Hyrox Sprint en double.</b> Date à confirmer. 3 à 4 séances de préparation, en remplacement de la qualité du jeudi.</span></div>
+        <div class="step"><span class="s-when">Dim 04/10</span><span class="s-what"><b>10 km d'Octobre Rose.</b> Couru à fond, il fixe l'allure de course définitive.</span></div>
+        <div class="step"><span class="s-when">Dim 22/11</span><span class="s-what"><b>Les 21 km de Casteljaloux.</b> Date confirmée sur le site officiel le 13 août. Le plan est donc figé sur 18 semaines.</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Ce que le 10 km dira</h3>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">10 km</th><th scope="col">Semi correspondant</th></tr></thead>
+          <tbody>
+            <tr><td class="num">46'00</td><td class="num">1h41'30</td></tr>
+            <tr><td class="num">47'00</td><td class="num">1h43'40</td></tr>
+            <tr><td class="num">48'00</td><td class="num">1h45'55</td></tr>
+            <tr><td class="num">49'00</td><td class="num">1h48'10</td></tr>
+            <tr><td class="num">50'00</td><td class="num">1h50'20</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:var(--fs-micro); color:var(--muted);">Références : 53'00 il y a un an, <b>47'30 à 49'00 attendus aujourd'hui</b> d'après le seuil mesuré. L'estimation COROS de 49'30 est périmée. Mini-affûtage de 3 jours avant, dernière séance de qualité le mardi.</p>
+    </div>
+  </section>
+
+  <!-- ============ PARCOURS ============ -->
+  <section id="parcours">
+    <div class="sec-head">
+      <div class="kicker">Casteljaloux &middot; tracé officiel</div>
+      <h2>Le parcours</h2>
+    </div>
+
+    <div class="chart">
+      <div class="profile-scroll">
+        <svg viewBox="0 0 880 190" role="img" aria-label="Profil altimétrique du parcours : 21,1 km, 139 m de dénivelé positif, altitude entre 60 et 91 mètres. Côte principale au kilomètre 12, descente continue du kilomètre 14 au kilomètre 16, arrivée en légère montée.">
+        <line x1="44" x2="866" y1="145.2" y2="145.2" stroke="var(--rule)" stroke-width="1"/><text x="38" y="145.2" fill="var(--muted)" font-size="9" text-anchor="end" dominant-baseline="middle">60 m</text>
+        <line x1="44" x2="866" y1="107.8" y2="107.8" stroke="var(--rule)" stroke-width="1"/><text x="38" y="107.8" fill="var(--muted)" font-size="9" text-anchor="end" dominant-baseline="middle">70 m</text>
+        <line x1="44" x2="866" y1="70.2" y2="70.2" stroke="var(--rule)" stroke-width="1"/><text x="38" y="70.2" fill="var(--muted)" font-size="9" text-anchor="end" dominant-baseline="middle">80 m</text>
+        <line x1="44" x2="866" y1="32.8" y2="32.8" stroke="var(--rule)" stroke-width="1"/><text x="38" y="32.8" fill="var(--muted)" font-size="9" text-anchor="end" dominant-baseline="middle">90 m</text>
+        <path d="M 44.0,164 L 44.0,107.8 45.6,107.8 47.1,107.8 48.7,108.0 50.2,109.2 51.8,110.5 53.3,111.7 54.9,113.0 56.5,114.2 58.0,115.2 59.6,115.2 61.1,115.2 62.7,115.2 64.2,115.2 65.8,115.2 67.4,115.2 68.9,114.4 70.5,105.8 72.0,102.0 73.6,100.2 75.1,100.2 76.7,100.2 78.3,100.2 79.8,101.8 81.4,104.0 82.9,106.1 84.5,107.8 86.0,107.8 87.6,107.8 89.2,108.0 90.7,110.1 92.3,111.5 93.8,111.5 95.4,111.5 96.9,112.5 98.5,113.6 100.1,114.6 101.6,115.2 103.2,115.2 104.7,115.2 106.3,115.2 107.8,115.2 109.4,113.9 111.0,109.0 112.5,104.0 114.1,104.0 115.6,104.7 117.2,108.4 118.7,111.5 120.3,111.7 121.9,114.1 123.4,115.2 125.0,115.2 126.5,112.9 128.1,111.5 129.6,111.6 131.2,112.0 132.8,112.4 134.3,112.8 135.9,113.3 137.4,113.7 139.0,114.1 140.5,114.5 142.1,114.9 143.7,115.2 145.2,114.9 146.8,111.5 148.3,108.0 149.9,102.5 151.4,99.4 153.0,96.3 154.6,93.2 156.1,90.1 157.7,89.0 159.2,85.1 160.8,81.0 162.4,78.5 163.9,81.9 165.5,85.2 167.0,82.6 168.6,81.8 170.1,82.4 171.7,82.9 173.3,83.5 174.8,84.0 176.4,84.6 177.9,85.1 179.5,82.5 181.0,85.5 182.6,89.5 184.2,91.0 185.7,92.5 187.3,94.0 188.8,95.5 190.4,97.0 191.9,98.5 193.5,100.0 195.1,101.6 196.6,103.1 198.2,102.2 199.7,97.8 201.3,93.9 202.8,90.3 204.4,88.1 206.0,86.6 207.5,85.1 209.1,83.4 210.6,81.7 212.2,80.0 213.7,78.2 215.3,80.7 216.9,83.3 218.4,86.4 220.0,93.1 221.5,96.7 223.1,100.2 224.6,97.7 226.2,92.7 227.8,85.6 229.3,77.8 230.9,71.1 232.4,64.5 234.0,57.9 235.5,51.5 237.1,51.5 238.7,55.2 240.2,55.5 241.8,57.0 243.3,58.5 244.9,60.1 246.4,61.6 248.0,62.8 249.6,62.8 251.1,62.8 252.7,62.8 254.2,62.8 255.8,68.2 257.3,82.0 258.9,95.8 260.5,107.7 262.0,107.7 263.6,106.3 265.1,104.9 266.7,101.4 268.2,92.9 269.8,84.0 271.4,77.8 272.9,77.4 274.5,68.7 276.0,59.9 277.6,51.7 279.1,57.3 280.7,62.8 282.3,68.4 283.8,73.9 285.4,79.5 286.9,80.4 288.5,78.6 290.0,76.9 291.6,75.1 293.2,73.4 294.7,71.6 296.3,72.5 297.8,82.3 299.4,92.0 300.9,100.2 302.5,98.5 304.1,95.7 305.6,92.9 307.2,90.1 308.7,83.7 310.3,75.1 311.8,71.9 313.4,82.6 315.0,87.2 316.5,91.9 318.1,89.0 319.6,89.0 321.2,87.9 322.7,85.2 324.3,85.2 325.9,85.2 327.4,81.7 329.0,83.1 330.5,84.5 332.1,86.0 333.6,87.4 335.2,88.9 336.8,90.3 338.3,91.7 339.9,93.2 341.4,94.6 343.0,96.1 344.5,97.5 346.1,98.9 347.7,100.2 349.2,100.2 350.8,100.2 352.3,100.2 353.9,100.2 355.4,100.2 357.0,100.2 358.6,100.2 360.1,100.2 361.7,100.2 363.2,100.2 364.8,100.2 366.3,100.2 367.9,100.4 369.5,102.4 371.0,104.3 372.6,106.2 374.1,108.3 375.7,110.6 377.2,111.5 378.8,111.5 380.4,111.5 381.9,111.5 383.5,111.2 385.0,109.4 386.6,111.3 388.1,109.7 389.7,107.8 391.3,108.2 392.8,108.7 394.4,109.2 395.9,109.7 397.5,110.2 399.1,110.7 400.6,111.2 402.2,110.9 403.7,107.8 405.3,108.8 406.8,112.6 408.4,116.5 410.0,119.0 411.5,119.0 413.1,119.0 414.6,119.0 416.2,119.0 417.7,119.0 419.3,119.0 420.9,119.0 422.4,119.0 424.0,119.0 425.5,119.0 427.1,119.0 428.6,119.0 430.2,119.0 431.8,119.0 433.3,119.0 434.9,116.6 436.4,115.2 438.0,115.2 439.5,114.8 441.1,110.0 442.7,104.2 444.2,105.1 445.8,106.3 447.3,107.4 448.9,109.1 450.4,110.9 452.0,112.7 453.6,114.5 455.1,116.3 456.7,118.1 458.2,120.5 459.8,122.8 461.3,123.2 462.9,125.3 464.5,126.5 466.0,126.5 467.6,129.0 469.1,129.6 470.7,128.4 472.2,127.1 473.8,125.9 475.4,124.7 476.9,123.4 478.5,122.2 480.0,121.0 481.6,119.8 483.1,120.7 484.7,125.0 486.3,129.3 487.8,130.0 489.4,128.0 490.9,126.0 492.5,123.9 494.0,122.8 495.6,122.8 497.2,121.8 498.7,117.5 500.3,113.1 501.8,114.6 503.4,119.6 504.9,124.2 506.5,126.5 508.1,126.5 509.6,126.5 511.2,126.5 512.7,126.5 514.3,122.2 515.8,116.1 517.4,110.1 519.0,97.8 520.5,82.2 522.1,69.9 523.6,59.0 525.2,49.9 526.7,47.7 528.3,47.8 529.9,46.8 531.4,39.2 533.0,35.6 534.5,32.7 536.1,30.6 537.6,29.0 539.2,29.0 540.8,29.0 542.3,29.5 543.9,30.5 545.4,31.5 547.0,32.6 548.5,34.3 550.1,36.1 551.7,38.0 553.2,39.8 554.8,41.7 556.3,43.6 557.9,45.4 559.4,47.3 561.0,49.3 562.6,51.4 564.1,58.4 565.7,62.5 567.2,61.7 568.8,61.0 570.3,60.3 571.9,59.5 573.5,58.1 575.0,55.1 576.6,52.0 578.1,47.6 579.7,44.0 581.2,44.0 582.8,45.2 584.4,49.1 585.9,52.9 587.5,56.7 589.0,62.1 590.6,68.2 592.1,74.0 593.7,76.4 595.3,80.7 596.8,85.1 598.4,92.8 599.9,92.8 601.5,92.8 603.0,88.9 604.6,77.3 606.2,66.7 607.7,63.1 609.3,66.0 610.8,63.4 612.4,60.7 613.9,58.1 615.5,55.4 617.1,52.8 618.6,54.6 620.2,60.6 621.7,66.5 623.3,74.1 624.9,81.6 626.4,85.9 628.0,90.1 629.5,94.3 631.1,98.5 632.6,102.8 634.2,107.0 635.8,111.2 637.3,115.1 638.9,110.0 640.4,109.0 642.0,110.4 643.5,113.9 645.1,123.3 646.7,132.7 648.2,136.4 649.8,139.2 651.3,142.1 652.9,144.9 654.4,145.2 656.0,145.2 657.6,145.2 659.1,145.2 660.7,145.2 662.2,145.2 663.8,145.2 665.3,142.2 666.9,138.5 668.5,134.8 670.0,135.4 671.6,137.1 673.1,138.9 674.7,140.6 676.2,141.8 677.8,142.5 679.4,143.1 680.9,143.7 682.5,144.4 684.0,145.0 685.6,144.4 687.1,143.2 688.7,141.9 690.3,140.7 691.8,139.4 693.4,138.1 694.9,137.8 696.5,137.8 698.0,137.8 699.6,137.8 701.2,137.8 702.7,137.8 704.3,137.8 705.8,137.8 707.4,137.6 708.9,136.7 710.5,135.8 712.1,134.9 713.6,134.0 715.2,133.2 716.7,132.3 718.3,131.4 719.8,130.5 721.4,129.6 723.0,128.7 724.5,127.8 726.1,127.0 727.6,125.9 729.2,124.7 730.7,123.4 732.3,122.2 733.9,121.0 735.4,119.8 737.0,119.9 738.5,122.3 740.1,124.7 741.6,126.4 743.2,126.0 744.8,125.6 746.3,125.3 747.9,124.9 749.4,124.5 751.0,124.1 752.5,123.8 754.1,123.4 755.7,123.0 757.2,123.4 758.8,125.3 760.3,127.2 761.9,129.0 763.4,130.2 765.0,129.0 766.6,125.0 768.1,121.1 769.7,119.7 771.2,121.1 772.8,122.5 774.3,126.5 775.9,126.5 777.5,126.5 779.0,126.5 780.6,130.2 782.1,130.2 783.7,129.1 785.2,127.6 786.8,126.5 788.4,125.8 789.9,123.9 791.5,121.1 793.0,119.0 794.6,119.8 796.1,121.4 797.7,122.8 799.3,121.3 800.8,119.3 802.4,120.3 803.9,121.4 805.5,122.4 807.0,124.7 808.6,127.5 810.2,130.2 811.7,133.0 813.3,130.2 814.8,129.0 816.4,127.5 817.9,126.5 819.5,126.5 821.1,126.5 822.6,126.5 824.2,126.5 825.7,122.2 827.3,119.0 828.8,122.8 830.4,123.8 832.0,127.6 833.5,130.2 835.1,132.3 836.6,137.3 838.2,137.1 839.7,135.5 841.3,133.6 842.9,127.2 844.4,123.3 846.0,116.1 847.5,108.3 849.1,103.8 850.6,102.5 852.2,101.2 853.8,100.2 855.3,100.6 856.9,103.5 858.4,106.3 860.0,107.8 861.6,107.8 863.1,107.8 864.7,107.8 866.0,107.8 L 866.0,164 Z" fill="var(--accent-soft)"/>
+        <polyline points="44.0,107.8 45.6,107.8 47.1,107.8 48.7,108.0 50.2,109.2 51.8,110.5 53.3,111.7 54.9,113.0 56.5,114.2 58.0,115.2 59.6,115.2 61.1,115.2 62.7,115.2 64.2,115.2 65.8,115.2 67.4,115.2 68.9,114.4 70.5,105.8 72.0,102.0 73.6,100.2 75.1,100.2 76.7,100.2 78.3,100.2 79.8,101.8 81.4,104.0 82.9,106.1 84.5,107.8 86.0,107.8 87.6,107.8 89.2,108.0 90.7,110.1 92.3,111.5 93.8,111.5 95.4,111.5 96.9,112.5 98.5,113.6 100.1,114.6 101.6,115.2 103.2,115.2 104.7,115.2 106.3,115.2 107.8,115.2 109.4,113.9 111.0,109.0 112.5,104.0 114.1,104.0 115.6,104.7 117.2,108.4 118.7,111.5 120.3,111.7 121.9,114.1 123.4,115.2 125.0,115.2 126.5,112.9 128.1,111.5 129.6,111.6 131.2,112.0 132.8,112.4 134.3,112.8 135.9,113.3 137.4,113.7 139.0,114.1 140.5,114.5 142.1,114.9 143.7,115.2 145.2,114.9 146.8,111.5 148.3,108.0 149.9,102.5 151.4,99.4 153.0,96.3 154.6,93.2 156.1,90.1 157.7,89.0 159.2,85.1 160.8,81.0 162.4,78.5 163.9,81.9 165.5,85.2 167.0,82.6 168.6,81.8 170.1,82.4 171.7,82.9 173.3,83.5 174.8,84.0 176.4,84.6 177.9,85.1 179.5,82.5 181.0,85.5 182.6,89.5 184.2,91.0 185.7,92.5 187.3,94.0 188.8,95.5 190.4,97.0 191.9,98.5 193.5,100.0 195.1,101.6 196.6,103.1 198.2,102.2 199.7,97.8 201.3,93.9 202.8,90.3 204.4,88.1 206.0,86.6 207.5,85.1 209.1,83.4 210.6,81.7 212.2,80.0 213.7,78.2 215.3,80.7 216.9,83.3 218.4,86.4 220.0,93.1 221.5,96.7 223.1,100.2 224.6,97.7 226.2,92.7 227.8,85.6 229.3,77.8 230.9,71.1 232.4,64.5 234.0,57.9 235.5,51.5 237.1,51.5 238.7,55.2 240.2,55.5 241.8,57.0 243.3,58.5 244.9,60.1 246.4,61.6 248.0,62.8 249.6,62.8 251.1,62.8 252.7,62.8 254.2,62.8 255.8,68.2 257.3,82.0 258.9,95.8 260.5,107.7 262.0,107.7 263.6,106.3 265.1,104.9 266.7,101.4 268.2,92.9 269.8,84.0 271.4,77.8 272.9,77.4 274.5,68.7 276.0,59.9 277.6,51.7 279.1,57.3 280.7,62.8 282.3,68.4 283.8,73.9 285.4,79.5 286.9,80.4 288.5,78.6 290.0,76.9 291.6,75.1 293.2,73.4 294.7,71.6 296.3,72.5 297.8,82.3 299.4,92.0 300.9,100.2 302.5,98.5 304.1,95.7 305.6,92.9 307.2,90.1 308.7,83.7 310.3,75.1 311.8,71.9 313.4,82.6 315.0,87.2 316.5,91.9 318.1,89.0 319.6,89.0 321.2,87.9 322.7,85.2 324.3,85.2 325.9,85.2 327.4,81.7 329.0,83.1 330.5,84.5 332.1,86.0 333.6,87.4 335.2,88.9 336.8,90.3 338.3,91.7 339.9,93.2 341.4,94.6 343.0,96.1 344.5,97.5 346.1,98.9 347.7,100.2 349.2,100.2 350.8,100.2 352.3,100.2 353.9,100.2 355.4,100.2 357.0,100.2 358.6,100.2 360.1,100.2 361.7,100.2 363.2,100.2 364.8,100.2 366.3,100.2 367.9,100.4 369.5,102.4 371.0,104.3 372.6,106.2 374.1,108.3 375.7,110.6 377.2,111.5 378.8,111.5 380.4,111.5 381.9,111.5 383.5,111.2 385.0,109.4 386.6,111.3 388.1,109.7 389.7,107.8 391.3,108.2 392.8,108.7 394.4,109.2 395.9,109.7 397.5,110.2 399.1,110.7 400.6,111.2 402.2,110.9 403.7,107.8 405.3,108.8 406.8,112.6 408.4,116.5 410.0,119.0 411.5,119.0 413.1,119.0 414.6,119.0 416.2,119.0 417.7,119.0 419.3,119.0 420.9,119.0 422.4,119.0 424.0,119.0 425.5,119.0 427.1,119.0 428.6,119.0 430.2,119.0 431.8,119.0 433.3,119.0 434.9,116.6 436.4,115.2 438.0,115.2 439.5,114.8 441.1,110.0 442.7,104.2 444.2,105.1 445.8,106.3 447.3,107.4 448.9,109.1 450.4,110.9 452.0,112.7 453.6,114.5 455.1,116.3 456.7,118.1 458.2,120.5 459.8,122.8 461.3,123.2 462.9,125.3 464.5,126.5 466.0,126.5 467.6,129.0 469.1,129.6 470.7,128.4 472.2,127.1 473.8,125.9 475.4,124.7 476.9,123.4 478.5,122.2 480.0,121.0 481.6,119.8 483.1,120.7 484.7,125.0 486.3,129.3 487.8,130.0 489.4,128.0 490.9,126.0 492.5,123.9 494.0,122.8 495.6,122.8 497.2,121.8 498.7,117.5 500.3,113.1 501.8,114.6 503.4,119.6 504.9,124.2 506.5,126.5 508.1,126.5 509.6,126.5 511.2,126.5 512.7,126.5 514.3,122.2 515.8,116.1 517.4,110.1 519.0,97.8 520.5,82.2 522.1,69.9 523.6,59.0 525.2,49.9 526.7,47.7 528.3,47.8 529.9,46.8 531.4,39.2 533.0,35.6 534.5,32.7 536.1,30.6 537.6,29.0 539.2,29.0 540.8,29.0 542.3,29.5 543.9,30.5 545.4,31.5 547.0,32.6 548.5,34.3 550.1,36.1 551.7,38.0 553.2,39.8 554.8,41.7 556.3,43.6 557.9,45.4 559.4,47.3 561.0,49.3 562.6,51.4 564.1,58.4 565.7,62.5 567.2,61.7 568.8,61.0 570.3,60.3 571.9,59.5 573.5,58.1 575.0,55.1 576.6,52.0 578.1,47.6 579.7,44.0 581.2,44.0 582.8,45.2 584.4,49.1 585.9,52.9 587.5,56.7 589.0,62.1 590.6,68.2 592.1,74.0 593.7,76.4 595.3,80.7 596.8,85.1 598.4,92.8 599.9,92.8 601.5,92.8 603.0,88.9 604.6,77.3 606.2,66.7 607.7,63.1 609.3,66.0 610.8,63.4 612.4,60.7 613.9,58.1 615.5,55.4 617.1,52.8 618.6,54.6 620.2,60.6 621.7,66.5 623.3,74.1 624.9,81.6 626.4,85.9 628.0,90.1 629.5,94.3 631.1,98.5 632.6,102.8 634.2,107.0 635.8,111.2 637.3,115.1 638.9,110.0 640.4,109.0 642.0,110.4 643.5,113.9 645.1,123.3 646.7,132.7 648.2,136.4 649.8,139.2 651.3,142.1 652.9,144.9 654.4,145.2 656.0,145.2 657.6,145.2 659.1,145.2 660.7,145.2 662.2,145.2 663.8,145.2 665.3,142.2 666.9,138.5 668.5,134.8 670.0,135.4 671.6,137.1 673.1,138.9 674.7,140.6 676.2,141.8 677.8,142.5 679.4,143.1 680.9,143.7 682.5,144.4 684.0,145.0 685.6,144.4 687.1,143.2 688.7,141.9 690.3,140.7 691.8,139.4 693.4,138.1 694.9,137.8 696.5,137.8 698.0,137.8 699.6,137.8 701.2,137.8 702.7,137.8 704.3,137.8 705.8,137.8 707.4,137.6 708.9,136.7 710.5,135.8 712.1,134.9 713.6,134.0 715.2,133.2 716.7,132.3 718.3,131.4 719.8,130.5 721.4,129.6 723.0,128.7 724.5,127.8 726.1,127.0 727.6,125.9 729.2,124.7 730.7,123.4 732.3,122.2 733.9,121.0 735.4,119.8 737.0,119.9 738.5,122.3 740.1,124.7 741.6,126.4 743.2,126.0 744.8,125.6 746.3,125.3 747.9,124.9 749.4,124.5 751.0,124.1 752.5,123.8 754.1,123.4 755.7,123.0 757.2,123.4 758.8,125.3 760.3,127.2 761.9,129.0 763.4,130.2 765.0,129.0 766.6,125.0 768.1,121.1 769.7,119.7 771.2,121.1 772.8,122.5 774.3,126.5 775.9,126.5 777.5,126.5 779.0,126.5 780.6,130.2 782.1,130.2 783.7,129.1 785.2,127.6 786.8,126.5 788.4,125.8 789.9,123.9 791.5,121.1 793.0,119.0 794.6,119.8 796.1,121.4 797.7,122.8 799.3,121.3 800.8,119.3 802.4,120.3 803.9,121.4 805.5,122.4 807.0,124.7 808.6,127.5 810.2,130.2 811.7,133.0 813.3,130.2 814.8,129.0 816.4,127.5 817.9,126.5 819.5,126.5 821.1,126.5 822.6,126.5 824.2,126.5 825.7,122.2 827.3,119.0 828.8,122.8 830.4,123.8 832.0,127.6 833.5,130.2 835.1,132.3 836.6,137.3 838.2,137.1 839.7,135.5 841.3,133.6 842.9,127.2 844.4,123.3 846.0,116.1 847.5,108.3 849.1,103.8 850.6,102.5 852.2,101.2 853.8,100.2 855.3,100.6 856.9,103.5 858.4,106.3 860.0,107.8 861.6,107.8 863.1,107.8 864.7,107.8 866.0,107.8" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>
+        <line x1="44.0" x2="44.0" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="44.0" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">0</text>
+        <line x1="160.8" x2="160.8" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="160.8" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">3</text>
+        <line x1="277.6" x2="277.6" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="277.6" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">6</text>
+        <line x1="394.4" x2="394.4" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="394.4" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">9</text>
+        <line x1="511.2" x2="511.2" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="511.2" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">12</text>
+        <line x1="628.0" x2="628.0" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="628.0" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">15</text>
+        <line x1="744.8" x2="744.8" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="744.8" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">18</text>
+        <line x1="861.6" x2="861.6" y1="164" y2="168" stroke="var(--rule-strong)" stroke-width="1"/><text x="861.6" y="179" fill="var(--muted)" font-size="9" text-anchor="middle">21</text>
+        <line x1="44" x2="866" y1="164" y2="164" stroke="var(--rule-strong)" stroke-width="1"/>
+        <circle cx="526.4" cy="29.0" r="3.5" fill="var(--alert)"/>
+        <text x="526.4" y="21.0" fill="var(--alert)" font-size="10" font-weight="600" text-anchor="middle">la côte</text>
+        <text x="663" y="108" fill="var(--ink-2)" font-size="10" text-anchor="start">descente km 14 à 16</text>
+        <path d="M 659,105 L 640,116" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="2 2" fill="none"/>
+        <text x="838.2" y="97.8" fill="var(--ink-2)" font-size="10" text-anchor="end">arrivée montante</text>
+        </svg>
+      </div>
+      <div class="chart-legend">
+        <span class="lg">21,11 km</span>
+        <span class="lg">axe horizontal en km</span>
+        <span class="lg">139 m de D+</span>
+        <span class="lg">altitude 60 à 91 m</span>
+        <span class="lg">boucle fermée</span>
+      </div>
+      <p style="font-size:var(--fs-micro); color:var(--muted);"><b>L'échelle verticale est dilatée</b> : 35 m d'amplitude étalés sur toute la hauteur. Le parcours est nettement plus plat que ne le suggère le dessin. Source : <a href="https://www.openrunner.com/route-details/22768242" target="_blank" rel="noopener">tracé Openrunner officiel</a>, <b>modifié le 1<sup>er</sup> juillet 2026</b>. Le titre du parcours porte encore la mention 2025 et les horodatages du fichier datent de sa création en octobre 2025, mais l'export reflète bien l'état actuel du tracé : c'est le parcours 2026. Openrunner annonce 100 m de D+, mon calcul en donne 139 : l'écart vient du seuil de lissage appliqué au bruit d'altitude. Dans les deux cas, c'est roulant.</p>
+    </div>
+
+    <div class="rule-box">
+      <span><strong>C'est un parcours roulant.</strong> 139 m de dénivelé sur un semi, soit 6,6 m par kilomètre, et une boucle fermée où tout ce qui monte redescend. Le surcoût par rapport à un parcours totalement plat est de l'ordre de <b>40 à 60 secondes</b> sur l'ensemble. Il ne remet pas en cause l'objectif de 1h45 à 1h48.</span>
+    </div>
+
+    <div class="card trace-card">
+      <div class="trace-wrap">
+        <svg viewBox="0 0 184 432" role="img" aria-label="Tracé vu du dessus : deux boucles successives autour du départ, une au sud sur les 9 premiers kilomètres, une au nord ensuite. Nord en haut.">
+        <polyline points="125.9,258.2 119.9,257.8 111.1,248.4 111.1,248.3 111.3,248.1 125.2,250.7 125.8,250.9 128.3,252.1 131.6,252.1 133.2,252.2 133.3,252.3 132.4,258.1 124.9,258.2 120.6,258.0 120.2,258.2 120.0,258.5 119.9,259.0 120.0,259.3 120.3,259.7 120.5,259.9 124.3,260.7 128.9,262.4 136.6,263.3 145.8,265.0 146.3,265.2 147.2,266.0 149.0,268.7 149.1,269.0 149.1,269.3 147.8,274.0 146.4,278.1 146.0,278.9 145.2,280.1 142.8,282.6 141.8,283.9 141.1,285.4 140.1,288.5 139.7,289.3 139.3,289.7 138.5,290.5 122.7,301.7 120.7,303.2 119.6,304.4 119.0,305.5 118.2,307.0 117.9,307.9 115.2,318.0 114.6,319.4 112.2,324.7 110.3,329.0 109.2,331.9 103.7,345.5 103.0,347.6 102.5,350.5 102.1,361.3 102.1,371.9 102.2,375.6 102.6,380.0 102.9,385.5 102.5,390.2 101.4,394.7 100.4,396.4 98.6,399.4 97.3,401.3 94.4,404.8 92.2,407.1 90.9,408.8 90.6,409.2 90.5,409.9 90.3,411.5 90.2,411.6 89.9,411.8 81.7,414.1 79.4,415.0 77.9,415.3 75.7,415.6 65.2,416.0 61.3,415.8 58.2,415.2 56.1,415.0 54.9,414.7 48.8,412.5 48.0,412.2 45.9,412.1 40.1,412.1 35.4,411.3 34.8,411.1 34.3,410.8 34.1,410.3 34.0,409.8 34.0,409.2 34.1,408.8 34.6,407.7 38.1,402.3 44.4,392.5 52.0,381.0 55.7,375.6 56.4,374.7 59.6,369.9 61.3,367.6 63.3,363.3 64.6,361.7 65.6,360.9 68.5,358.8 69.0,358.5 69.6,358.5 69.9,358.1 70.0,357.5 70.0,357.2 69.6,353.7 70.1,350.8 70.1,349.1 70.3,347.6 70.6,346.5 71.1,345.3 70.9,344.9 70.9,344.7 82.6,319.2 89.3,304.7 90.7,301.8 90.8,301.7 91.0,301.6 95.3,303.0 95.5,302.9 97.2,299.7 101.0,292.3 102.6,289.2 103.2,287.1 104.6,285.3 107.0,281.3 107.4,281.2 111.9,280.6 112.0,280.5 112.2,280.3 113.1,276.4 116.7,260.2 116.9,260.0 119.0,259.2 119.3,258.9 119.5,258.4 119.4,258.1 119.1,257.6 114.9,252.9 97.5,234.1 97.4,233.7 97.5,231.6 98.0,228.6 98.6,226.4 99.4,224.0 100.2,222.2 101.0,220.9 101.9,219.3 103.0,217.8 104.7,215.7 109.4,210.5 118.1,200.4 119.8,198.0 120.9,196.3 122.8,192.9 124.2,190.0 125.3,187.3 132.4,168.9 133.9,163.5 133.4,162.5 133.4,162.2 133.6,158.1 133.6,154.3 132.7,149.5 131.0,144.3 129.9,139.5 129.6,137.6 129.2,134.8 128.6,127.8 128.4,127.5 121.7,127.8 118.8,127.7 114.9,127.8 111.3,128.1 111.0,128.2 110.8,128.7 110.9,129.4 111.8,132.4 111.8,132.7 111.7,133.0 111.5,133.1 110.2,133.4 109.9,133.7 110.3,136.0 110.5,138.1 110.2,138.3 110.0,138.3 106.8,136.3 105.9,135.4 105.4,134.9 104.7,133.9 103.4,131.6 99.7,124.5 91.4,109.3 89.8,105.7 88.9,102.5 86.2,91.8 85.1,86.7 84.6,83.2 84.7,83.0 86.3,81.7 86.7,81.1 87.2,80.2 90.0,72.3 90.4,71.3 90.9,70.7 91.5,70.1 92.1,69.6 92.8,69.3 93.7,69.2 94.7,69.2 98.5,69.5 100.2,69.3 101.0,69.0 102.1,68.4 106.4,65.0 107.7,63.6 108.3,62.6 108.7,61.8 109.1,60.5 109.5,58.6 109.7,56.7 111.9,44.7 112.9,39.4 113.9,35.3 117.2,18.4 117.7,16.3 117.8,16.1 118.0,16.0 123.3,17.4 128.3,18.9 136.2,22.2 150.2,27.5 150.3,27.7 149.5,34.2 148.4,43.3 147.0,55.8 145.3,68.5 143.3,86.7 140.0,113.8 138.5,126.9 137.6,133.6 135.2,154.7 134.0,163.2 134.3,164.4 134.3,164.9 134.2,165.4 132.4,171.2 130.4,176.7 130.1,177.7 130.0,178.8 129.8,182.0 129.7,182.7 129.5,183.4 129.2,184.0 128.6,184.7 128.1,185.1 126.8,186.3 125.8,188.2 123.5,193.1 122.6,194.8 120.3,198.3 119.1,199.8 117.7,201.6 114.5,205.3 114.0,206.9 112.7,208.6 112.7,208.9 115.4,216.0 118.1,224.3 118.3,224.6 119.7,225.3 124.8,226.2 134.2,227.6 134.4,227.4 134.9,226.0 137.1,226.4 137.6,226.6 138.4,227.1 140.2,228.8 143.1,231.8 143.5,232.4 143.7,232.8 143.8,233.6 143.3,236.8 142.7,237.7 138.5,240.5 137.6,241.3 136.7,242.3 135.4,244.1 134.4,248.1 133.8,249.6 132.8,255.8 132.5,258.1 132.4,258.1 126.8,258.2 124.3,258.2 120.9,257.9 120.3,258.1 120.1,258.2 119.9,258.6 120.0,258.8 122.1,259.0" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
+        <circle cx="77.9" cy="415.3" r="3" fill="var(--ink-2)"/><text x="71.9" y="418.3" fill="var(--ink-2)" font-size="9" text-anchor="end">km 5</text>
+        <circle cx="121.7" cy="127.8" r="3" fill="var(--alert)"/><text x="127.7" y="130.8" fill="var(--alert)" font-size="9" text-anchor="start">la côte</text>
+        <circle cx="113.9" cy="35.3" r="3" fill="var(--ink-2)"/><text x="107.9" y="30" fill="var(--ink-2)" font-size="9" text-anchor="end">descente</text>
+        <circle cx="148.4" cy="43.3" r="3" fill="var(--ink-2)"/><text x="154.4" y="46.3" fill="var(--ink-2)" font-size="9" text-anchor="start">km 16</text>
+        <rect x="121.9" y="254.2" width="8" height="8" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/>
+        <text x="117.9" y="261.2" fill="var(--accent)" font-size="9" font-weight="600" text-anchor="end">départ</text>
+        <g stroke="var(--muted)" fill="var(--muted)"><line x1="16" y1="402" x2="16" y2="418" stroke-width="1"/><path d="M 16,400 l -3,5 l 6,0 Z"/><text x="16" y="428" font-size="8" text-anchor="middle">N</text></g>
+        </svg>
+      </div>
+      <div>
+        <h3>Deux boucles, pas une</h3>
+        <p>Le tracé n'est pas une grande boucle : c'est <b>une boucle sud sur les 9 premiers kilomètres, puis une boucle nord sur les 12 suivants</b>, les deux partant du même point.</p>
+        <p><b>Tu repasses donc près de l'arrivée vers le km 9,5</b>, à peu près à mi-course. C'est le moment mentalement le plus traître d'un semi en double boucle : le corps reconnaît le décor, la tête croit que c'est bientôt fini, et il reste 11 km. Sache-le à l'avance, ça suffit à le désamorcer.</p>
+        <p>Bonne nouvelle en revanche : ce point de passage est en général celui où se concentrent public et ravitaillement, et tu le verras deux fois.</p>
+        <p style="font-size:var(--fs-micro); color:var(--muted);">Nord en haut. Tracé à l'échelle, sans fond de carte. Pour la carte réelle : <a href="https://www.openrunner.com/route-details/22768242" target="_blank" rel="noopener">openrunner.com/route-details/22768242</a></p>
+      </div>
+    </div>
+
+    <div class="duo">
+      <div class="card">
+        <h3>Les passages qui comptent</h3>
+        <div class="tbl-scroll">
+          <table>
+            <thead><tr><th scope="col">Où</th><th scope="col">Quoi</th><th scope="col">À faire</th></tr></thead>
+            <tbody>
+              <tr><td class="num">km 4,6 à 7</td><td>Quatre bosses courtes, 3 à 4 % de pente, entrecoupées de descentes à 4 et 5 %</td><td>Ne pas se battre. FC constante, l'allure fait l'accordéon</td></tr>
+              <tr><td class="num"><b>km 12,0 à 12,4</b></td><td><b>La côte : 22 m en 334 m, soit 6,6 % de moyenne</b></td><td>Le seul vrai effort. Perdre 15 à 20 s sur ce kilomètre est normal et prévu</td></tr>
+              <tr><td class="num">km 13,8 à 15,9</td><td>Descente presque continue, 40 m perdus en 2 km</td><td><b>Le passage à risque pour la bandelette</b>, pas pour le chrono</td></tr>
+              <tr><td class="num">km 20,4 à 20,8</td><td>10 m à 2,2 % pour finir</td><td>L'arrivée monte. Garder de quoi, ne pas lancer le sprint trop tôt</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Ce que ça change à l'entraînement</h3>
+        <p>Un point sérieux ressort du tracé, et il ne concerne pas le chrono.</p>
+        <p><b>La descente du km 14 au km 16 tombe vers 1h10 de course</b>, exactement dans la fenêtre où ta bandelette parle aujourd'hui. Or une descente courue à allure de course est bien plus agressive pour elle qu'une descente en footing, et la consigne actuelle est de <em>marcher</em> les descentes en séance de côtes. Cette consigne protège, mais elle ne prépare à rien.</p>
+        <div class="guard">
+          <span><strong>À intégrer en phase 3, à partir d'octobre :</strong> des descentes courues progressives en fin de sortie longue, sur pente douce de 2 à 3 %, jamais plus. Sans ça, le jour J, la bandelette découvre le stimulus au km 14 d'un semi. Le renforcement du moyen fessier reste le levier principal, mais il ne remplace pas l'exposition graduelle.</span>
+        </div>
+        <p style="font-size:var(--fs-small);">Deuxième conséquence, mineure : la côte du km 12 mérite deux ou trois répétitions de reconnaissance en octobre, sur une pente comparable, à allure de course. Savoir ce que coûtent 330 m à 6,6 % après une heure d'effort vaut mieux que le découvrir en course.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LE PLAN ============ -->
+  <section id="fond">
+    <div class="sec-head">
+      <div class="kicker">Le raisonnement</div>
+      <h2>Le plan en bref</h2>
+    </div>
+
+    <div class="chart">
+      <div class="chart-legend">
+        <span class="lg"><span class="swatch"></span> Réalisé</span>
+        <span class="lg"><span class="swatch ghost"></span> À venir</span>
+        <span class="lg"><span class="swatch tick"></span> Prévu</span>
+      </div>
+      <div class="plot" role="img" aria-label="Volume utile hebdomadaire : S1 19,1 km, S2 37,6, S3 40 réalisés pour 33 visés, S4 23, S5 40.">
+        <div class="col"><span class="target" style="bottom:67.5%;"></span><span class="bar" style="--h:47.8%;"></span></div>
+        <div class="col"><span class="target" style="bottom:85%;"></span><span class="bar" style="--h:94%;"></span></div>
+        <div class="col"><span class="target" style="bottom:82.5%;"></span><span class="bar" style="--h:100%;"></span></div>
+        <div class="col future"><span class="target" style="bottom:65%;"></span><span class="bar" style="--h:57.5%;"></span></div>
+        <div class="col future"><span class="target" style="bottom:100%;"></span><span class="bar" style="--h:100%;"></span></div>
+      </div>
+      <div class="plot-x">
+        <span class="bar-label">S1<b>19,1</b></span>
+        <span class="bar-label">S2<b>37,6</b></span>
+        <span class="bar-label">S3<b>40</b></span>
+        <span class="bar-label">S4<b>23</b></span>
+        <span class="bar-label">S5<b>40</b></span>
+      </div>
+    </div>
+
+    <div class="duo">
+      <div class="card">
+        <h3>18 semaines</h3>
+        <div class="tbl-scroll">
+          <table>
+            <thead><tr><th scope="col">Phase</th><th scope="col">Dates</th></tr></thead>
+            <tbody>
+              <tr><td>1 · Construction</td><td class="num">20/07 – 23/08</td></tr>
+              <tr><td>2 · Seuil <small>(détaillée)</small></td><td class="num">24/08 – 04/10</td></tr>
+              <tr><td>3 · Spécifique</td><td class="num">05/10 – 08/11</td></tr>
+              <tr><td>4 · Affûtage</td><td class="num">09/11 – 22/11</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:var(--fs-micro); color:var(--muted);">Phase 2 : volume vers 50 km par le milieu de semaine, seuil progressif. Phase 3 : longues qualitatives avec blocs à allure semi. Phase 4 : volume −40 puis −55 %.</p>
+      </div>
+
+      <div class="card">
+        <h3>Charge réelle</h3>
+        <div class="tbl-scroll">
+          <table>
+            <tbody>
+              <tr><td>Course</td><td class="num">4–5 / sem.</td></tr>
+              <tr><td>Musculation</td><td class="num">3 / sem.</td></tr>
+              <tr><td>Renfo fessier</td><td class="num">3 / sem.</td></tr>
+              <tr><td>Hyrox (septembre)</td><td class="num">1 / sem.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:var(--fs-micro); color:var(--muted);"><b>8 à 9 séances par semaine.</b> Quand la VFC descend, ne pas chercher la cause uniquement dans les kilomètres : une séance jambes pèse autant qu'une sortie longue.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>L'objectif</h3>
+      <p style="font-size:var(--fs-small);">Depuis le 13 août, le chrono ne se raisonne plus en pourcentage de VMA mais à partir de ton <b>seuil mesuré, 4'42/km</b>. Ce qui décide de ton semi, c'est l'écart que tu arrives à tenir entre ce seuil et ton allure de course sur 21 km.</p>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Chrono</th><th scope="col">Allure</th><th scope="col">Écart au seuil</th><th scope="col"></th></tr></thead>
+          <tbody>
+            <tr><td class="num"><b>1h48</b></td><td class="num"><b>5'07</b></td><td class="num">+25 s/km</td><td><b>Le plancher</b>, atteignable sur ta forme d'aujourd'hui</td></tr>
+            <tr><td class="num"><b>1h45</b></td><td class="num"><b>4'59</b></td><td class="num">+17 s/km</td><td><b>Le scénario central</b> visé en novembre</td></tr>
+            <tr><td class="num">1h42</td><td class="num">4'50</td><td class="num">+8 s/km</td><td>Écart de coureur confirmé. Pas cette année</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:var(--fs-small);">Aujourd'hui ton écart est d'environ <b>23 s/km</b>. Le faire descendre à 17 s, c'est tout le travail des phases 2 et 3, et c'est ce que construisent les blocs de seuil et les finish de sortie longue. Le seuil lui-même ne bougera que peu, et ce n'est pas grave : ce n'est pas lui le facteur limitant.</p>
+      <div class="rule-box">
+        <span><strong>Pourquoi le VO2max ne sert à rien ici.</strong> Ta VMA vaut 16,5 km/h, mesurée sur piste en 2025. Ton seuil actuel n'en représente que <b>77 %</b>, là où un coureur entraîné en endurance est à 82 ou 88 %. Gros moteur, petit réservoir : tout le gain disponible est dans le volume et le seuil, rien dans le plafond.<br><br>Conséquence à retenir : <b>1h45 n'est pas une limite physiologique mais une limite d'entraînement.</b> Ton plafond réel est bien plus bas en chrono, il n'est simplement pas atteignable en 14 semaines à 40 ou 50 km par semaine, et le chercher casserait le genou avant novembre.</span>
+      </div>
+      <p style="font-size:var(--fs-micro); color:var(--muted);">Historique : 1h42 avait été visé le 2 août puis écarté le 3, pour des raisons de contexte et non de calcul. La prédiction COROS de 1h51 date du 2 août et est périmée depuis la mesure du seuil.</p>
+    </div>
+
+    <div class="rule-box">
+      <span><strong>Sortie longue : plafond de 1h50, en durée et non en distance.</strong> Elle pesait 44 % du volume hebdomadaire quand le repère est 30 à 35 %. Quand ton allure d'endurance descendra, la même durée donnera plus de kilomètres. Jamais 21 km à l'entraînement.</span>
+    </div>
+  </section>
+
+  <footer>
+    Mise à jour du 14 août 2026 : phase 2 écrite en détail, S6 à S11, calée sur le seuil mesuré. Date de course confirmée au dimanche 22 novembre, parcours officiel analysé. Le 13 août : contre-la-montre réalisé, seuil mesuré à 4'42/km pour une FC de 162, zones d'allure et de FC recalculées, pronostic révisé à 1h45–1h48. Le 12 août : ordre des tests de S4 inversé, contre-la-montre le jeudi 13, demi-Cooper le dimanche 16. Le 10 août : bilan S3 (~40 km réalisés pour 33 visés, footing du vendredi ajouté), entrée en semaine de décharge S4 avec les deux tests. Révision du 3 août : objectif sous 1h48, sortie longue sans finish, bilan kiné. Données COROS Pace 4.
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var root = document.documentElement;
+
+  /* --- Entrée et apparition au défilement ----------------------------- */
+  if (!calm && 'IntersectionObserver' in window) {
+    root.classList.add('js-anim');
+
+    var blocks = document.querySelectorAll('.sec-head, .week, .card, .chart, .rule-box, .guard');
+    var onScreen = [], later = [];
+
+    Array.prototype.forEach.call(blocks, function (el) {
+      // ce qui est déjà à l'écran prolonge la séquence d'entrée,
+      // le reste attend son tour au défilement
+      (el.getBoundingClientRect().top < window.innerHeight * 0.94 ? onScreen : later).push(el);
+    });
+
+    // animation CSS : elle démarre seule, sans dépendre d'un frame
+    onScreen.forEach(function (el, i) {
+      el.style.animationDelay = (0.78 + i * 0.13) + 's';
+      el.classList.add('reveal-now');
+    });
+
+    later.forEach(function (el) { el.classList.add('reveal'); });
+
+    /* Révélation par balayage au défilement plutôt que par observateur :
+       déterministe, et surtout aucun bloc ne peut rester invisible si un
+       mécanisme asynchrone ne se déclenche pas. */
+    var sweep = function () {
+      var limit = window.innerHeight * 0.92;
+      later = later.filter(function (el) {
+        if (el.getBoundingClientRect().top < limit) {
+          el.classList.add('is-in');
+          return false;
+        }
+        return true;
+      });
+      if (!later.length) {
+        window.removeEventListener('scroll', sweep);
+        window.removeEventListener('resize', sweep);
+      }
+    };
+
+    window.addEventListener('scroll', sweep, { passive: true });
+    window.addEventListener('resize', sweep);
+    sweep();
+
+    // filet : rien ne doit rester masqué, quoi qu'il arrive
+    setTimeout(function () {
+      later.forEach(function (el) { el.classList.add('is-in'); });
+    }, 12000);
+  }
+
+  /* --- Séance du jour ------------------------------------------------ */
+  var d = new Date();
+  var pad = function (n) { return String(n).padStart(2, '0'); };
+  var key = d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+  var row = document.querySelector('tr[data-date="' + key + '"]');
+  if (row) { row.classList.add('is-today'); }
+
+  /* --- Nav : ombre quand elle se décolle ------------------------------ */
+  var nav = document.querySelector('nav.jump');
+  var sentinel = document.getElementById('nav-sentinel');
+  if (nav && sentinel && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      nav.classList.toggle('is-stuck', !entries[0].isIntersecting);
+    }).observe(sentinel);
+  }
+
+  /* --- Nav : section courante ----------------------------------------- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('nav.jump a'));
+  var sections = links
+    .map(function (a) { return document.querySelector(a.getAttribute('href')); })
+    .filter(Boolean);
+
+  if (sections.length) {
+    var mark = function (id) {
+      links.forEach(function (a) {
+        a.classList.toggle('is-active', a.getAttribute('href') === '#' + id);
+      });
+    };
+
+    /* Section courante = la dernière dont le haut est passé sous la nav.
+       Déterministe : il y a toujours exactement une section active, sans
+       zone morte entre deux blocs. */
+    var update = function () {
+      var line = (nav ? nav.getBoundingClientRect().height : 40) + 24;
+      var current = sections[0];
+
+      for (var i = 0; i < sections.length; i++) {
+        if (sections[i].getBoundingClientRect().top - line <= 0) { current = sections[i]; }
+      }
+
+      // bas de page : la dernière section est forcément celle qu'on lit
+      var atEnd = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
+      if (atEnd) { current = sections[sections.length - 1]; }
+
+      mark(current.id);
+    };
+
+    var ticking = false;
+    var onScroll = function () {
+      if (ticking) { return; }
+      ticking = true;
+      requestAnimationFrame(function () { update(); ticking = false; });
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+
+    // retour immédiat au clic, sans attendre la fin du défilement
+    links.forEach(function (a) {
+      a.addEventListener('click', function () { mark(a.getAttribute('href').slice(1)); });
+    });
+
+    update();
+  }
+
+  /* --- Graphique : les barres se construisent à l'entrée dans le champ - */
+  var chart = document.querySelector('.chart');
+  if (chart && !calm) {
+    chart.classList.add('will-animate');
+
+    var go = function () {
+      var r = chart.getBoundingClientRect();
+      if (r.top < window.innerHeight * 0.85 && r.bottom > 0) {
+        chart.classList.add('is-live');
+        window.removeEventListener('scroll', go);
+        clearTimeout(safety);
+      }
+    };
+
+    // filet : les barres ne doivent jamais rester à zéro
+    var safety = setTimeout(function () {
+      chart.classList.add('is-live');
+      window.removeEventListener('scroll', go);
+    }, 9000);
+
+    window.addEventListener('scroll', go, { passive: true });
+    setTimeout(go, 60);
+  }
+})();
+</script>
+
+</body></html>
