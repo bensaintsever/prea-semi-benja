@@ -309,6 +309,16 @@ Mise en place le 17/08. Le plan s'installe sur téléphone et fonctionne **sans 
 ## Annexe — sujets non traités
 
 **Nutrition de course** (ouvert depuis le 03/08). Départ 9h, 1h48 d'effort. Petit-déjeuner à fixer et tester sur les longues de S14 et S16, décision gels et boisson.
-**Chaussures.** Une seule paire vivante (NovaBlast 5, drop ~8 mm) pour 55 à 63 km/semaine avec une bandelette réactive. Pegasus 38 mortes (800-1200 km). Deuxième paire à acheter maintenant. Chaussure de course choisie et rodée sur un finish avant fin octobre.
+**Chaussures.** Une seule paire vivante : **NovaBlast 5**, drop ~8 mm, mises en service **fin juillet** après une transition d'une semaine et demie. Pegasus 38 mortes (800-1200 km).
+
+**Compteur au 24/08/2026 : ~156 km.** Estimation par cumul des sorties COROS depuis le 26/07, navettes comprises. Borne haute assumée : pour l'usure, mieux vaut surestimer. COROS n'expose aucun suivi d'équipement via MCP, le compteur se tient donc à la main ici. Fourchette réelle 120 à 156 km selon la part des sorties de transition.
+
+**Projection.** Le plan prévoit 543 km de S6 à S18. Avec une seule paire, les NovaBlast arriveraient au jour de la course à **~700 km**, soit la limite haute de leur durée de vie (600 à 800 km). **Il ne faut donc pas courir le semi avec cette paire.**
+
+**Deux actions ouvertes, à traiter maintenant :**
+1. **Acheter la deuxième paire.** L'objet n'est pas d'économiser la première : c'est de varier les contraintes mécaniques, ce qui compte avec une bandelette sous surveillance. En alternant, la NovaBlast finit la préparation vers 430 km et la seconde vers 270 km, toutes deux confortablement dans leur vie utile.
+2. **Choisir la chaussure de course et la roder sur un finish avant fin octobre.** Même logique que les gels : rien de neuf le jour J. Une paire à plaque demande deux ou trois sorties avec allure spécifique dedans.
+
+Le signal de fin de vie n'est pas le compteur mais la sensation : semelle sèche, jambes plus marquées après un footing ordinaire.
 **Date du Hyrox Sprint.** Non confirmée, tombera dans S6-S10. La semaine concernée perd sa longue avec finish et son seuil passe à 2 × 8'.
 **Sommeil et poids.** Données disponibles, jamais exploitées.
