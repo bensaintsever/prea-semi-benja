@@ -82,6 +82,7 @@ Référence historique : **53'00 sur 10 km en août 2025** (5'18/km), couru à f
 | 20/08 | **Descentes du 22/08 retirées.** La côte du jeudi a été redescendue en courant 4 fois sur 5 : la dose d'habituation était déjà prise, et rien ne doit brouiller le test du 23. L'habituation reprend au 29/08 comme prévu |
 | **24/08** | **Test TFL passé.** Première longue avec finish sans aucune sensation, trois jours après 1,7 km de descente courue à 8 %. Aucun changement au plan : le renfo est ce qui produit ce résultat, il ne se relâche pas. Kiné toujours écarté |
 | 25/08 | **Stratégie de ravitaillement posée.** Objet réel : entraîner l'estomac, pas nourrir les longues. Premier gel test le 30/08. Horaire de course à répéter à partir de mi-octobre |
+| 25/08 | **S7 et S8 permutées.** Le week-end du Puy du Fou (4 au 6/09) tombait sur la longue 1h50 + 5 km de finish. La décharge prévue en S8 remonte sur la semaine du déplacement, la montée descend au 7-13/09. Trajectoire de volume : 41, 44, **31**, 46, 46, 50, 32, soit un cycle 2+1 puis 3+1. Sept jours entre longues au lieu de quatorze. **Hyrox du 03/09 retiré** à la demande de Benjamin, le jeudi devient la séance épaule-bras avancée du vendredi |
 
 ### Les sept changements du 17/08
 
