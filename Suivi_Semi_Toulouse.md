@@ -124,6 +124,8 @@ Là où le principe compte : les footings du mardi et du samedi et la base de la
 
 *Version intermédiaire écartée* : les côtes longues avaient d'abord été avancées au mardi pour dégager quatre jours faciles avant le test. Mauvais arbitrage, corrigé le jour même : ça créait un enchaînement footing lundi, qualité mardi, jambes lourdes mercredi, soit trois jours chargés d'affilée, et ça ignorait l'absence de relief sur place. Trois jours entre la qualité du jeudi et la longue du dimanche suffisent.
 
+**4 au 6 septembre, Puy du Fou en famille (S7).** Petit footing le matin possible, **aucune sortie longue**. Tombe sur le week-end de la longue 1h50 + 5 km de finish. Solution retenue : permuter les structures de S7 et S8, la décharge prévue en S8 remontant sur la semaine du déplacement. Voir la décision du 25/08.
+
 **28 au 30 août, week-end à Villandraut.** Terrain **plat**, aucune descente disponible, et pas de salle donc pas de séance épaule-bras. Course possible sans limite. Conséquences : les 2 × 200 m en descente du 29/08 sont **annulés, non reportés** — le 05/09 prévoit déjà 3 × 200 m et reprend le protocole. Le plat est en revanche une bonne nouvelle pour le finish de la longue du 30, celui du 23 ayant été couru en côte.
 
 **2 au 11 novembre, vacances au Maroc, côte.** Course possible, musculation improbable. Impact réel : quasi nul. S16 était déjà réglée sur jambes légères et S17 sur entretien. **La dernière séance jambes chargée devient celle du 26/10 (S15)**, et il n'y a pas de reprise avant le lundi 23/11.
@@ -314,6 +316,8 @@ Mise en place le 17/08. Le plan s'installe sur téléphone et fonctionne **sans 
 **Compteur au 24/08/2026 : ~156 km.** Estimation par cumul des sorties COROS depuis le 26/07, navettes comprises. Borne haute assumée : pour l'usure, mieux vaut surestimer. COROS n'expose aucun suivi d'équipement via MCP, le compteur se tient donc à la main ici. Fourchette réelle 120 à 156 km selon la part des sorties de transition.
 
 **Projection.** Le plan prévoit 543 km de S6 à S18. Avec une seule paire, les NovaBlast arriveraient au jour de la course à **~700 km**, soit la limite haute de leur durée de vie (600 à 800 km). **Il ne faut donc pas courir le semi avec cette paire.**
+
+**Achat calé au 26/09/2026** (anniversaire). Décidé le 25/08. La NovaBlast aura alors 372 km, en pleine forme, et **le 10 km du 04/10 se courra avec elle** : huit jours sont trop courts pour découvrir une plaque sur une course à fond, a fortiori avec une bandelette sous surveillance. Rodage de l'Endorphin à partir du 06/10, puis sur les blocs à allure course de S13 et S14. Elle arrivera au 22/11 avec 80 à 115 km, rodée et fraîche. La NovaBlast finit la préparation vers 585-615 km : **surveiller la sensation dès 450 km, soit mi-octobre**.
 
 **Deux actions ouvertes, à traiter maintenant :**
 1. **Acheter la deuxième paire.** L'objet n'est pas d'économiser la première : c'est de varier les contraintes mécaniques, ce qui compte avec une bandelette sous surveillance. En alternant, la NovaBlast finit la préparation vers 430 km et la seconde vers 270 km, toutes deux confortablement dans leur vie utile.
