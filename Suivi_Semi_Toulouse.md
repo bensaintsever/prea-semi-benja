@@ -81,6 +81,7 @@ Référence historique : **53'00 sur 10 km en août 2025** (5'18/km), couru à f
 | **17/08** | **Revue critique complète. Sept changements, voir ci-dessous** |
 | 20/08 | **Descentes du 22/08 retirées.** La côte du jeudi a été redescendue en courant 4 fois sur 5 : la dose d'habituation était déjà prise, et rien ne doit brouiller le test du 23. L'habituation reprend au 29/08 comme prévu |
 | **24/08** | **Test TFL passé.** Première longue avec finish sans aucune sensation, trois jours après 1,7 km de descente courue à 8 %. Aucun changement au plan : le renfo est ce qui produit ce résultat, il ne se relâche pas. Kiné toujours écarté |
+| 25/08 | **Stratégie de ravitaillement posée.** Objet réel : entraîner l'estomac, pas nourrir les longues. Premier gel test le 30/08. Horaire de course à répéter à partir de mi-octobre |
 
 ### Les sept changements du 17/08
 
@@ -177,6 +178,25 @@ Vérifié le 17/08 sur COROS (codes 100-103, 400, 402, 1200, 9999, du 20/07 au 1
 **À partir de S9 (mi-septembre), charger le bloc maison** : fentes bulgares au poids du corps 3 × 8/jambe et step-down excentrique 3 × 10/jambe sur une marche. **Dans le bloc maison, pas dans la séance de salle**, qui ne bouge pas. Un bloc élastique en endurance a fait ce qu'il pouvait faire au bout de 6 semaines.
 
 Le step-up existant devient un exercice de moyen fessier sans changer l'exécution : surveiller que le bassin du côté libre ne descend pas et que le genou d'appui ne rentre pas.
+
+## Nutrition et ravitaillement
+
+**Décidé le 25/08.** Le sujet n'est pas de nourrir les sorties longues, c'est d'**entraîner le tube digestif** avant la course. Le semi durera 1h48, soit la durée des sorties longues, mais à 5'05/km au lieu de 6'30 : la dépense glucidique y est bien supérieure et l'oxydation des lipides ne compense plus. Un gel jamais testé pris à allure de course est un moyen fiable de se fabriquer des troubles gastriques au km 15.
+
+Repères : les réserves de glycogène couvrent 90 à 120 min d'effort. Consensus de 30 à 60 g de glucides par heure entre 1h et 2h30. Les longues actuelles, plafonnées à 1h50 et courues à FC 132, passent sans apport, ce que confirment les sorties enregistrées (aucune fringale sur 1h41 le 23/08).
+
+**Progression retenue :**
+
+| Quand | Protocole | Objet |
+|---|---|---|
+| Dès le 30/08, longues avec finish | **1 gel (~25 g) vers la 50e minute**, avec de l'eau | Tolérance, rien d'autre |
+| À partir de S13 (longues avec 8 à 12 km à allure course) | 2 prises, vers 45 min et 1h20 | Le besoin devient réel |
+| S14 (25/10) et S16 (08/11), longues de 2h00 | 2 à 3 prises | Figer le protocole définitif |
+| Course, 22/11 | 2 à 3 gels vers 40 min, 1h05 et 1h25 | Exécution de ce qui a été répété |
+
+**Règle** : toujours tester avec le produit exact prévu pour la course. Même marque, même goût, même texture. La tolérance est très individuelle.
+
+**Horaire, point à ne pas oublier** : Benjamin part courir vers 10h15-10h30, y compris le dimanche. Le départ de la course est à **9h**, soit un petit-déjeuner vers 6h30-7h, une heure et demie plus tôt que son habitude. À partir de la mi-octobre, caler **au moins deux longues sur l'horaire de la course**, avec le même petit-déjeuner. La sortie du 03/11 au Maroc est déjà prévue tôt le matin.
 
 ## Séances réalisées
 
