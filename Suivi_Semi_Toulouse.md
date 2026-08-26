@@ -82,6 +82,7 @@ Référence historique : **53'00 sur 10 km en août 2025** (5'18/km), couru à f
 | 20/08 | **Descentes du 22/08 retirées.** La côte du jeudi a été redescendue en courant 4 fois sur 5 : la dose d'habituation était déjà prise, et rien ne doit brouiller le test du 23. L'habituation reprend au 29/08 comme prévu |
 | **24/08** | **Test TFL passé.** Première longue avec finish sans aucune sensation, trois jours après 1,7 km de descente courue à 8 %. Aucun changement au plan : le renfo est ce qui produit ce résultat, il ne se relâche pas. Kiné toujours écarté |
 | 25/08 | **Stratégie de ravitaillement posée.** Objet réel : entraîner l'estomac, pas nourrir les longues. Premier gel test le 30/08. Horaire de course à répéter à partir de mi-octobre |
+| 26/08 | **Seuil du 27/08 maintenu**, malgré la sensation au genou en fin de footing du 26. Le pattern posé le 17/08 tient : c'est la lenteur et la fatigue qui provoquent la compression, pas la vitesse. Le seuil est justement le format où le genou n'a jamais parlé depuis le 13/08. Pas de substitution par une séance jambes non planifiée, qui casserait l'ondulation du bloc sans bénéfice identifié |
 | 25/08 | **S7 et S8 permutées.** Le week-end du Puy du Fou (4 au 6/09) tombait sur la longue 1h50 + 5 km de finish. La décharge prévue en S8 remonte sur la semaine du déplacement, la montée descend au 7-13/09. Trajectoire de volume : 41, 44, **31**, 46, 46, 50, 32, soit un cycle 2+1 puis 3+1. Sept jours entre longues au lieu de quatorze. **Hyrox du 03/09 retiré** à la demande de Benjamin, le jeudi devient la séance épaule-bras avancée du vendredi |
 
 ### Les sept changements du 17/08
@@ -165,6 +166,9 @@ Vérifié le 17/08 sur COROS (codes 100-103, 400, 402, 1200, 9999, du 20/07 au 1
 | 20/08 | Côtes 5 × 3' à 8 %, dont ~1,7 km de descente courue | **rien** |
 | 22/08 | Footing 6 km seul, descentes retirées | **rien** |
 | **23/08** | **16,14 km avec finish, 1h41** | **rien** |
+| **26/08** | 9,36 km, footing + test cadence, fin en côte + ligne droite | **sensation désagréable**, en toute fin (côte du retour + dernière ligne droite courue en côte) |
+
+**Lecture du 26/08** : le schéma est cohérent avec la lecture mécanique du 17/08, pas un nouveau signal. Deux jambes fatiguées différemment sur cette sortie : 15 premières minutes en **descente rapide** (2,5 km à 5'58/km pour seulement FC 127, la pente masque l'effort en fréquence cardiaque mais charge davantage mécaniquement), puis fin de séance sur jambes déjà sollicitées avec une **côte** et un sprint de 20 s dedans (FC pic 163 sur les 10 dernières minutes, cadence retombée à 162 juste avant, signe de fatigue). Aucune sensation pendant les 30 minutes de travail de cadence au milieu, sur terrain plat. **Pas de douleur qui modifie la foulée** : règle de tri, on continue en surveillant, pas de déclenchement kiné.
 
 **Attribution prudente** : l'amélioration du 09/08 vient surtout de la charge réduite (plus court, sans finish, plus lent). Le bloc renfo n'avait qu'une semaine, il en faut 3 à 4. La sensation est repoussée, pas résolue.
 
@@ -221,6 +225,7 @@ Repères : les réserves de glycogène couvrent 90 à 120 min d'effort. Consensu
 | 20/08 | Côtes longues 5 × 3' (dernière de la prépa) | 7,84 km | 6'54, D+ 229 m | 133 | Blocs à FC 147, 154, 155, 155, 157 : pile dans la cible 155-163. **Pente réelle 8 %**, le plan en prévoyait 3 à 6. **Descente courue 4 fois sur 5**, 2'30 étant insuffisant pour 450 m à 8 % : ~1,7 km de descente non planifiée trois jours avant le test. Bonnes sensations, genou muet |
 | 22/08 | Footing seul | 6,05 km | 6'09 | 135 | Descentes retirées comme décidé le 20/08. **Le nom de la séance sur COROS est celui du programme initial, pas de son contenu réel** : ne jamais déduire le contenu d'une séance de son titre |
 | **23/08** | **Longue + finish. LE test TFL** | 16,14 km | base 6'33 (FC 132) · finish 3,63 km à 5'17 (FC 158) | 137 | **Aucune sensation au genou.** Finish : 2 derniers km à 5'02-5'03 corrigés de la pente, mais FC 165 et pic 168. Cadence 179 sur le finish, donc **test cadence non concluant**, à refaire en course lente |
+| 26/08 | Footing + test cadence 176 | 9,36 km | 6'04 (15' d'ouverture en descente à 5'58, FC 127 seulement) | 137 | Cadence moy 171, blocs et lignes droites entre 176 et 181 : **cible tenue**. Fin en côte + 1 ligne droite en côte, FC pic 163. **Sensation désagréable au genou gauche en toute fin**, voir tableau TFL |
 
 ### Volume hebdomadaire
 
