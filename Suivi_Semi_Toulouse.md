@@ -70,6 +70,25 @@ Contre-vérification par la fraction de vitesse seuil tenable sur 21 km : 1h45 =
 
 Référence historique : **53'00 sur 10 km en août 2025** (5'18/km), couru à fond.
 
+### Conditions de réouverture de l'objectif (posé le 27/08)
+
+Question posée le 27/08 : peut-on viser plus vite que 1h48 ? Passée devant trois avis de coachs indépendants (angles performance, durabilité, parcimonie). Verdict unanime : **non, pas maintenant**, mais pas pour la même raison, et un chemin de réouverture objectif existe.
+
+**Ce que dit le calcul (angle performance)** : le pronostic Riegel avec pacing corrigé du contre-la-montre du 13/08 donne déjà **1h47'39**. 1h48 n'est donc pas un objectif délibérément gonflé de marge, c'est quasiment la prédiction brute. Si la forme continue de progresser, une fourchette 1h46-1h47 central / 1h44 plafond devient plausible, mais rien ne se décide avant un chiffre réel.
+
+**Pourquoi pas maintenant (angle durabilité)** : viser plus vite = plus d'intensité et/ou plus de proximité avec l'allure de course, exactement le paramètre qui a produit la gêne hanche du 27/08. Ce serait charger davantage le côté de l'équation qui vient de parler.
+
+**Pourquoi pas maintenant, même si la physio le permettait (angle parcimonie)** : la vraie inconnue d'un premier semi n'est pas l'allure que le seuil autorise sur le papier, c'est la capacité à tenir 21 km sans craquer. Viser plus vite ne teste rien de plus utile là-dessus et retire la marge d'erreur. Le coût est asymétrique : quatre minutes gagnées ne valent pas le risque de vivre un premier semi dans le mur plutôt qu'en négatif split.
+
+**Deux portes de réouverture, les deux doivent être vraies en même temps :**
+
+| Porte | Condition | Source |
+|---|---|---|
+| **As-tu la forme ?** | Le 10 km du 04/10 (déjà prévu au plan), couru à l'effort réel. Sous 48'30 → recentrer sur 1h46-1h47, plafond 1h44. Entre 48'30 et 49'30 → 1h48 reste. Au-dessus → ne rien changer, voire remonter la prudence | Angle performance |
+| **Ton corps peut-il l'absorber ?** | 3 semaines consécutives avec un enchaînement complet seuil/Hyrox/longue, dont une semaine à volume haut (46-50 km), **genou gauche ET hanche droite totalement silencieux** y compris en fin de séance fatiguée, plus un test propre de contrôle proximal (squat unipodal, absence de Trendelenburg visuel) | Angle durabilité |
+
+Un bon 10 km ne suffit pas seul si la hanche ou le genou parlent encore. Un corps silencieux ne suffit pas seul si le 10 km dit que la forme n'y est pas. **Jusqu'à validation des deux, le vrai indicateur du plan n'est pas le chrono, c'est l'absence de signal.**
+
 ## Décisions structurantes et leur historique
 
 | Date | Décision |
@@ -84,6 +103,7 @@ Référence historique : **53'00 sur 10 km en août 2025** (5'18/km), couru à f
 | **24/08** | **Test TFL passé.** Première longue avec finish sans aucune sensation, trois jours après 1,7 km de descente courue à 8 %. Aucun changement au plan : le renfo est ce qui produit ce résultat, il ne se relâche pas. Kiné toujours écarté |
 | 25/08 | **Stratégie de ravitaillement posée.** Objet réel : entraîner l'estomac, pas nourrir les longues. Premier gel test le 30/08. Horaire de course à répéter à partir de mi-octobre |
 | 27/08 | **Divergence artifact/dépôt corrigée.** L'artifact publié contenait depuis le 25/08 des mises à jour jamais reversées dans `index.html` ni donc dans GitHub Pages : la permutation S7/S8 pour le Puy du Fou, du texte affiné sur S5-S6 (parcours plat à Villandraut, finish du 23/08 en montée, etc.), et une section « Reste à traiter » enrichie (nutrition traitée, recommandations de chaussures détaillées : Saucony Endorphin Speed ou Asics Magic Speed en paire d'allure, Pegasus/Ghost/Gel-Cumulus ou Hoka Clifton/Mach si le genou redevient un sujet). **Benjamin suivait donc un plan obsolète sur son téléphone depuis deux jours.** Contenu de l'artifact repris comme base, séance épaule-bras du jeudi appliquée par-dessus, tout republié en un seul geste (dépôt + artifact) |
+| 27/08 | **Challenge du plan par trois avis de coachs indépendants** (performance, durabilité, parcimonie), déclenché par une remarque du père de Benjamin sur la sortie longue. Conclusion sur l'objectif de temps : 1h48 reste le bon choix pour l'instant, deux portes de réouverture posées (10 km du 04/10 + trois semaines de silence des deux zones de vigilance), voir section dédiée dans le Pronostic. Conclusion sur la sortie longue : la règle actuelle (plafond en durée, pas en distance) tient, aucun changement |
 | 27/08 | **Première séance de seuil de la phase 2 réalisée** (3 × 8' : 4'58/FC150 · 4'46/FC156 · 4'44/FC162, cible 4'42-4'50 à FC 155-163). Bloc 1 sous la cible des deux côtés à la fois, pas juste une allure dure à trouver. Bloc 3 dans les deux cibles, pic FC 167 léger dépassement du plafond 165. Conforme à sa signature de pacing (négatif split), pas un problème. **Nouvelle gêne hanche droite latérale** en toute fin, isolée : surveillance sans changement de plan, voir la section dédiée |
 | 27/08 | **Séance épaule-bras avancée au jeudi**, en plus du seuil. Benjamin est encore à Toulouse avec accès salle le 27, puis part à Villandraut où la salle manque. Le vendredi 28/08 ne perd donc plus sa séance haut du corps, seul le renfo fessier (élastique) reste prévu ce jour-là |
 | 26/08 | **Seuil du 27/08 maintenu**, malgré la sensation au genou en fin de footing du 26. Le pattern posé le 17/08 tient : c'est la lenteur et la fatigue qui provoquent la compression, pas la vitesse. Le seuil est justement le format où le genou n'a jamais parlé depuis le 13/08. Pas de substitution par une séance jambes non planifiée, qui casserait l'ondulation du bloc sans bénéfice identifié |
