@@ -135,6 +135,8 @@ Quatre journées chargent les jambes : la barre le lundi, le seuil le mercredi, 
 
 **S16 et S17 sans séance jambes** (Maroc), S18 sans séance jambes (semaine de course). La dernière séance chargée est donc celle du 26/10, en S15. Reprise normale dès le lundi 23/11.
 
+**Point de vigilance ajouté le 29/08** : si une séance jambes lourde saute une semaine (remplacée par autre chose, comme le CINDY de S5), la semaine lourde suivante devient de fait la première vraie charge du cycle — et si elle tombe sur une semaine où la course monte aussi en intensité, les deux courbes montent ensemble au lieu de s'alterner, contredisant la règle n°1. Vérifier ce croisement avant chaque semaine "lourde" à venir (S9, S12, S15), pas seulement se fier à l'étiquette du calendrier.
+
 **La semaine du Hyrox Sprint prime sur tout** : séance jambes en préparation spécifique, longue du dimanche sans finish, seuil du mercredi ramené à 2 × 8'. Date encore inconnue, elle tombera entre S6 et S10.
 
 ### L'intensité grise, et ce que j'avais surdimensionné
@@ -229,6 +231,8 @@ Première apparition d'une **gêne latérale à la hanche droite**, en toute fin
 **À faire au prochain moment calme (pas maintenant, pas symptomatique)** : un test de contrôle proximal simple, squat unipodal en observant si le bassin du côté libre descend (signe de Trendelenburg). Objective l'asymétrie sans attendre un nouvel épisode pour en savoir plus.
 
 **Prochaine décision si ça continue** : un troisième épisode, sur n'importe quel terrain ou intensité, confirmerait un déficit de fond du stabilisateur plutôt qu'une sensibilité à une variable précise — remonter alors le niveau d'alerte (envisager un avis kiné plutôt que la seule surveillance renforcée). Ne pas se rassurer sur la base du terrain ou de l'allure d'une sortie à venir : les deux épisodes actuels montrent que ni le plat ni la facilité ne protègent à eux seuls.
+
+**Couche supplémentaire ajoutée le 29/08 : un ramp-up de charge cumulée, pas juste une variable de séance.** Vérifié sur COROS : VFC et FC repos restent dans la norme (aucune fatigue systémique générale), mais le **ratio de charge court terme/long terme** grimpe à **1,46 le 27/08**, le plus haut de tout le bloc depuis le test du 13/08 (il tournait à ~1,0 la semaine précédente). Ce chiffre ne voit que la course : il ne compte ni la musculation ni le Hyrox, donc la vraie charge cumulée est probablement sous-estimée par ce chiffre, pas exagérée. Or S6 a empilé en 4 jours : la séance jambes complète avec thruster du lundi 24/08 (S6 est catégorisée "semaine lourde" pour la muscu), le Hyrox du mardi 25/08, et la première vraie séance de seuil de la phase 2 le jeudi 27/08. **Point structurel** : la séance jambes lourde de S5 avait été remplacée par un CINDY plus léger (voir plus haut) — S6 est donc en réalité la première vraie semaine lourde de muscu jambes, et elle tombe sur la même semaine que la montée en intensité de la course. Ça contredit la règle n°1 du plan ("la barre monte quand la course descend, jamais les deux la même semaine"), probablement par collision de calendrier plutôt que par choix. Lecture retenue : la capacité du stabilisateur était probablement déjà réduite par ce ramp-up avant même le premier épisode, ce qui explique pourquoi une demande ensuite modérée (le footing facile du 29/08) a suffi à le faire céder une deuxième fois.
 
 ## Nutrition et ravitaillement
 
