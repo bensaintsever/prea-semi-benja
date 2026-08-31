@@ -369,6 +369,38 @@ Connecteur **en lecture seule**. Outils à charger via `tool_search` avant usage
 
 Départs habituels autour de 43.597, 1.466 (domicile Toulouse). Les navettes apparaissent comme des runs de 2,1 à 2,2 km.
 
+## Mise à jour des graphiques de Progression (pour l'assistant)
+
+Section `<h2>Progression</h2>` d'`index.html`, juste après "Aujourd'hui". Quatre blocs `.box`, chacun avec un ou plusieurs SVG faits main (pas de librairie, cohérent avec le reste du PWA hors-ligne) :
+
+1. Allure et efficacité des footings
+2. Fatigue et charge (FC repos, ratio de charge)
+3. Genou et hanche (frise)
+4. Allure au seuil
+
+**Géométrie commune** (sauf frise, voir plus bas) : `viewBox="0 0 700 130"`, marge gauche 34, marge droite 12, zone de tracé de y=18 (haut) à y=108 (bas).
+
+- **x** = `34 + (date − date_min).days / (date_max − date_min).days × (700−34−12)`, date_min/date_max propres à chaque graphique (pas une plage fixe globale).
+- **Grilles de semaine** : lignes verticales aux lundis inclus dans la plage, étiquette `S{n}` où `n = (lundi − 2026-07-20).days // 7 + 1` (S1 a démarré le lundi 20/07). Vérifier le résultat contre les libellés déjà écrits dans `P.days` (le "wlabel"/"week" de chaque jour) plutôt que de faire confiance au calcul seul.
+- **Axes inversés** (plus haut sur le graphe = mieux) : allure et FC repos. `frac = (valeur − lo) / (hi − lo)` puis `y = y_top + frac × (y_bot − y_top)` — une valeur basse (allure rapide en secondes, ou FC repos basse) tombe naturellement en haut, aucune inversion supplémentaire à coder.
+- **Axes littéraux** (pas d'inversion) : efficacité et ratio de charge. Même `frac`, mais `y = y_bot − frac × (y_bot − y_top)`.
+- **Trous de données** : ne pas relier deux points séparés par un jour manquant. Découper le `polyline` en plusieurs éléments (voir FC repos, qui a 3 segments à cause des 08/08, 26/08, 30/08 sans mesure).
+
+**Efficacité = vitesse (km/h) ÷ FC moyenne, jamais allure/FC.** Avec allure/FC, une FC qui monte à allure égale ferait *baisser* le ratio, ce qui se lirait à tort comme une amélioration. Vitesse/FC va dans le bon sens dans les deux cas (plus vite à FC égale, ou FC plus basse à vitesse égale).
+
+**Avant d'ajouter un point de footing**, vérifier via `getActivityDetail` (pas seulement le nom donné à la séance) : dénivelé net, `Training Focus` (doit être "Base", pas "Tempo" ni "Threshold"), cadence, TE anaérobie. Le point du 29/07 a été exclu sur ces critères précis (voir plus haut, section footings). Exclure systématiquement : navettes ("Toulouse Course", ~2,2 km), longues, côtes, seuil, tests (contre-la-montre, demi-Cooper, etc.).
+
+**Avant d'ajouter un point genou/hanche**, uniquement si ce fichier contient un commentaire explicite sur l'état du genou/hanche ce jour-là. Ne jamais déduire "rien" du silence sur une séance non commentée — mieux vaut un trou dans la frise qu'un point inventé.
+
+**Allure au seuil** : allure moyenne = moyenne des allures de chaque bloc de travail (hors récupération), FC moyenne = moyenne des FC de chaque bloc. Bande cible fixe à 4'42-4'50/km (282-290 s) — ne pas la redessiner si le seuil est réévalué, signaler plutôt un décalage visuel entre les points et la bande. Le graphique court actuellement du 24/08 au 23/09 (S6 à S10) ; à étendre quand S10 approche de sa fin. Exclure le 09/09 de ce suivi (VMA courte, format différent, pas du seuil).
+
+**Après toute modification** :
+1. Éditer les `<svg>` concernés dans la section Progression (et le JSON `P.days` séparément si le contenu du jour lui-même change aussi).
+2. Recalculer `VERSION` dans `sw.js` : hash SHA-1 tronqué à 6 caractères de la concaténation de `index.html` + `renfo-moyen-fessier.html` (`hashlib.sha1(...).hexdigest()[:6]`, voir les commits de ce fichier pour la commande exacte).
+3. Garder le texte sur la page minimal — légendes d'axe courtes, une ligne de lecture si besoin, jamais la justification complète. Le raisonnement va ici, dans ce fichier.
+4. Vérifier avant de pousser : équilibre `<div>`/`</div>` et `<svg>`/`</svg>`, validité du JSON `P` (voir les commandes Python utilisées dans les commits précédents). Idéalement aussi une vérification géométrique par `getBBox()`/coordonnées des points via un navigateur (les captures d'écran de la sandbox de test ne sont pas fiables pour ce genre de contenu, limitation déjà rencontrée deux fois).
+5. Committer et pousser directement (canal unique, pas d'artifact — voir `README.md`).
+
 ## Documents du repo
 
 Le repo est publié en GitHub Pages sur **<https://bensaintsever.github.io/prea-semi-benja/>**, et le plan est une **application web installable** (PWA).

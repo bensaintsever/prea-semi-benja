@@ -25,3 +25,5 @@ Le plan est publié comme **PWA installable** (hors-ligne) via GitHub Pages. C'e
 ## Suivi des données
 
 Les données réelles viennent du connecteur **COROS** (montre Pace 4, lecture seule). Pilotage à la fréquence cardiaque avant l'allure. Après chaque séance analysée ou décision prise, mettre à jour `Suivi_Semi_Toulouse.md` **et** `index.html`, puis committer et pousser.
+
+`index.html` contient une section **Progression** (après "Aujourd'hui") avec des graphiques SVG faits main : allure/efficacité des footings, FC repos et ratio de charge, frise genou/hanche, allure au seuil. Pour les mettre à jour à chaque nouveau relevé — géométrie, critères d'inclusion, formules —, voir la section **« Mise à jour des graphiques de Progression (pour l'assistant) »** dans `Suivi_Semi_Toulouse.md`, juste après la section COROS.
