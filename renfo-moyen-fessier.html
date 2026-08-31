@@ -3,158 +3,55 @@
 <title>Renforcement du moyen fessier</title>
 
 <style>
-  :root {
-    --ground: #F4F6F5;
-    --panel: #FBFCFB;
-    --ink: #14181A;
-    --ink-2: #3D4A4C;
-    --muted: #64777A;
-    --rule: #DCE4E2;
-    --accent: #0E5C55;
-    --accent-soft: #E4EFEC;
-    --prio: #A8321C;
-    --prio-soft: #F6E7E2;
+  :root{--bg:#0e1116;--card:#161b22;--card2:#1c2330;--line:#2a3240;--tx:#e6edf3;--dim:#8b98a8;--acc:#4c9aff;--quali:#ff7a45}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--tx);font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif;padding:0 0 60px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:880px;margin:0 auto;padding:0 16px}
 
-    --fs-display: clamp(1.7rem, 6vw, 2.3rem);
-    --fs-body: 1rem;
-    --fs-small: 0.9rem;
-    --fs-micro: 0.72rem;
+  header{padding:26px 0 18px;border-bottom:1px solid var(--line);margin-bottom:20px}
+  header a.back{display:inline-block;color:var(--dim);font-size:13px;text-decoration:none;margin-bottom:10px}
+  header a.back:hover{color:var(--acc)}
+  h1{font-size:23px;font-weight:650;letter-spacing:-.3px}
+  .sub{color:var(--dim);font-size:13.5px;margin-top:3px}
 
-    --sans: "Avenir Next Condensed", "Helvetica Neue Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
-    --serif: Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, "Cascadia Mono", monospace;
-  }
+  .exos{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-top:20px}
+  .exo{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:14px 15px;display:flex;flex-direction:column;gap:10px}
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --ground: #101615; --panel: #161D1C; --ink: #EAF0EE; --ink-2: #C0CECB;
-      --muted: #8B9E9A; --rule: #263130;
-      --accent: #62BFB0; --accent-soft: #16302C; --prio: #E8836A; --prio-soft: #35201A;
-    }
-  }
-  :root[data-theme="light"] {
-    --ground: #F4F6F5; --panel: #FBFCFB; --ink: #14181A; --ink-2: #3D4A4C;
-    --muted: #64777A; --rule: #DCE4E2;
-    --accent: #0E5C55; --accent-soft: #E4EFEC; --prio: #A8321C; --prio-soft: #F6E7E2;
-  }
-  :root[data-theme="dark"] {
-    --ground: #101615; --panel: #161D1C; --ink: #EAF0EE; --ink-2: #C0CECB;
-    --muted: #8B9E9A; --rule: #263130;
-    --accent: #62BFB0; --accent-soft: #16302C; --prio: #E8836A; --prio-soft: #35201A;
-  }
+  .exo-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .exo-top .num{font-size:12.5px;color:var(--dim);font-variant-numeric:tabular-nums}
+  .exo-top h3{flex:1;min-width:0;font-size:15px;font-weight:620}
 
-  * { box-sizing: border-box; }
+  .chip{font-size:9.5px;text-transform:uppercase;letter-spacing:.7px;padding:2px 7px;border-radius:20px;font-weight:700;white-space:nowrap}
+  .chip.base{background:var(--card2);color:var(--dim)}
+  .chip.prio{background:#3d2a1a;color:var(--quali)}
+  .chip.comp{background:#18202e;color:var(--acc)}
 
-  body {
-    background: var(--ground);
-    color: var(--ink);
-    font-family: var(--serif);
-    font-size: var(--fs-body);
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
+  .exo-fig{margin:0}
+  .exo-fig img{display:block;width:100%;height:auto;max-height:11rem;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:#fff}
+  .exo-fig figcaption{font-size:11px;color:var(--dim);margin-top:5px;line-height:1.45}
+  .exo-fig figcaption a{color:var(--dim)}
 
-  .wrap {
-    max-width: 62rem;
-    margin: 0 auto;
-    padding: clamp(1.25rem, 4vw, 2.5rem) clamp(1rem, 4vw, 1.75rem) 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: clamp(1.25rem, 3vw, 2rem);
-  }
+  .mvt{font-size:13.5px;color:#c3cdd9}
+  .mvt b{color:var(--tx)}
 
-  h1, h2, h3, h4, .kicker, .chip { font-family: var(--sans); }
-  h1 { font-size: var(--fs-display); line-height: 1.05; font-weight: 700; letter-spacing: -0.01em; margin: 0; }
-  h3 { font-size: 1.05rem; font-weight: 700; line-height: 1.2; margin: 0; }
-  h4 { font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); font-weight: 700; margin: 0 0 0.2rem; }
-  p { margin: 0; }
+  .exo-meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;border-top:1px solid var(--line);padding-top:9px}
+  .exo-meta h4{font-size:10px;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);font-weight:600;margin-bottom:2px}
+  .exo-meta p{font-size:13px;color:#c3cdd9}
 
-  .kicker { font-size: 0.95rem; color: var(--muted); margin-top: 0.3rem; }
+  .dose{font-size:13px;font-weight:600;color:var(--tx);background:#18202e;border-radius:6px;padding:5px 9px;align-self:flex-start}
 
-  a { color: var(--accent); }
+  .card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:14px 15px;display:flex;flex-direction:column;gap:10px;margin-top:20px}
+  .card h4{font-size:11.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--dim);font-weight:600}
 
-  header {
-    display: flex; flex-direction: column; gap: 0.2rem;
-    border-bottom: 2px solid var(--ink); padding-bottom: 1rem;
-  }
-  header a.back { font-size: var(--fs-small); color: var(--muted); text-decoration: none; margin-bottom: 0.4rem; }
-  header a.back:hover { color: var(--accent); }
+  .plan{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+  .plan-day{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;display:flex;flex-direction:column;gap:2px}
+  .plan-day .d{font-weight:650;font-size:13.5px}
+  .plan-day .c{font-size:13px;color:#c3cdd9}
+  .plan-day .t{font-size:11px;color:var(--dim)}
 
-  /* ---------- grille d'exercices ---------- */
+  footer{color:var(--dim);font-size:12px;margin-top:32px;padding-top:16px;border-top:1px solid var(--line);line-height:1.75}
 
-  .exos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 1rem;
-  }
-
-  .exo {
-    background: var(--panel);
-    border: 1px solid var(--rule);
-    border-radius: 10px;
-    padding: 1rem 1.1rem 1.1rem;
-    display: flex; flex-direction: column; gap: 0.7rem;
-  }
-
-  .exo-top { display: flex; align-items: center; gap: 0.55rem; flex-wrap: wrap; }
-  .exo-top .num { font-family: var(--mono); font-size: var(--fs-small); color: var(--muted); }
-  .exo-top h3 { flex: 1; min-width: 0; }
-
-  .exo-fig { margin: 0; }
-  .exo-fig img {
-    display: block; width: 100%; height: auto; max-height: 11rem; object-fit: cover;
-    border-radius: 8px; border: 1px solid var(--rule); background: #fff;
-  }
-  .exo-fig figcaption { font-size: var(--fs-micro); color: var(--muted); margin-top: 0.35rem; line-height: 1.4; }
-  .exo-fig figcaption a { color: var(--muted); }
-
-  .chip {
-    font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.06em;
-    font-weight: 700; padding: 0.18rem 0.5rem; border-radius: 20px;
-    white-space: nowrap;
-  }
-  .chip.base { color: var(--muted); background: var(--rule); }
-  .chip.prio { color: var(--prio); background: var(--prio-soft); }
-  .chip.comp { color: var(--accent); background: var(--accent-soft); }
-
-  .mvt { font-size: var(--fs-small); color: var(--ink-2); }
-  .mvt b { color: var(--ink); }
-
-  .exo-meta {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem;
-    border-top: 1px solid var(--rule); padding-top: 0.6rem;
-  }
-  .exo-meta p { font-size: var(--fs-small); color: var(--ink-2); }
-
-  .dose {
-    font-family: var(--mono); font-size: var(--fs-small); font-weight: 600;
-    color: var(--ink); background: var(--accent-soft); border-radius: 6px;
-    padding: 0.35rem 0.6rem; align-self: flex-start;
-  }
-
-  /* ---------- planning ---------- */
-
-  .card {
-    background: var(--panel); border: 1px solid var(--rule); border-radius: 10px;
-    padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.75rem;
-  }
-
-  .plan {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: 0.6rem;
-  }
-  .plan-day {
-    background: var(--ground); border: 1px solid var(--rule); border-radius: 8px;
-    padding: 0.6rem 0.7rem; display: flex; flex-direction: column; gap: 0.15rem;
-  }
-  .plan-day .d { font-family: var(--sans); font-weight: 700; font-size: var(--fs-small); }
-  .plan-day .c { font-size: var(--fs-small); color: var(--ink-2); }
-  .plan-day .t { font-size: var(--fs-micro); color: var(--muted); }
-
-  footer { font-size: var(--fs-micro); color: var(--muted); display: flex; flex-direction: column; gap: 0.3rem; }
-
-  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 </style>
 
 <div class="wrap">
@@ -162,7 +59,7 @@
   <header>
     <a class="back" href="index.html">&larr; Retour au plan</a>
     <h1>Renforcement du moyen fessier</h1>
-    <div class="kicker">4 exercices, moins de 20 minutes par semaine, répartis sur 4 jours.</div>
+    <div class="sub">4 exercices, moins de 20 minutes par semaine, répartis sur 4 jours.</div>
   </header>
 
   <section class="exos">
@@ -242,7 +139,7 @@
   </section>
 
   <section class="card">
-    <h4 style="font-size:0.8rem;">Quand</h4>
+    <h4>Quand</h4>
     <div class="plan">
       <div class="plan-day"><span class="d">Lundi</span><span class="c">Bloc complet, 01-04</span><span class="t">7 min &middot; après la séance jambes</span></div>
       <div class="plan-day"><span class="d">Mercredi</span><span class="c">02 + 04</span><span class="t">4 min</span></div>
