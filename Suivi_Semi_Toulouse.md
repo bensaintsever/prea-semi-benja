@@ -232,6 +232,16 @@ Vérifié le 17/08 sur COROS (codes 100-103, 400, 402, 1200, 9999, du 20/07 au 1
 
 **Lecture honnête à ce stade (6 points restants)** : pas de tendance nette sur ces 4 semaines — le ratio d'efficacité oscille entre 0,072 et 0,077 sans direction claire. Écrit tel quel sur la page plutôt que de sur-interpréter un signal encore trop bruité (terrain et chaleur variables d'une sortie à l'autre). Section à revoir dans quelques semaines quand plus de points seront disponibles ; mise à jour manuelle à chaque nouvelle séance de footing (pas d'automatisation, cohérent avec le reste du PWA). **Vigilance pour les prochains ajouts** : vérifier systématiquement le détail COROS (dénivelé, classification d'intensité, cadence) avant d'ajouter un point, pas seulement le nom donné à la séance.
 
+**Trois nouvelles sections ajoutées à "Progression" (30/08)**, sur demande de Benjamin après une proposition de trois pistes : fatigue/charge, frise genou/hanche, allure au seuil.
+
+1. **Fatigue et charge** : FC repos (COROS, `queryRestingHeartRate`) et ratio de charge court/long terme (`queryTrainingLoadAssessment`), depuis le 01/08. FC repos avec axe inversé (plus haut = mieux reposé, cohérent avec les autres graphiques). Ratio de charge avec une **bande de référence 0,8-1,3** plutôt qu'un simple axe — le point qui dépasse la bande le 27/08 (1,46) est visuellement le même pic identifié plus tôt dans la conversation en lien avec le premier épisode de hanche. Trois trous dans les données (08/08, 26/08, 30/08 sans mesure FC repos) : tracé en segments séparés plutôt que de relier à travers le vide.
+
+2. **Genou et hanche** : frise à deux lignes, un point par séance **explicitement commentée** dans ce fichier (pas d'inférence sur les séances silencieuses). Genou : 9 points du 26/07 au 26/08. Hanche : 2 points, 27/08 et 29/08. Vert = rien, orange = gêne. Pas de rouge utilisé pour l'instant (aucune douleur franche à ce jour).
+
+3. **Allure au seuil** : un seul point pour l'instant (27/08, allure moyenne des 3 blocs 4'49/km, FC moyenne 156), avec une bande cible 4'42-4'50. Se remplira aux prochaines séances de seuil (02/09, 16/09, 23/09 — le 09/09 est de la VMA courte, format différent, à exclure de ce suivi-là).
+
+**Vérification** : géométrie confirmée par inspection JS (`getBBox`, coordonnées des points) sur les 6 SVG de la page, tous dans les bornes de leur `viewBox`. Pas de capture d'écran fiable dans cette sandbox de test (limitation déjà rencontrée).
+
 **Texte allégé sur la page (30/08).** Benjamin a demandé de retirer le texte superflu, notamment la justification de l'exclusion du 29/07 qui n'a rien à faire sur la page consultée au quotidien. Le raisonnement reste ici, dans ce fichier ; la page ne garde que l'essentiel (légendes d'axes courtes, une ligne de lecture). Même principe déjà appliqué à `renfo-moyen-fessier.html` : le "pourquoi" vit dans le suivi, le "quoi" vit sur la page.
 
 **Note de vérification** : la sandbox de test a de nouveau montré ses limites (le rendu live — scroll, contenu dynamique — n'est pas toujours reflété dans les captures d'écran, même limitation qu'avec la vidéo du pelvic drop). Vérifié à la place par inspection directe du DOM (`getBBox`, coordonnées des points) : géométrie correcte, rien hors du cadre. À confirmer visuellement par Benjamin une fois en ligne.
