@@ -100,6 +100,14 @@
   .exo-top .num { font-family: var(--mono); font-size: var(--fs-small); color: var(--muted); }
   .exo-top h3 { flex: 1; min-width: 0; }
 
+  .exo-fig { margin: 0; }
+  .exo-fig img {
+    display: block; width: 100%; height: auto; max-height: 11rem; object-fit: cover;
+    border-radius: 8px; border: 1px solid var(--rule); background: #fff;
+  }
+  .exo-fig figcaption { font-size: var(--fs-micro); color: var(--muted); margin-top: 0.35rem; line-height: 1.4; }
+  .exo-fig figcaption a { color: var(--muted); }
+
   .chip {
     font-size: var(--fs-micro); text-transform: uppercase; letter-spacing: 0.06em;
     font-weight: 700; padding: 0.18rem 0.5rem; border-radius: 20px;
@@ -144,7 +152,7 @@
   .plan-day .c { font-size: var(--fs-small); color: var(--ink-2); }
   .plan-day .t { font-size: var(--fs-micro); color: var(--muted); }
 
-  footer { font-size: var(--fs-micro); color: var(--muted); }
+  footer { font-size: var(--fs-micro); color: var(--muted); display: flex; flex-direction: column; gap: 0.3rem; }
 
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 </style>
@@ -165,6 +173,10 @@
         <h3>Monster walk</h3>
         <span class="chip base">Base</span>
       </div>
+      <figure class="exo-fig">
+        <img src="https://i.ytimg.com/vi/dgbhiejP7oI/maxresdefault.jpg" alt="Demi-squat, pieds écartés, bande élastique tendue juste au-dessus des genoux." decoding="async" loading="lazy" width="1280" height="720">
+        <figcaption>Source : <a href="https://www.youtube.com/watch?v=dgbhiejP7oI" target="_blank" rel="noopener">« Monster Walks », Competitive Edge Physical Therapy</a></figcaption>
+      </figure>
       <p class="mvt">Bande <b>au-dessus des genoux</b>. Demi-squat, hanches en arrière. Pas latéraux en poussant le genou vers l'extérieur, sans jamais relâcher la tension de la bande.</p>
       <div class="exo-meta">
         <div><h4>Muscle</h4><p>Moyen fessier</p></div>
@@ -179,6 +191,10 @@
         <h3>Pelvic drop</h3>
         <span class="chip prio">Priorité 1</span>
       </div>
+      <figure class="exo-fig">
+        <img src="https://runnersconnect.net/wp-content/uploads/2026/05/hip-hike-exercise-diagram.webp" alt="Deux vues de dos, debout sur une marche : à gauche le bassin qui tombe du côté de la jambe libre, à droite le bassin remonté." decoding="async" loading="lazy" width="1408" height="768">
+        <figcaption>Source : <a href="https://runnersconnect.net/hip-strength-and-running-form-the-role-of-hip-drop-in-running-injuries/" target="_blank" rel="noopener">RunnersConnect</a> &middot; les dosages sur l'image ne sont pas les tiens, garde ceux ci-dessous</figcaption>
+      </figure>
       <p class="mvt">Debout sur une marche, <b>une seule jambe en appui</b>. Laisse le bassin du côté libre descendre lentement, puis remonte-le en contractant le fessier de la jambe d'appui.</p>
       <div class="exo-meta">
         <div><h4>Muscle</h4><p>Moyen fessier (jambe d'appui)</p></div>
@@ -193,6 +209,10 @@
         <h3>Abduction, genou plié &rarr; tendu</h3>
         <span class="chip comp">Complément</span>
       </div>
+      <figure class="exo-fig">
+        <img src="https://i.ytimg.com/vi/lX2D8tkOYcs/maxresdefault.jpg" alt="Vue de face, jambe tendue emmenée sur le côté avec une bande aux chevilles." decoding="async" loading="lazy" width="1280" height="720">
+        <figcaption>Source : <a href="https://www.youtube.com/watch?v=lX2D8tkOYcs" target="_blank" rel="noopener">Ask Doctor Jo</a> &middot; montre la version jambe tendue classique, pas exactement ta variante genou plié</figcaption>
+      </figure>
       <p class="mvt">Bande au-dessus des genoux. Genou plié remonté, puis <b>extension latérale</b> de la jambe contre la bande. Retour lent et contrôlé.</p>
       <div class="exo-meta">
         <div><h4>Muscle</h4><p>Moyen fessier + fléchisseurs de hanche</p></div>
@@ -207,6 +227,10 @@
         <h3>Gainage latéral</h3>
         <span class="chip prio">Priorité 2</span>
       </div>
+      <figure class="exo-fig">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Side_Plank.jpg" alt="Deux étapes : allongé sur le côté en appui sur l'avant-bras, puis bassin décollé, corps aligné." decoding="async" loading="lazy" width="1000" height="1000">
+        <figcaption>Photo <a href="https://commons.wikimedia.org/wiki/File:Side_Plank.jpg" target="_blank" rel="noopener">Jaykayfit</a>, CC BY-SA 3.0, via Wikimedia Commons</figcaption>
+      </figure>
       <p class="mvt">Sur le côté, <b>coude sous l'épaule</b>, corps aligné tête-chevilles, bassin décollé du sol. Tenue immobile, sans casser la ligne.</p>
       <div class="exo-meta">
         <div><h4>Muscle</h4><p>Moyen fessier + sangle latérale</p></div>
@@ -227,6 +251,9 @@
     </div>
   </section>
 
-  <footer>Fiche du plan du semi de Casteljaloux &middot; mise à jour le 30/08/2026.</footer>
+  <footer>
+    <div>Fiche du plan du semi de Casteljaloux &middot; mise à jour le 30/08/2026.</div>
+    <div>Les images viennent de sites externes : elles ne s'affichent pas hors connexion, contrairement au reste de la page.</div>
+  </footer>
 
 </div>
