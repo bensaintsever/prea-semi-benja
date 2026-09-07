@@ -5,7 +5,7 @@ Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séa
 
 ---
 
-## État au 27/08/2026
+## État au 07/09/2026
 
 | | |
 |---|---|
@@ -15,9 +15,9 @@ Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séa
 | **Seuil MESURÉ le 13/08** | **4'42/km à FC 162.** La donnée qui pilote tout |
 | **VMA** | **≈ 15,8 km/h** (15,5 à 16,1), déduite du 16/08. Question close, aucun retest |
 | **FC max** | **180**, mesurée le 16/08. À corriger dans COROS si ce n'est pas fait |
-| **Où on en est** | **S6, première semaine de phase 2 (seuil)**, démarrée le 24/08. **Première séance de seuil réalisée le 27/08** (3 × 8' : 4'58/FC150 · 4'46/FC156 · 4'44/FC162), bloc 3 dans les deux cibles à la fois. Le bloc tient |
-| **Vigilance n°1** | TFL genou gauche. **Test du 23/08 passé sans aucune sensation**, une première sur une longue avec finish. Surveillance et renfo maintenus à l'identique |
-| **Vigilance n°2** | **Hanche droite latérale.** Deuxième épisode le 29/08, deux jours après le premier — mais le premier était dur sur plat, le second facile sur dénivelé : ni l'intensité ni le terrain seuls n'expliquent les deux. **Motif de suivi actif depuis le 29/08**, sortie longue du 30/08 annulée. Le plat et la facilité ne rassurent pas à eux seuls (voir section dédiée) |
+| **Où on en est** | **S8, "Montée"**, démarrée le 07/09 (46 km visés). S7 (décharge, semaine Puy du Fou) bouclée à 20,48 km sur 30 visés — écart assumé, pas un relâchement. Permutation S7/S8 restée bloquée sur l'artifact après la bascule du 27/08 a été détectée et corrigée le 31/08 (voir Décisions structurantes) |
+| **Vigilance n°1** | TFL genou gauche. **Silencieux depuis le 23/08**, dernier commentaire explicite le 26/08 (gêne légère). Renfo et surveillance maintenus à l'identique |
+| **Vigilance n°2** | **Hanche droite latérale.** Deux épisodes fin août (27 et 29/08), puis **silencieuse depuis le 01/09** (footing avec confirmation explicite "aucune sensation"). Un point vert sur trois semaines de silence requises pour rouvrir la question de l'objectif de temps (voir Pronostic) |
 
 **Quatre règles à ne jamais perdre**
 1. La barre monte quand la course descend, et inversement. Jamais les deux la même semaine.
@@ -323,6 +323,8 @@ Repères : les réserves de glycogène couvrent 90 à 120 min d'effort. Consensu
 | 26/08 | Footing + test cadence 176 | 9,36 km | 6'04 (15' d'ouverture en descente à 5'58, FC 127 seulement) | 137 | Cadence moy 171, blocs et lignes droites entre 176 et 181 : **cible tenue**. Fin en côte + 1 ligne droite en côte, FC pic 163. **Sensation désagréable au genou gauche en toute fin**, voir tableau TFL |
 | **27/08** | **Seuil 3 × 8', première de la phase 2** (+ épaule-bras) | 10,06 km | bloc 1 : 4'58 · bloc 2 : 4'46 · bloc 3 : 4'44 | bloc 1 : 150 (pic 158) · bloc 2 : 156 (pic 165) · bloc 3 : 162 (pic 167) | Cible 4'42-4'50 à FC 155-163. **Bloc 1 sous la cible des deux côtés** (allure et FC), pas seulement une allure dure à trouver. **Bloc 3 dans les deux cibles à la fois**, allure et FC, mais pic 167 dépasse le plafond mental de 165. Meilleur km 4'42 (= seuil mesuré). **Gêne à la hanche droite latérale en toute fin**, non mesurable par COROS. COROS étiquette la séance « Performance: Poor », lecture algorithmique à ne pas sur-interpréter (tire sans doute sur le bloc 1 sous-effort) |
 | **29/08** | Footing à Bazas | 6,24 km | 6'26 | 121 | Effort réellement facile (FC 121), mais **+76 m / -81 m de dénivelé sur 6,24 km**, non prévu (séjour annoncé plat). Cadence 168. **Deuxième épisode de gêne à la hanche droite**, deux jours après le premier : le déclencheur posé le 27/08 s'active. **Le 27/08 était dur sur plat, le 29/08 facile sur relief** — ni l'intensité ni le terrain seuls n'expliquent les deux, voir section dédiée pour la lecture corrigée. **Sortie longue du 30/08 annulée** par décision de Benjamin |
+| 01/09 | Footing (S7, décharge) | 8,01 km | 6'36 | 143 | Fait juste après pec/dos (muscu le jour même). FC nettement au-dessus de l'habituel malgré allure surveillée : fatigue cardio résiduelle post-muscu, pas un signal d'alerte (récupération 99 % le lendemain). **Aucune sensation au fessier** : premier point vert hanche depuis les deux épisodes du 27-29/08. VMA courte du 02/09 sautée faute de temps, non reportée (jeudi = voyage, samedi = terrain inconnu) |
+| 06/09 | Longue souple, retour de voyage | 12,47 km | 6'29 | 137 | 1h20:57. Cible du plan ("si l'énergie est là, 1h20 facile sous 135") tenue presque pile, FC légèrement au-dessus mais rien d'inquiétant. **Samedi 05/09 footing sauté** (pas fait, semaine Puy du Fou) |
 
 ### Volume hebdomadaire
 
@@ -338,6 +340,12 @@ Colonnes en **volume utile hors navettes**. À partir de S5, les volumes du plan
 | S3 03-09/08 | ~40 (33 visés) | 5 | 17,0 |
 | S4 10-16/08 | ~10 (décharge + 2 tests) | 4 | 10,1 |
 | S5 17-23/08 | **39,5** | 4 | 16,1 |
+| S6 24-30/08 | **25,66** (44 visés) | 3 | 10,06 |
+| S7 31/08-06/09 | **20,48** (30 visés) | 2 | 12,47 |
+
+**Palliatif manuel, S6** : longue du 30/08 annulée (deuxième épisode hanche), seule séance manquée de la semaine sinon. Écart au plan entièrement expliqué par cette décision de prudence, pas un relâchement.
+
+**Palliatif manuel, S7 (semaine Puy du Fou)** : VMA courte du 02/09 sautée (faute de temps), footing du 05/09 sauté (voyage/famille). 2 sorties sur 4 planifiées, volume à 68 % du prévu. **Assumé et attendu** : semaine de décharge + déplacement familial, aucune séance forcée. Muscu : jambes (31/08) et pec-dos (01/09) faites, épaule-bras faite le 02/09 avant la VMA. Rien à corriger, la flexibilité était le plan.
 
 **Palliatif manuel, S5** : 3 musculations non faites sur 3 (jambes, pec-dos, épaule-bras), remplacées par un benchmark CINDY le vendredi. Course : 4 sorties sur 4. **Fatigue des jambes : 1/5**, déclarée le 24/08, aucune fatigue résiduelle. La seule lourdeur ressentie était aux genoux en fin de longue le 23, le reste des jambes peu marqué. Aucun déclencheur de la règle « deux semaines à 4 ou 5 ».
 
