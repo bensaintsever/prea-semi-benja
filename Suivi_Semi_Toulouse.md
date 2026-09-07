@@ -16,7 +16,7 @@ Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séa
 | **VMA** | **≈ 15,8 km/h** (15,5 à 16,1), déduite du 16/08. Question close, aucun retest |
 | **FC max** | **180**, mesurée le 16/08. À corriger dans COROS si ce n'est pas fait |
 | **Où on en est** | **S8, "Montée"**, démarrée le 07/09 (46 km visés). S7 (décharge, semaine Puy du Fou) bouclée à 20,48 km sur 30 visés — écart assumé, pas un relâchement. Permutation S7/S8 restée bloquée sur l'artifact après la bascule du 27/08 a été détectée et corrigée le 31/08 (voir Décisions structurantes) |
-| **Vigilance n°1** | TFL genou gauche. **Silencieux depuis le 23/08**, dernier commentaire explicite le 26/08 (gêne légère). Renfo et surveillance maintenus à l'identique |
+| **Vigilance n°1** | TFL genou gauche. **Sensation brève le 06/09** (longue avec escaliers sur le trajet, facteur aggravant connu) — le compteur de silence repart de zéro. Renfo et surveillance maintenus à l'identique |
 | **Vigilance n°2** | **Hanche droite latérale.** Deux épisodes fin août (27 et 29/08), puis **silencieuse depuis le 01/09** (footing avec confirmation explicite "aucune sensation"). Un point vert sur trois semaines de silence requises pour rouvrir la question de l'objectif de temps (voir Pronostic) |
 
 **Quatre règles à ne jamais perdre**
@@ -88,6 +88,8 @@ Question posée le 27/08 : peut-on viser plus vite que 1h48 ? Passée devant tro
 | **Ton corps peut-il l'absorber ?** | 3 semaines consécutives avec un enchaînement complet seuil/Hyrox/longue, dont une semaine à volume haut (46-50 km), **genou gauche ET hanche droite totalement silencieux** y compris en fin de séance fatiguée, plus un test propre de contrôle proximal (squat unipodal, absence de Trendelenburg visuel) | Angle durabilité |
 
 Un bon 10 km ne suffit pas seul si la hanche ou le genou parlent encore. Un corps silencieux ne suffit pas seul si le 10 km dit que la forme n'y est pas. **Jusqu'à validation des deux, le vrai indicateur du plan n'est pas le chrono, c'est l'absence de signal.**
+
+**Compteur de silence (mis à jour au fil de l'eau)** : genou gauche remis à zéro le 06/09 (sensation brève, escaliers sur le trajet). Hanche droite silencieuse depuis le 01/09. Les deux doivent être à zéro signal simultanément sur 3 semaines pleines avant de rouvrir la porte — un épisode sur l'un des deux repousse l'échéance pour les deux, pas seulement pour celui qui a parlé.
 
 ## Décisions structurantes et leur historique
 
@@ -200,6 +202,7 @@ Vérifié le 17/08 sur COROS (codes 100-103, 400, 402, 1200, 9999, du 20/07 au 1
 | **23/08** | **16,14 km avec finish, 1h41** | **rien** |
 | **26/08** | 9,36 km, footing + test cadence, fin en côte + ligne droite | **sensation désagréable**, en toute fin (côte du retour + dernière ligne droite courue en côte) |
 | **27/08** | Seuil 3 × 8' à 4'42-4'50 | **rien au genou gauche.** Le seuil reste le format muet, comme prévu par la lecture mécanique. La gêne du jour est apparue à la *hanche droite*, autre structure, voir section dédiée |
+| **06/09** | Longue souple 1h20, 12,47 km, retour de voyage | **Sensation, pas longtemps.** Trajet avec escaliers — flexion répétée sous charge, surtout en descente, facteur d'aggravation classique et documenté pour ce type de gêne, cohérent avec la lecture mécanique déjà posée (compression vers 30° de flexion). Pas un épisode inexpliqué. **Le compteur de silence repart de zéro pour le genou** (voir Pronostic, portes de réouverture) : dernier vrai silence net le 23/08, dernière sensation avant celle-ci le 26/08 |
 
 **Lecture du 26/08** : le schéma est cohérent avec la lecture mécanique du 17/08, pas un nouveau signal. Deux jambes fatiguées différemment sur cette sortie : 15 premières minutes en **descente rapide** (2,5 km à 5'58/km pour seulement FC 127, la pente masque l'effort en fréquence cardiaque mais charge davantage mécaniquement), puis fin de séance sur jambes déjà sollicitées avec une **côte** et un sprint de 20 s dedans (FC pic 163 sur les 10 dernières minutes, cadence retombée à 162 juste avant, signe de fatigue). Aucune sensation pendant les 30 minutes de travail de cadence au milieu, sur terrain plat. **Pas de douleur qui modifie la foulée** : règle de tri, on continue en surveillant, pas de déclenchement kiné.
 
