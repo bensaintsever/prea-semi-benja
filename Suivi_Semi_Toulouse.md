@@ -460,6 +460,10 @@ Mise en place le 17/08. Le plan s'installe sur téléphone et fonctionne **sans 
 **Chaussures.** Deux paires vivantes depuis le 07/09 :
 - **Asics NovaBlast 5**, drop ~8 mm, en service **fin juillet** après une transition d'une semaine et demie. Paire d'entraînement quotidien.
 - **Asics Sonicblast**, réf. **1011C083**, achetée le **07/09/2026**. **Chaussure à plaque** ("plated super trainer") : plaque ASTROPLATE entre deux couches de mousse FF BLAST MAX et FF TURBO², positionnée par Asics sur le tempo et l'allure spécifique. C'est donc bien la **paire d'allure** prévue au plan, même catégorie fonctionnelle que les Endorphin Speed / Magic Speed envisagées, modèle différent.
+  - **Specs vérifiées le 08/09** : stack 46 mm talon / 38 mm avant, **drop 8 mm**, ~230 g. Les tests la classent pour le travail rapide et la **course longue distance**, et signalent qu'elle **n'est pas adaptée au footing lent** (ferme et rapide).
+  - **Le drop de 8 mm est identique à celui de la NovaBlast 5.** C'est le point le plus favorable du dossier : pas de transition de charge sur le mollet et l'Achille, qui est le vrai risque d'un changement de chaussure avec deux structures sous surveillance.
+  - **Conséquence sur la rotation** : elle ne se substitue pas à la NovaBlast au quotidien. NovaBlast = volume facile et base des longues ; Sonicblast = séances de qualité, blocs à allure spécifique, courses. La variété des contraintes mécaniques recherchée est obtenue par le type de séance, pas par une alternance arbitraire.
+  - **À ne pas mal interpréter au rodage** : la première sortie du 12/09 est un footing facile, donc précisément le registre où cette chaussure ne brille pas. Ne pas en tirer de conclusion sur la chaussure elle-même ; le vrai test est sur les blocs à allure spécifique.
 
 Pegasus 38 mortes (800-1200 km).
 
