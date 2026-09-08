@@ -146,6 +146,17 @@ Quatre journées chargent les jambes : la barre le lundi, le seuil le mercredi, 
 
 **La semaine du Hyrox Sprint prime sur tout** : séance jambes en préparation spécifique, longue du dimanche sans finish, seuil du mercredi ramené à 2 × 8'. Date encore inconnue, elle tombera entre S6 et S10.
 
+### Pourquoi les côtes courtes malgré la côte du retour (question du 08/09)
+
+Benjamin fait remarquer qu'il monte déjà une **côte pavée à chaque retour de sortie**, et s'interroge sur l'utilité des 6 × 15 s en côte raide. Les deux ne se substituent pas :
+
+- **Côte du retour** : effort long, pente modérée, intensité moyenne, jambes fatiguées → aérobie en côte. Elle sort à **FC ~146**, donc en pleine **intensité grise** (bande 140-152), que ce plan cherche justement à réduire. C'est le maillon faible des deux, pas la référence.
+- **6 × 15 s en côte raide** : trop court pour fatiguer, récupération complète en marchant → production de force quasi maximale, stimulus neuromusculaire, gain d'économie de course. 90 secondes de travail réel au total, coût métabolique nul.
+
+**Pourquoi ça compte dans ce cas précis** : le travail rapide de Benjamin est rare, et le Hyrox — sa seule autre source de vitesse — s'arrête mi-octobre. C'est le moyen le moins coûteux d'entretenir force et économie sans ajouter de fatigue à un plan déjà au plafond. **Caveat assumé** : le gain marginal est modeste, ce n'est pas un élément clé du plan ; il est conservé parce qu'il ne coûte presque rien, pas parce qu'il serait indispensable.
+
+**À noter pour la lecture des données** : les sorties se terminent régulièrement en montée (côte pavée du retour, en plus des +37 m du retour de salle). Cela explique une partie des FC élevées en fin de séance et des sensations de fin de sortie — voir l'épisode genou du 26/08, apparu précisément « fin en côte ».
+
 ### L'intensité grise, et ce que j'avais surdimensionné
 
 Définition, pour mémoire : l'entraînement utile se répartit entre le **facile** (nettement sous 140, construit sans fatiguer) et le **dur** (au-dessus de 155, déplace le seuil). Entre les deux, environ 140 à 152, une bande où l'effort fatigue presque autant que le dur sans produire son adaptation. On paie le prix sans acheter le produit.
