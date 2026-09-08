@@ -457,17 +457,19 @@ Mise en place le 17/08. Le plan s'installe sur téléphone et fonctionne **sans 
 ## Annexe — sujets non traités
 
 **Nutrition de course** (ouvert depuis le 03/08). Départ 9h, 1h48 d'effort. Petit-déjeuner à fixer et tester sur les longues de S14 et S16, décision gels et boisson.
-**Chaussures.** Une seule paire vivante : **NovaBlast 5**, drop ~8 mm, mises en service **fin juillet** après une transition d'une semaine et demie. Pegasus 38 mortes (800-1200 km).
+**Chaussures.** Deux paires vivantes depuis le 07/09 :
+- **Asics NovaBlast 5**, drop ~8 mm, en service **fin juillet** après une transition d'une semaine et demie. Paire d'entraînement quotidien.
+- **Asics Sonicblast**, réf. **1011C083**, achetée le **07/09/2026**. **Chaussure à plaque** ("plated super trainer") : plaque ASTROPLATE entre deux couches de mousse FF BLAST MAX et FF TURBO², positionnée par Asics sur le tempo et l'allure spécifique. C'est donc bien la **paire d'allure** prévue au plan, même catégorie fonctionnelle que les Endorphin Speed / Magic Speed envisagées, modèle différent.
 
-**Compteur au 24/08/2026 : ~156 km.** Estimation par cumul des sorties COROS depuis le 26/07, navettes comprises. Borne haute assumée : pour l'usure, mieux vaut surestimer. COROS n'expose aucun suivi d'équipement via MCP, le compteur se tient donc à la main ici. Fourchette réelle 120 à 156 km selon la part des sorties de transition.
+Pegasus 38 mortes (800-1200 km).
 
-**Projection.** Le plan prévoit 543 km de S6 à S18. Avec une seule paire, les NovaBlast arriveraient au jour de la course à **~700 km**, soit la limite haute de leur durée de vie (600 à 800 km). **Il ne faut donc pas courir le semi avec cette paire.**
+**Compteur NovaBlast, estimation au 07/09/2026 : ~210 km.** Base : ~156 km au 24/08, plus les sorties structurées depuis (26/08 : 9,36 · 27/08 : 10,06 · 29/08 : 6,24 · 01/09 : 8,01 · 06/09 : 12,47 = 46,1 km) et ~8 km de navettes. Borne haute assumée. COROS n'expose aucun suivi d'équipement via MCP, le compteur se tient à la main ici.
 
-**Achat calé au 26/09/2026** (anniversaire). Décidé le 25/08. La NovaBlast aura alors 372 km, en pleine forme, et **le 10 km du 04/10 se courra avec elle** : huit jours sont trop courts pour découvrir une plaque sur une course à fond, a fortiori avec une bandelette sous surveillance. Rodage de l'Endorphin à partir du 06/10, puis sur les blocs à allure course de S13 et S14. Elle arrivera au 22/11 avec 80 à 115 km, rodée et fraîche. La NovaBlast finit la préparation vers 585-615 km : **surveiller la sensation dès 450 km, soit mi-octobre**.
+**Projection révisée par l'achat anticipé.** Le plan tablait sur un achat au 26/09 ; il a eu lieu **19 jours plus tôt**. Conséquence directe et favorable : l'alternance des contraintes mécaniques — la vraie raison de la deuxième paire, avec une bandelette sous surveillance — démarre trois semaines plus tôt que prévu. La NovaBlast finira la préparation nettement sous les 585-615 km projetés dans le scénario "une seule paire jusqu'au 26/09". **Surveiller la sensation dès 450 km reste la règle** (semelle sèche, jambes plus marquées après un footing ordinaire), mais l'échéance recule.
 
-**Deux actions ouvertes, à traiter maintenant :**
-1. **Acheter la deuxième paire.** L'objet n'est pas d'économiser la première : c'est de varier les contraintes mécaniques, ce qui compte avec une bandelette sous surveillance. En alternant, la NovaBlast finit la préparation vers 430 km et la seconde vers 270 km, toutes deux confortablement dans leur vie utile.
-2. **Choisir la chaussure de course et la roder sur un finish avant fin octobre.** Même logique que les gels : rien de neuf le jour J. Une paire à plaque demande deux ou trois sorties avec allure spécifique dedans.
+**Point rouvert par l'achat anticipé : quelle chaussure pour le 10 km du 04/10 ?** La décision du 25/08 disait NovaBlast, au motif que « huit jours sont trop courts pour découvrir une plaque sur une course à fond ». Avec un achat au 07/09, il y a désormais **près de quatre semaines** de rodage possible avant le 10 km, ce qui lève l'objection qui fondait cette décision. À trancher vers la fin septembre, en fonction du ressenti réel dans la Sonicblast sur les blocs à allure spécifique, et de l'état du genou et de la hanche à ce moment-là. Ne pas trancher maintenant.
+
+**Protocole de rodage décidé le 08/09** : première sortie sur du **plat, facile et court** — pas sur une séance de côtes ni de descentes. Benjamin voulait les étrenner sur le footing + côtes courtes du 08/09 : refusé, deux variables nouvelles en même temps (plaque + dénivelé raide) alors que le genou a parlé le 06/09. Cible retenue : le footing facile du **12/09** (7 km, FC < 130), descentes de ce jour-là laissées de côté. Ensuite, montée progressive vers le seuil et les blocs à allure course, ce pour quoi la plaque est conçue.
 
 Le signal de fin de vie n'est pas le compteur mais la sensation : semelle sèche, jambes plus marquées après un footing ordinaire.
 **Date du Hyrox Sprint.** Non confirmée, tombera dans S6-S10. La semaine concernée perd sa longue avec finish et son seuil passe à 2 × 8'.
