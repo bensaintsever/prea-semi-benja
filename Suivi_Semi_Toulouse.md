@@ -501,4 +501,8 @@ Le signal de fin de vie n'est pas le compteur mais la sensation : semelle sèche
 - **Hyrox du jeudi 17/09 mis en doute** : avec le Hyrox du lundi et l'épreuve du samedi, un troisième format le jeudi n'apporte rien de bon deux jours avant. Recommandé léger ou sauté, laissé à l'appréciation de Benjamin avec le coach du cours.
 - **Vendredi 18/09** : séance épaule-bras retirée, repos complet ou activation très légère à la veille de l'épreuve.
 - **Volume affiché de S9 recalculé à ~32 km** (contre 46 km prévus), reflétant les allègements ci-dessus. Estimation, pas un calcul précis.
+
+**Précisions du 14/09, plus tard dans la journée** : pas de Hyrox du tout jeudi 17/09 (confirmé, pas juste "à voir"). Muscu de la semaine limitée à épaule-bras et/ou pec-dos, 1 ou 2 séances, jambes exclues entièrement (pas seulement allégées) — bandeau de semaine et carte du 14/09 corrigés en conséquence (jb-aucune). Benjamin exprime aussi un doute sur la productivité de la longue du 20/09 : carte complétée avec une permission explicite d'écourter ou de remplacer par un footing très facile si besoin, même logique que le retour du Puy du Fou.
+
+**Rodage Sonicblast : le 12/09 est passé sans le test.** Fenêtre jusqu'au 10 km du 04/10 encore confortable (20 jours), mais le premier créneau plat et facile disponible devient le **15/09** (footing + lignes droites, terrain plat) plutôt que le 12/09. Carte du 15/09 mise à jour pour le signaler. Pas d'urgence, juste un glissement d'une semaine à surveiller pour ne pas se retrouver à faire les 2-3 sorties spécifiques dans la précipitation fin septembre.
 **Sommeil et poids.** Données disponibles, jamais exploitées.
