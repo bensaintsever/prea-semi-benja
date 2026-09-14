@@ -493,5 +493,12 @@ Pegasus 38 mortes (800-1200 km).
 **Protocole de rodage décidé le 08/09** : première sortie sur du **plat, facile et court** — pas sur une séance de côtes ni de descentes. Benjamin voulait les étrenner sur le footing + côtes courtes du 08/09 : refusé, deux variables nouvelles en même temps (plaque + dénivelé raide) alors que le genou a parlé le 06/09. Cible retenue : le footing facile du **12/09** (7 km, FC < 130), descentes de ce jour-là laissées de côté. Ensuite, montée progressive vers le seuil et les blocs à allure course, ce pour quoi la plaque est conçue.
 
 Le signal de fin de vie n'est pas le compteur mais la sensation : semelle sèche, jambes plus marquées après un footing ordinaire.
-**Date du Hyrox Sprint.** Non confirmée, tombera dans S6-S10. La semaine concernée perd sa longue avec finish et son seuil passe à 2 × 8'.
+**Date du Hyrox Sprint : confirmée le 14/09, samedi 19/09 (S9).** Format sprint : courses de 500 m au lieu de 1 km, environ &lt; 1h, en duo avec sa femme — pas l'épreuve complète. Règle du plan appliquée : S9 ("Blocs longs") reportée, seuil du 16/09 ramené de 2 × 15' à 2 × 8', longue du 20/09 sans finish, carte du 19/09 (qui affichait encore un footing générique) remplacée par l'épreuve elle-même.
+
+**Décisions complémentaires du 14/09, au-delà de la règle déjà écrite :**
+- **Séance jambes du 14/09 allégée** : Benjamin avait fait du Hyrox le midi même, avant la séance jambes lourde prévue au plan. Pas de double charge jambes le même jour — charge légère ou repos laissé à son jugement.
+- **Les deux nouveaux exercices maison (fentes bulgares, step-down excentrique)**, prévus pour démarrer le 14/09, décalés à S10. On n'introduit pas un stimulus inconnu (risque de courbatures inhabituelles) la semaine d'une compétition.
+- **Hyrox du jeudi 17/09 mis en doute** : avec le Hyrox du lundi et l'épreuve du samedi, un troisième format le jeudi n'apporte rien de bon deux jours avant. Recommandé léger ou sauté, laissé à l'appréciation de Benjamin avec le coach du cours.
+- **Vendredi 18/09** : séance épaule-bras retirée, repos complet ou activation très légère à la veille de l'épreuve.
+- **Volume affiché de S9 recalculé à ~32 km** (contre 46 km prévus), reflétant les allègements ci-dessus. Estimation, pas un calcul précis.
 **Sommeil et poids.** Données disponibles, jamais exploitées.
