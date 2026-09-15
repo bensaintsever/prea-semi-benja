@@ -15,9 +15,9 @@ Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séa
 | **Seuil MESURÉ le 13/08** | **4'42/km à FC 162.** La donnée qui pilote tout |
 | **VMA** | **≈ 15,8 km/h** (15,5 à 16,1), déduite du 16/08. Question close, aucun retest |
 | **FC max** | **180**, mesurée le 16/08. À corriger dans COROS si ce n'est pas fait |
-| **Où on en est** | **S8, "Montée"**, démarrée le 07/09 (46 km visés). S7 (décharge, semaine Puy du Fou) bouclée à 20,48 km sur 30 visés — écart assumé, pas un relâchement. Permutation S7/S8 restée bloquée sur l'artifact après la bascule du 27/08 a été détectée et corrigée le 31/08 (voir Décisions structurantes) |
-| **Vigilance n°1** | TFL genou gauche. **Chronique, diagnostiqué il y a ~1 an** (découvert le 14/09), géré par semelles orthopédiques — pas une blessure neuve de ce bloc. **Sensation brève le 06/09** (escaliers). Point podologue le 21/09, possible retrait des semelles : prudence renforcée, pas de retrait en même temps que le rodage Sonicblast |
-| **Vigilance n°2** | **Hanche droite latérale.** Deux épisodes fin août (27 et 29/08), puis **silencieuse depuis le 01/09** (footing avec confirmation explicite "aucune sensation"). Un point vert sur trois semaines de silence requises pour rouvrir la question de l'objectif de temps (voir Pronostic) |
+| **Où on en est** | **S9, "Semaine Hyrox Sprint"**, démarrée le 14/09. S8 ("Montée") bouclée à 37,94 km sur 46 visés, 3 sorties dont le seuil 3×10' et la longue du 13/09 tenus. Hyrox Sprint le 19/09 (samedi, en duo avec sa femme, format court confirmé) : séance jambes suspendue, seuil ramené à 2×8', longue du 20/09 sans finish et sans obligation de résultat |
+| **Vigilance n°1** | TFL genou gauche. **Chronique, diagnostiqué il y a ~1 an**, géré par semelles orthopédiques — pas une blessure neuve de ce bloc. Sensation brève le 06/09 (escaliers), **de nouveau silencieux le 13/09**. Point podologue le 21/09, possible retrait des semelles : prudence renforcée, pas de retrait en même temps que le rodage Sonicblast |
+| **Vigilance n°2** | **Hanche droite latérale.** Deux épisodes fin août (27 et 29/08), **silencieuse depuis le 01/09**, confirmée de nouveau le 13/09. **13/09 = premier jour où genou et hanche sont silencieux ensemble** depuis la reprise du compteur des 3 semaines requises pour rouvrir la question de l'objectif de temps (voir Pronostic) |
 
 **Quatre règles à ne jamais perdre**
 1. La barre monte quand la course descend, et inversement. Jamais les deux la même semaine.
@@ -89,7 +89,7 @@ Question posée le 27/08 : peut-on viser plus vite que 1h48 ? Passée devant tro
 
 Un bon 10 km ne suffit pas seul si la hanche ou le genou parlent encore. Un corps silencieux ne suffit pas seul si le 10 km dit que la forme n'y est pas. **Jusqu'à validation des deux, le vrai indicateur du plan n'est pas le chrono, c'est l'absence de signal.**
 
-**Compteur de silence (mis à jour au fil de l'eau)** : genou gauche remis à zéro le 06/09 (sensation brève, escaliers sur le trajet). Hanche droite silencieuse depuis le 01/09. Les deux doivent être à zéro signal simultanément sur 3 semaines pleines avant de rouvrir la porte — un épisode sur l'un des deux repousse l'échéance pour les deux, pas seulement pour celui qui a parlé.
+**Compteur de silence (mis à jour au fil de l'eau)** : genou gauche silencieux depuis le 06/09 (sensation brève, escaliers), confirmé de nouveau propre le 13/09. Hanche droite silencieuse depuis le 01/09. **13/09 est la première fois que les deux comptent un jour de silence simultané** depuis la reprise du compteur. Les deux doivent être à zéro signal simultanément sur 3 semaines pleines avant de rouvrir la porte — un épisode sur l'un des deux repousse l'échéance pour les deux, pas seulement pour celui qui a parlé. Rappel : compter en semaines d'entraînement réel (enchaînement seuil/Hyrox/longue, dont une semaine à volume haut), pas en dates calendaires seules.
 
 ## Décisions structurantes et leur historique
 
@@ -218,6 +218,7 @@ Vérifié le 17/08 sur COROS (codes 100-103, 400, 402, 1200, 9999, du 20/07 au 1
 | **26/08** | 9,36 km, footing + test cadence, fin en côte + ligne droite | **sensation désagréable**, en toute fin (côte du retour + dernière ligne droite courue en côte) |
 | **27/08** | Seuil 3 × 8' à 4'42-4'50 | **rien au genou gauche.** Le seuil reste le format muet, comme prévu par la lecture mécanique. La gêne du jour est apparue à la *hanche droite*, autre structure, voir section dédiée |
 | **06/09** | Longue souple 1h20, 12,47 km, retour de voyage | **Sensation, pas longtemps.** Trajet avec escaliers — flexion répétée sous charge, surtout en descente, facteur d'aggravation classique et documenté pour ce type de gêne, cohérent avec la lecture mécanique déjà posée (compression vers 30° de flexion). Pas un épisode inexpliqué. **Le compteur de silence repart de zéro pour le genou** (voir Pronostic, portes de réouverture) : dernier vrai silence net le 23/08, dernière sensation avant celle-ci le 26/08 |
+| **13/09** | Longue 1h50 + finish, 17,03 km, S8 | **Rien.** Une semaine après les escaliers, premier point vert. Et la hanche est silencieuse depuis le 01/09 : c'est la première fois depuis la reprise des deux compteurs que genou et hanche sont à zéro le même jour |
 
 **Lecture du 26/08** : le schéma est cohérent avec la lecture mécanique du 17/08, pas un nouveau signal. Deux jambes fatiguées différemment sur cette sortie : 15 premières minutes en **descente rapide** (2,5 km à 5'58/km pour seulement FC 127, la pente masque l'effort en fréquence cardiaque mais charge davantage mécaniquement), puis fin de séance sur jambes déjà sollicitées avec une **côte** et un sprint de 20 s dedans (FC pic 163 sur les 10 dernières minutes, cadence retombée à 162 juste avant, signe de fatigue). Aucune sensation pendant les 30 minutes de travail de cadence au milieu, sur terrain plat. **Pas de douleur qui modifie la foulée** : règle de tri, on continue en surveillant, pas de déclenchement kiné.
 
@@ -343,6 +344,9 @@ Repères : les réserves de glycogène couvrent 90 à 120 min d'effort. Consensu
 | **29/08** | Footing à Bazas | 6,24 km | 6'26 | 121 | Effort réellement facile (FC 121), mais **+76 m / -81 m de dénivelé sur 6,24 km**, non prévu (séjour annoncé plat). Cadence 168. **Deuxième épisode de gêne à la hanche droite**, deux jours après le premier : le déclencheur posé le 27/08 s'active. **Le 27/08 était dur sur plat, le 29/08 facile sur relief** — ni l'intensité ni le terrain seuls n'expliquent les deux, voir section dédiée pour la lecture corrigée. **Sortie longue du 30/08 annulée** par décision de Benjamin |
 | 01/09 | Footing (S7, décharge) | 8,01 km | 6'36 | 143 | Fait juste après pec/dos (muscu le jour même). FC nettement au-dessus de l'habituel malgré allure surveillée : fatigue cardio résiduelle post-muscu, pas un signal d'alerte (récupération 99 % le lendemain). **Aucune sensation au fessier** : premier point vert hanche depuis les deux épisodes du 27-29/08. VMA courte du 02/09 sautée faute de temps, non reportée (jeudi = voyage, samedi = terrain inconnu) |
 | 06/09 | Longue souple, retour de voyage | 12,47 km | 6'29 | 137 | 1h20:57. Cible du plan ("si l'énergie est là, 1h20 facile sous 135") tenue presque pile, FC légèrement au-dessus mais rien d'inquiétant. **Samedi 05/09 footing sauté** (pas fait, semaine Puy du Fou) |
+| 08/09 | Footing 10 km + côtes courtes (S8) | 10,00 km | 6'44 | 133 | Training Focus "Base", D+/D- 85/88 m équilibré, TE anaérobie 1,4 (un peu élevé, cohérent avec les 6×15 s en côte). Ajouté au graphique footing |
+| **09/09** | **Seuil 3 × 10' (S8)** | 10,91 km | bloc 1 : 4'49 (FC161, pic167) · bloc 2 : 4'46 (FC164, pic170) · bloc 3 : 4'48 (FC166, pic172) | 154 | Cible 4'42-4'50 : les 3 blocs dedans. **FC au-dessus de la zone 155-163 habituelle sur les 3 blocs**, pics dépassant le plafond mental de 165 à chaque fois — probablement la dérive naturelle d'un format allongé à 10' (contre 8' le 27/08), pas un signal d'alerte isolé, mais à surveiller si ça se reproduit. Deuxième point du graphique "Allure au seuil" |
+| **13/09** | Longue 1h50 + finish (S8) | 17,03 km | 5'53 | 142 | 1h40:11. Allure moyenne rapide pour une longue, cohérent avec un vrai finish à allure course. **Aucune douleur, genou et hanche silencieux tous les deux** |
 
 ### Volume hebdomadaire
 
@@ -360,10 +364,13 @@ Colonnes en **volume utile hors navettes**. À partir de S5, les volumes du plan
 | S5 17-23/08 | **39,5** | 4 | 16,1 |
 | S6 24-30/08 | **25,66** (44 visés) | 3 | 10,06 |
 | S7 31/08-06/09 | **20,48** (30 visés) | 2 | 12,47 |
+| S8 07-13/09 | **37,94** (46 visés) | 3 | 17,03 |
 
 **Palliatif manuel, S6** : longue du 30/08 annulée (deuxième épisode hanche), seule séance manquée de la semaine sinon. Écart au plan entièrement expliqué par cette décision de prudence, pas un relâchement.
 
 **Palliatif manuel, S7 (semaine Puy du Fou)** : VMA courte du 02/09 sautée (faute de temps), footing du 05/09 sauté (voyage/famille). 2 sorties sur 4 planifiées, volume à 68 % du prévu. **Assumé et attendu** : semaine de décharge + déplacement familial, aucune séance forcée. Muscu : jambes (31/08) et pec-dos (01/09) faites, épaule-bras faite le 02/09 avant la VMA. Rien à corriger, la flexibilité était le plan.
+
+**Palliatif manuel, S8** : footing + descentes du 12/09 sauté (le jour prévu pour le premier test Sonicblast — glissé au 15/09, voir Annexe chaussures). 3 sorties sur 4, volume à 82 % du prévu. Seuil monté à 3×10' comme prévu (pas de réduction cette semaine-là, la règle Hyrox Sprint ne s'applique qu'à S9). Genou et hanche silencieux sur la longue du 13/09.
 
 **Palliatif manuel, S5** : 3 musculations non faites sur 3 (jambes, pec-dos, épaule-bras), remplacées par un benchmark CINDY le vendredi. Course : 4 sorties sur 4. **Fatigue des jambes : 1/5**, déclarée le 24/08, aucune fatigue résiduelle. La seule lourdeur ressentie était aux genoux en fin de longue le 23, le reste des jambes peu marqué. Aucun déclencheur de la règle « deux semaines à 4 ou 5 ».
 
