@@ -15,8 +15,8 @@ Le plan lui-même est dans **`index.html`**, qui s'ouvre directement sur la séa
 | **Seuil MESURÉ le 13/08** | **4'42/km à FC 162.** La donnée qui pilote tout |
 | **VMA** | **≈ 15,8 km/h** (15,5 à 16,1), déduite du 16/08. Question close, aucun retest |
 | **FC max** | **180**, mesurée le 16/08. À corriger dans COROS si ce n'est pas fait |
-| **Où on en est** | **S9, "Semaine Hyrox Sprint"**, démarrée le 14/09. S8 ("Montée") bouclée à 37,94 km sur 46 visés, 3 sorties dont le seuil 3×10' et la longue du 13/09 tenus. Hyrox Sprint le 19/09 (samedi, en duo avec sa femme, format court confirmé) : séance jambes suspendue, seuil ramené à 2×8', longue du 20/09 sans finish et sans obligation de résultat |
-| **Vigilance n°1** | TFL genou gauche. **Chronique, diagnostiqué il y a ~1 an**, géré par semelles orthopédiques — pas une blessure neuve de ce bloc. Sensation brève le 06/09 (escaliers), **de nouveau silencieux le 13/09**. Point podologue le 21/09, possible retrait des semelles : prudence renforcée, pas de retrait en même temps que le rodage Sonicblast |
+| **Où on en est** | **S10 démarre aujourd'hui (21/09).** S9 ("Hyrox Sprint") bouclée : seuil 2×8' du 16/09 tenu et plus rapide que la cible, Hyrox Sprint en duo fait le 19/09 (48:30, FC moy 171 — effort réellement dur), **longue du 20/09 non faite, fatigue post-Hyrox Sprint** — écart assumé, la permission d'écourter ou de sauter avait été donnée dès le 14/09. Volume S9 : 14,79 km sur seulement 2 sorties courues |
+| **Vigilance n°1** | TFL genou gauche. **Chronique, diagnostiqué il y a ~1 an**, géré par semelles orthopédiques — pas une blessure neuve de ce bloc. Sensation brève le 06/09 (escaliers), **de nouveau silencieux le 13/09**. Point podologue **aujourd'hui (21/09)**, possible retrait des semelles : prudence renforcée, pas de retrait en même temps que le rodage Sonicblast |
 | **Vigilance n°2** | **Hanche droite latérale.** Deux épisodes fin août (27 et 29/08), **silencieuse depuis le 01/09**, confirmée les 13/09 et 15/09. **2 jours de silence conjoint genou + hanche** (13/09, 15/09) sur les 3 semaines requises pour rouvrir la question de l'objectif de temps (voir Pronostic) |
 
 **Quatre règles à ne jamais perdre**
@@ -350,6 +350,8 @@ Repères : les réserves de glycogène couvrent 90 à 120 min d'effort. Consensu
 | **13/09** | Longue 1h50 + finish (S8) | 17,03 km | 5'53 | 142 | 1h40:11. Allure moyenne rapide pour une longue, cohérent avec un vrai finish à allure course. **Aucune douleur, genou et hanche silencieux tous les deux** |
 | **15/09** | Footing, 1er essai Sonicblast | 7,03 km | 5'59 | 134 | Cadence 173. Training Focus "Base", D+/D- 43/42 équilibré, TE anaérobie 0,5 : critères remplis, ajouté au graphique. **Mais couru sans les semelles orthopédiques** (essai personnel, avant le rendez-vous podologue du 21/09) — deux variables mécaniques nouvelles en même temps, allure plus rapide qu'à FC équivalente habituelle possiblement due à la chaussure, aux semelles en moins, ou aux deux. **Chauffe aux orteils** signalée, voir section chaussures |
 | **16/09** | Seuil 2×8' (S9, "Hyrox Sprint"), **en Sonicblast confirmé** | 7,76 km | bloc 1 : 4'42 (FC158, pic164) · bloc 2 : 4'39 (FC159, pic164) | 145 | Cible 4'42-4'50 : **les deux blocs à l'allure cible ou plus rapides**, moyenne 4'40. FC plus basse qu'au 09/09 (159 contre 164) pour une allure plus rapide (4'40 contre 4'48) : signal de forme, une seule séance ne suffit pas à conclure. COROS : Training Focus "Threshold", Performance "Good". Semelles orthopédiques remises, mais **chauffe légère quand même** (Benjamin, 18/09 : « je pense que ça a un peu chauffé aussi quand même »), moins marquée qu'au 15/09 sans semelles mais pas nulle — voir section chaussures, l'attribution au seul retrait des semelles est à revoir. **Nouvelle sensation dans le bas des quadriceps, surtout à gauche** — pas de gêne genou/hanche signalée ce jour, aucun point ajouté à leur frise. Troisième point du graphique "Allure au seuil" |
+| **19/09** | **Hyrox Sprint, en duo** | 3,45 km (39 mouvements) | 7'11/km moy | 171 | 48:30. **FC moyenne 171 sur 48 minutes** : effort réellement dur, pas un format allégé malgré le nom "sprint". Cohérent avec la fatigue déclarée pour la longue du lendemain. Non compté dans le volume course (convention habituelle Hyrox/muscu, hors de portée de COROS pour le ratio de charge) |
+| 20/09 | **Longue non faite** | — | — | — | Fatigue post-Hyrox Sprint. **Écart assumé, pas un relâchement** : la carte du 20/09 portait depuis le 14/09 une permission explicite d'écourter ou de remplacer par un footing très facile si besoin |
 
 ### Volume hebdomadaire
 
@@ -368,12 +370,15 @@ Colonnes en **volume utile hors navettes**. À partir de S5, les volumes du plan
 | S6 24-30/08 | **25,66** (44 visés) | 3 | 10,06 |
 | S7 31/08-06/09 | **20,48** (30 visés) | 2 | 12,47 |
 | S8 07-13/09 | **37,94** (46 visés) | 3 | 17,03 |
+| S9 14-20/09 | **14,79** (32 visés, allégé pour Hyrox Sprint) | 2 | 7,76 (pas de longue) |
 
 **Palliatif manuel, S6** : longue du 30/08 annulée (deuxième épisode hanche), seule séance manquée de la semaine sinon. Écart au plan entièrement expliqué par cette décision de prudence, pas un relâchement.
 
 **Palliatif manuel, S7 (semaine Puy du Fou)** : VMA courte du 02/09 sautée (faute de temps), footing du 05/09 sauté (voyage/famille). 2 sorties sur 4 planifiées, volume à 68 % du prévu. **Assumé et attendu** : semaine de décharge + déplacement familial, aucune séance forcée. Muscu : jambes (31/08) et pec-dos (01/09) faites, épaule-bras faite le 02/09 avant la VMA. Rien à corriger, la flexibilité était le plan.
 
 **Palliatif manuel, S8** : footing + descentes du 12/09 sauté (le jour prévu pour le premier test Sonicblast — glissé au 15/09, voir Annexe chaussures). 3 sorties sur 4, volume à 82 % du prévu. Seuil monté à 3×10' comme prévu (pas de réduction cette semaine-là, la règle Hyrox Sprint ne s'applique qu'à S9). Genou et hanche silencieux sur la longue du 13/09.
+
+**Palliatif manuel, S9 ("Hyrox Sprint")** : footing du 15/09 et seuil 2×8' du 16/09 tenus (2 sorties sur les 2 restées au programme, jambes/Hyrox du jeudi déjà retirés par la règle de semaine). **Longue du 20/09 non faite**, fatigue déclarée après le Hyrox Sprint du 19/09 (48:30, FC moyenne 171 — un effort qui justifie amplement la fatigue, pas un format allégé malgré le nom). **Assumé, pas un relâchement** : la carte portait une permission explicite d'écourter ou de sauter, posée dès le 14/09, avant même de savoir comment se passerait l'épreuve. Volume course à 32 % du prévu (14,79 sur 46 km visés avant les allègements, ~32 km recalculés le 14/09) — normal pour une semaine construite autour d'un événement, pas un signal d'alerte.
 
 **Palliatif manuel, S5** : 3 musculations non faites sur 3 (jambes, pec-dos, épaule-bras), remplacées par un benchmark CINDY le vendredi. Course : 4 sorties sur 4. **Fatigue des jambes : 1/5**, déclarée le 24/08, aucune fatigue résiduelle. La seule lourdeur ressentie était aux genoux en fin de longue le 23, le reste des jambes peu marqué. Aucun déclencheur de la règle « deux semaines à 4 ou 5 ».
 
