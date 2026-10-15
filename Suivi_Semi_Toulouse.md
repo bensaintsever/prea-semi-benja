@@ -446,6 +446,8 @@ Connecteur **en lecture seule**. Outils à charger via `tool_search` avant usage
 
 **Méthode pour analyser une séance** : `querySportRecords` sur la date → récupérer `labelId` et Time Window → `getActivityDetail` → si effort intense, `queryCustomActivityLapData` sur la fenêtre finale pour le pic de FC.
 
+**Chaussures : non accessibles via le connecteur** (vérifié le 15/10 sur `getActivityDetail`, `queryActivityLapData` et `analyzeActivityDetail` : aucun champ d'équipement). Benjamin les renseigne dans l'appli COROS, mais l'assistant ne les voit pas : **les demander à chaque séance où la chaussure compte** (Sonicblast, genou, chauffe) plutôt que de les supposer. Le téléchargement du fichier FIT n'a pas été tenté (téléchargement soumis à autorisation, et rien n'indique que COROS y écrive l'équipement).
+
 **Piège à connaître** : `queryTrainingLoadAssessment` ne voit que la course. Voir « Le point aveugle de la surveillance ».
 
 Départs habituels autour de 43.597, 1.466 (domicile Toulouse). Les navettes apparaissent comme des runs de 2,1 à 2,2 km.
