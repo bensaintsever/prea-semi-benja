@@ -1,7 +1,7 @@
 {
-  "name": "Semi de Casteljaloux",
-  "short_name": "Casteljaloux",
-  "description": "Plan d'entraînement du semi-marathon de Casteljaloux, dimanche 22 novembre 2026.",
+  "name": "Reprise genou",
+  "short_name": "Reprise",
+  "description": "Reprise de la course après l'arrêt du genou, automne 2026.",
   "lang": "fr",
   "dir": "ltr",
   "start_url": "./",

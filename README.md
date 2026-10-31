@@ -1,6 +1,6 @@
-# Semi de Casteljaloux — préparation
+# Reprise du genou — automne 2026
 
-Plan d'entraînement personnel de Benjamin Saint-Sever pour **les 21 km de Casteljaloux** (dimanche 22 novembre 2026, à confirmer). Objectif : sous 1h48, ambition 1h45.
+Plan de reprise de la course de Benjamin Saint-Sever après l'arrêt du genou gauche (20/10/2026). Le semi de Casteljaloux du 22/11/2026 a été **annulé le 31/10** : plus d'échéance, objectif récupérer et reprendre sans rechute. La prochaine cible est choisie vers le 15/11.
 
 Le plan est publié comme **PWA installable** (hors-ligne) via GitHub Pages. C'est le seul canal de diffusion.
 
@@ -17,10 +17,10 @@ Le plan est publié comme **PWA installable** (hors-ligne) via GitHub Pages. C'e
 | `index.html` | Plan vivant (page web / PWA). Source unique du plan affiché. |
 | `Suivi_Semi_Toulouse.md` | Mémoire de passation : données brutes, méthode COROS, raisonnements, séances réalisées. À lire en début de session et à tenir à jour. |
 | `renfo-moyen-fessier.html` | Fiche d'exécution du renforcement moyen fessier (schémas, erreurs). |
-| `211_km_officiel_2025-*.gpx` | Trace GPX du parcours officiel. |
+| `211_km_officiel_2025-*.gpx` | Trace GPX du parcours du semi annulé (conservée). |
 | `manifest.webmanifest`, `sw.js`, `icon-*.png` | Ressources PWA (installation, hors-ligne, icônes). |
 | `Plan_Semi_Toulouse_Phase1_2.pdf` | **Obsolète** (visait Toulouse Expérience au 1er nov). Conservé pour la structure S1–S5 seulement. |
-| `archive/` | Anciennes versions. |
+| `archive/` | Anciennes versions, dont les sections du plan du semi retirées le 31/10. |
 
 ## Suivi des données
 
