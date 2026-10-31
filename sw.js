@@ -1,7 +1,7 @@
 /* Semi de Casteljaloux — service worker.
    Strategie : reseau d'abord pour les pages (tu as toujours le plan a jour quand tu as du reseau),
    cache en secours (le plan reste lisible hors ligne, par exemple au Maroc sans donnees). */
-const VERSION = '2026-10-31-e6980e';
+const VERSION = '2026-10-31-fe144b';
 const CACHE   = 'casteljaloux-' + VERSION;
 const ASSETS  = [
   './',
