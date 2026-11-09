@@ -1,7 +1,7 @@
 /* Reprise genou — service worker.
    Strategie : reseau d'abord pour les pages (tu as toujours le plan a jour quand tu as du reseau),
    cache en secours (le plan reste lisible hors ligne, par exemple au Maroc sans donnees). */
-const VERSION = '2026-11-09-b5ad2a';
+const VERSION = '2026-11-09-11f2a8';
 const CACHE   = 'casteljaloux-' + VERSION;
 const ASSETS  = [
   './',
