@@ -17,10 +17,8 @@ Le plan est publié comme **PWA installable** (hors-ligne) via GitHub Pages. C'e
 | `index.html` | Plan vivant (page web / PWA). Source unique du plan affiché. |
 | `Suivi_Semi_Toulouse.md` | Mémoire de passation : données brutes, méthode COROS, raisonnements, séances réalisées. À lire en début de session et à tenir à jour. |
 | `renfo-moyen-fessier.html` | Fiche d'exécution du renforcement moyen fessier (schémas, erreurs). |
-| `211_km_officiel_2025-*.gpx` | Trace GPX du parcours du semi annulé (conservée). |
 | `manifest.webmanifest`, `sw.js`, `icon-*.png` | Ressources PWA (installation, hors-ligne, icônes). |
-| `Plan_Semi_Toulouse_Phase1_2.pdf` | **Obsolète** (visait Toulouse Expérience au 1er nov). Conservé pour la structure S1–S5 seulement. |
-| `archive/` | Anciennes versions, dont les sections du plan du semi retirées le 31/10. |
+| `archive/` | Ce qui n'est plus d'actualité : sections du plan du semi (31/10), semaines S5 à S14 et section Maroc (15/11), trace GPX du semi annulé, ancien plan PDF. |
 
 ## Suivi des données
 
